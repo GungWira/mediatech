@@ -31,10 +31,11 @@
     </head>
     <body class="bg-white">
         <section
-        class="w-full min-h-screen flex justify-center items-center bg-[#0C192B] bg-cover bg-center relative pt-20"
+        class="w-full flex justify-center items-center bg-[#0C192B] bg-cover bg-center relative pt-20"
         style="background-image: url('/assets/bgheader.png');"
         id="home"
       >
+      <x-navbar/>
         <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex justify-center items-center">
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center w-full">
             <div class="flex flex-col justify-center items-start md:items-center lg:items-start gap-4 text-left md:text-center lg:text-left">
@@ -72,148 +73,148 @@
           <div class="flex animate-infinite-scroll whitespace-nowrap">
             <!-- First set of partners -->
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (1).svg" 
+              <img
+                src="dist/partners/partner (1).svg"
                 alt="Partner 1"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (2).svg" 
+              <img
+                src="dist/partners/partner (2).svg"
                 alt="Partner 2"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (3).svg" 
+              <img
+                src="dist/partners/partner (3).svg"
                 alt="Partner 3"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (4).svg" 
+              <img
+                src="dist/partners/partner (4).svg"
                 alt="Partner 4"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (5).svg" 
+              <img
+                src="dist/partners/partner (5).svg"
                 alt="Partner 5"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (6).svg" 
+              <img
+                src="dist/partners/partner (6).svg"
                 alt="Partner 6"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
-            
+
             <!-- Second set of partners (exact duplicate) -->
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (1).svg" 
+              <img
+                src="dist/partners/partner (1).svg"
                 alt="Partner 1"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (2).svg" 
+              <img
+                src="dist/partners/partner (2).svg"
                 alt="Partner 2"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (3).svg" 
+              <img
+                src="dist/partners/partner (3).svg"
                 alt="Partner 3"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (4).svg" 
+              <img
+                src="dist/partners/partner (4).svg"
                 alt="Partner 4"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (5).svg" 
+              <img
+                src="dist/partners/partner (5).svg"
                 alt="Partner 5"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (6).svg" 
+              <img
+                src="dist/partners/partner (6).svg"
                 alt="Partner 6"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
-            
+
             <!-- Third set of partners (exact duplicate) -->
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (1).svg" 
+              <img
+                src="dist/partners/partner (1).svg"
                 alt="Partner 1"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (2).svg" 
+              <img
+                src="dist/partners/partner (2).svg"
                 alt="Partner 2"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (3).svg" 
+              <img
+                src="dist/partners/partner (3).svg"
                 alt="Partner 3"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (4).svg" 
+              <img
+                src="dist/partners/partner (4).svg"
                 alt="Partner 4"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (5).svg" 
+              <img
+                src="dist/partners/partner (5).svg"
                 alt="Partner 5"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
               />
             </div>
             <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-              <img 
-                src="dist/partners/partner (6).svg" 
+              <img
+                src="dist/partners/partner (6).svg"
                 alt="Partner 6"
                 class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
                 loading="lazy"
@@ -231,7 +232,7 @@
           class="w-20 h-20 md:w-24 md:h-24 lg:w-40 lg:h-40 text-blue-500"
         />
       </div>
-      
+
       <div class="absolute bottom-6 left-4 md:bottom-6 md:left-8 lg:left-22  pointer-events-none z-20">
         <img
           src="/dist/gear.svg"
@@ -755,8 +756,8 @@
             Partnered with Leading Brands
           </h2>
           <p class="text-gray-600 text-sm md:text-base leading-relaxed max-w-3xl mx-auto">
-            Kami berkolaborasi dengan brand ternama dari sektor F&B, edukasi, 
-            properti, teknologi, dan lainnya — untuk bersama menghadirkan solusi 
+            Kami berkolaborasi dengan brand ternama dari sektor F&B, edukasi,
+            properti, teknologi, dan lainnya — untuk bersama menghadirkan solusi
             digital yang berdampak nyata.
           </p>
         </div>
@@ -784,7 +785,7 @@
             Insights & Innovation
           </h2>
           <p class="text-gray-600 text-sm md:text-base leading-relaxed max-w-3xl mx-auto">
-            Wawasan dan informasi seputar strategi digital, desain produk, hingga 
+            Wawasan dan informasi seputar strategi digital, desain produk, hingga
             pengembangan teknologi terbaru di berbagai sektor industri.
           </p>
         </div>
@@ -807,7 +808,7 @@
               <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
                 Mengapa UI/UX Menjadi Kunci Transformasi Digital
               </h3>
-              
+
               <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
                 Kami membahas peran penting desain dalam membentuk pengalaman pengguna yang optimal dan strategis untuk bisnis modern.
               </p>
@@ -823,7 +824,7 @@
                 alt="Mediatech Ekspansi ke Sektor F&B Digital"
                 class="w-full h-full object-cover"
               />
-              
+
             </div>
 
             <!-- Blog Content -->
@@ -831,7 +832,7 @@
               <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
                 Mediatech Ekspansi ke Sektor F&B Digital
               </h3>
-              
+
               <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
                 Langkah strategis terbaru kami dalam membawa teknologi ke industri kuliner lokal dengan solusi digital terintegrasi.
               </p>
@@ -847,7 +848,7 @@
                 alt="Tips Membangun Startup Properti dengan Dukungan Teknologi"
                 class="w-full h-full object-cover"
               />
-            
+
             </div>
 
             <!-- Blog Content -->
@@ -855,7 +856,7 @@
               <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
                 Tips Membangun Startup Properti dengan...
               </h3>
-              
+
               <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
                 Panduan singkat bagi pelaku bisnis properti dalam memanfaatkan solusi digital untuk mengoptimalkan operasional dan pengalaman pelanggan.
               </p>
@@ -913,11 +914,11 @@
           <h3 class="text-blue-400 tracking-widest text-sm font-medium mb-4">
             CAREERS
           </h3>
-          
+
           <h2 class="text-white text-3xl md:text-4xl lg:text-6xl font-bold leading-tight mb-4 md:mb-6">
             Grow with Us
           </h2>
-          
+
           <p class="text-gray-300 text-sm md:text-base lg:text-lg leading-relaxed mb-6 md:mb-8 max-w-sm md:max-w-md opacity-60">
             Bergabunglah bersama tim Mediatech dan ikut membangun solusi digital inovatif yang berdampak luas.
           </p>
@@ -1001,7 +1002,7 @@
               Indonesia
             </p>
           </div>
-          
+
           <!-- Company Links -->
           <div>
             <h4 class="font-semibold mb-4">Company</h4>
@@ -1013,7 +1014,7 @@
               <li>Testimonials</li>
             </ul>
           </div>
-          
+
           <!-- Support Links -->
           <div>
             <h4 class="font-semibold mb-4">Support</h4>
@@ -1023,7 +1024,7 @@
               <li>Customer Center</li>
             </ul>
           </div>
-          
+
           <!-- Contact -->
           <div>
             <h4 class="font-semibold mb-4">Contact</h4>
