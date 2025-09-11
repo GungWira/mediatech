@@ -1540,10 +1540,10 @@
     <section
         class="w-full flex justify-center items-center relative pt-20 px-4"
         id="home">
-        <div class="w-full rounded-2xl px-3 py-3 max-w-6xl flex bg-[#0C192B] bg-cover bg-center justify-center items-center" style="background-image: url('/assets/bgheader.png');">
-            <div class="flex flex-row gap-8 lg:gap-12 items-stretch w-full">
-                <div class="px-6 py-20 flex flex-col justify-center items-start md:items-center lg:items-start gap-4 text-left lg:text-left w-full">
-                    <h1 class="font-bold text-3xl md:text-4xl lg:text-6xl leading-tight text-white">
+        <div class="w-full rounded-2xl px-5 sm:px-3 py-5 sm:py-3 max-w-6xl flex bg-[#0C192B] bg-cover bg-center justify-center items-center" style="background-image: url('/assets/bgheader.png');">
+            <div class="flex flex-col-reverse sm:flex-col md:flex-row gap-8 lg:gap-12 items-stretch w-full">
+                <div class="px-0 sm:px-6 py-10 pt-0 sm:py-12 sm:pb-2 md:py-20 flex flex-col justify-center items-start md:items-center lg:items-start gap-4 text-left lg:text-left w-full">
+                    <h1 class="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-6xl leading-tight text-white">
                         Turn Your App Ideas Into Reality
                     </h1>
                     <p class="text-sm md:text-base opacity-60 text-white max-w-lg">
@@ -1556,8 +1556,8 @@
                     </div>
                 </div>
 
-                <div class="w-fit flex flex-col justify-start items-start gap-2">
-                    <img src="/dist/cd/hero-1.webp" alt="hero image 1 custom dev" class="w-full rounded-2xl overflow-hidden">
+                <div class="w-fit flex flex-row md:flex-col justify-start items-start gap-2">
+                    <img src="/dist/cd/hero-1.webp" alt="hero image 1 custom dev" class="w-full rounded-2xl overflow-hidden hidden sm:flex">
                     <img src="/dist/cd/hero-2.webp" alt="hero image 1 custom dev" class="w-full rounded-2xl overflow-hidden">
                 </div>
             </div>
@@ -1566,8 +1566,8 @@
 
     <!-- Services Section -->
     <section class="w-full py-16 md:py-20 bg-white flex justify-center items-center">
-        <div class="w-full max-w-6xl px-4 md:px-6 grid grid-cols-3 justify-center items-start flex-row flex-wrap gap-3">
-            <div class="flex flex-col justify-start items-start gap-2 col-span-2">
+        <div class="w-full max-w-6xl px-4 md:px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center items-start flex-row flex-wrap gap-3">
+            <div class="flex flex-col justify-start items-start gap-2 sm:col-span-2 mb-4 md:mb-0">
                 <h3 class="text-blue-600 tracking-widest text-sm font-medium">
                     OUR SERVICES
                 </h3>
@@ -1580,9 +1580,9 @@
             </div>
             <!-- Card Service -->
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#E8E8E8] bg-[#006EFF]">
-                <img src="/dist/cd/service-icon-1.webp" alt="program image" class="w-20">
+                <img src="/dist/cd/service-icon-1.webp" alt="program image" class="w-14 sm:w-16 md:w-20">
                 <div class="flex flex-col justify-start items-start gap-2">
-                    <h3 class="text-white mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Website Development</h3>
+                    <h3 class="text-white mt-2 text-md lg:text-lg leading-tight font-semibold">Website Development</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed text-white">
                         Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
                     </p>
@@ -1590,9 +1590,9 @@
             </div>
             <!-- Card Service -->
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#E8E8E8] bg-white">
-                <img src="/dist/cd/service-icon-2.webp" alt="program image" class="w-20">
+                <img src="/dist/cd/service-icon-2.webp" alt="program image" class="w-14 sm:w-16 md:w-20">
                 <div class="flex flex-col justify-start items-start gap-2">
-                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Android App</h3>
+                    <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">Android App</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
                         Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
                     </p>
@@ -1600,9 +1600,9 @@
             </div>
             <!-- Card Service -->
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#E8E8E8] bg-white">
-                <img src="/dist/cd/service-icon-3.webp" alt="program image" class="w-20">
+                <img src="/dist/cd/service-icon-3.webp" alt="program image" class="w-14 sm:w-16 md:w-20">
                 <div class="flex flex-col justify-start items-start gap-2">
-                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Custom Development</h3>
+                    <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">Custom Development</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
                         Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
                     </p>
@@ -1610,9 +1610,9 @@
             </div>
             <!-- Card Service -->
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#E8E8E8] bg-white">
-                <img src="/dist/cd/service-icon-4.webp" alt="program image" class="w-20">
+                <img src="/dist/cd/service-icon-4.webp" alt="program image" class="w-14 sm:w-16 md:w-20">
                 <div class="flex flex-col justify-start items-start gap-2">
-                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">IT Consulting</h3>
+                    <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">IT Consulting</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
                         Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
                     </p>
@@ -1623,7 +1623,7 @@
 
     <!-- Why Us Section -->
     <section class="relative w-full py-16 md:py-20 bg-white flex justify-center items-center">
-        <div class="w-full max-w-6xl px-4 md:px-6 flex justify-start items-start flex-row-reverse gap-20">
+        <div class="w-full max-w-6xl px-4 md:px-6 flex justify-start items-start flex-col md:flex-row-reverse gap-12 md:gap-20">
             <div class="flex flex-col justify-start items-start gap-3 w-full">
                 <h3 class="text-blue-600 tracking-widest text-sm font-medium">
                     WHY CHOOSE US
@@ -1663,8 +1663,8 @@
                 </div>
 
             </div>
-            <div class="flex justify-start items-start w-full max-w-[400px]">
-                <img src="/dist/cd/why-us-img.webp" alt="why us image mediatech">
+            <div class="flex justify-center md:justify-start items-center md:items-start w-full ">
+                <img src="/dist/cd/why-us-img.webp" alt="why us image mediatech" class="max-w-[400px] w-full">
             </div>
         </div>
     </section>
@@ -1681,43 +1681,43 @@
                         How We Bring Ideas to Life
                     </h2>
                 </div>
-                <div class="flex flex-row justify-center items-start ps-12">
+                <div class="grid md:flex grid-cols-2 md:grid-cols-none flex-row justify-center items-start ps-4 sm:ps-12 gap-4 lg:gap-0">
                     <div class="flex flex-col justify-start items-start gap-2">
                         <div class="w-fit flex flex-row justify-between items-start gap-4">
-                            <img src="/dist/cd/step-1.webp" alt="step work custom dev" class="w-24">
+                            <img src="/dist/cd/step-1.webp" alt="step work custom dev" class="w-14 sm:w-16 md:w-20">
 
                         </div>
-                        <h3 class="text-white font-semibold text-xl mt-2">Consulting</h3>
+                        <h3 class="text-white font-semibold text-lg md:text-xl mt-2">Consulting</h3>
                         <p class="text-sm md:text-base opacity-80 leading-relaxed text-white">
                             Transformasi digital bukanlah sekadar wacana masa.
                         </p>
                     </div>
-                    <img src="/dist/cd/arrow-top.webp" alt="arrow icon custom dev" class="h-12 mx-10 ms-2 mt-5">
-                    <div class="flex flex-col justify-start items-start gap-2 pt-20">
+                    <img src="/dist/cd/arrow-top.webp" alt="arrow icon custom dev" class="hidden lg:flex h-10 xl:h-12 mx-10 ms-2 mt-5">
+                    <div class="flex flex-col justify-start items-start gap-2 md:pt-20">
                         <div class="w-fit flex flex-row justify-between items-start gap-4">
-                            <img src="/dist/cd/step-2.webp" alt="step work custom dev" class="w-24">
+                            <img src="/dist/cd/step-2.webp" alt="step work custom dev" class="w-14 sm:w-16 md:w-20">
 
                         </div>
-                        <h3 class="text-white font-semibold text-xl mt-2">Planning</h3>
+                        <h3 class="text-white font-semibold text-lg md:text-xl mt-2">Planning</h3>
                         <p class="text-sm md:text-base opacity-80 leading-relaxed text-white">
                             Transformasi digital bukanlah sekadar wacana masa.
                         </p>
                     </div>
-                    <img src="/dist/cd/arrow-bottom.webp" alt="arrow icon custom dev" class="h-12 mx-10 ms-2 mt-10">
+                    <img src="/dist/cd/arrow-bottom.webp" alt="arrow icon custom dev" class="hidden lg:flex h-10 xl:h-12 mx-10 ms-2 mt-10">
                     <div class="flex flex-col justify-start items-start gap-2">
                         <div class="w-fit flex flex-row justify-between items-start gap-4">
-                            <img src="/dist/cd/step-3.webp" alt="step work custom dev" class="w-24">
+                            <img src="/dist/cd/step-3.webp" alt="step work custom dev" class="w-14 sm:w-16 md:w-20">
 
                         </div>
-                        <h3 class="text-white font-semibold text-xl mt-2">Development</h3>
+                        <h3 class="text-white font-semibold text-lg md:text-xl mt-2">Development</h3>
                         <p class="text-sm md:text-base opacity-80 leading-relaxed text-white">
                             Transformasi digital bukanlah sekadar wacana masa.
                         </p>
                     </div>
-                    <img src="/dist/cd/arrow-top.webp" alt="arrow icon custom dev" class="h-12 mx-10 ms-2 mt-5">
-                    <div class="flex flex-col justify-start items-start gap-2 bg-[#006EFF] px-16 ps-12 py-7 relative rounded-tl-full rounded-bl-full mt-20">
-                        <span class="bg-white text-[#006EFF] font-bold text-base p-3 rounded-full absolute -top-2 -left-2">04</span>
-                        <h3 class="text-white font-semibold text-xl mt-2">Launch</h3>
+                    <img src="/dist/cd/arrow-top.webp" alt="arrow icon custom dev" class="hidden lg:flex h-10 xl:h-12 mx-10 ms-2 mt-5">
+                    <div class="flex flex-col justify-start items-start gap-2 bg-[#006EFF] px-16 ps-12 py-7 relative rounded-tl-full rounded-bl-full md:mt-20 mt-12">
+                        <span class="bg-white text-[#006EFF] font-bold md:text-base text-sm p-3 rounded-full absolute -top-2 -left-2">04</span>
+                        <h3 class="text-white font-semibold text-lg md:text-xl mt-2">Launch</h3>
                     </div>
                 </div>
             </div>
@@ -1746,30 +1746,30 @@
                 </div>
 
                 <!-- Tech Stack Area -->
-                <div class="grid flex-row justify-start items-stretch gap-6 grid-cols-3">
-                    <div class="group flex flex-row justify-start items-center gap-4 px-8 py-6 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
-                        <img src="/dist/cd/tech-1.webp" alt="tech stack custom dev" class="w-16 rounded-md">
-                        <p class="text-[#202020] font-semibold text-xl group-hover:text-white transition-colors duration-300">React Js</p>
+                <div class="grid flex-row justify-start items-stretch gap-3 md:gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+                    <div class="group flex flex-row justify-start items-center gap-4 md:px-8 px-6 md:py-6 py-4 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
+                        <img src="/dist/cd/tech-1.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
+                        <p class="text-[#202020] font-semibold md:text-xl text-lg group-hover:text-white transition-colors duration-300">React Js</p>
                     </div>
-                    <div class="group flex flex-row justify-start items-center gap-4 px-8 py-6 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
-                        <img src="/dist/cd/tech-2.webp" alt="tech stack custom dev" class="w-16 rounded-md">
-                        <p class="text-[#202020] font-semibold text-xl group-hover:text-white transition-colors duration-300">Python</p>
+                    <div class="group flex flex-row justify-start items-center gap-4 md:px-8 px-6 md:py-6 py-4 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
+                        <img src="/dist/cd/tech-2.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
+                        <p class="text-[#202020] font-semibold md:text-xl text-lg group-hover:text-white transition-colors duration-300">Python</p>
                     </div>
-                    <div class="group flex flex-row justify-start items-center gap-4 px-8 py-6 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
-                        <img src="/dist/cd/tech-3.webp" alt="tech stack custom dev" class="w-16 rounded-md">
-                        <p class="text-[#202020] font-semibold text-xl group-hover:text-white transition-colors duration-300">PHP</p>
+                    <div class="group flex flex-row justify-start items-center gap-4 md:px-8 px-6 md:py-6 py-4 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
+                        <img src="/dist/cd/tech-3.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
+                        <p class="text-[#202020] font-semibold md:text-xl text-lg group-hover:text-white transition-colors duration-300">PHP</p>
                     </div>
-                    <div class="group flex flex-row justify-start items-center gap-4 px-8 py-6 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
-                        <img src="/dist/cd/tech-4.webp" alt="tech stack custom dev" class="w-16 rounded-md">
-                        <p class="text-[#202020] font-semibold text-xl group-hover:text-white transition-colors duration-300">Flutter</p>
+                    <div class="group flex flex-row justify-start items-center gap-4 md:px-8 px-6 md:py-6 py-4 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
+                        <img src="/dist/cd/tech-4.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
+                        <p class="text-[#202020] font-semibold md:text-xl text-lg group-hover:text-white transition-colors duration-300">Flutter</p>
                     </div>
-                    <div class="group flex flex-row justify-start items-center gap-4 px-8 py-6 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
-                        <img src="/dist/cd/tech-5.webp" alt="tech stack custom dev" class="w-16 rounded-md">
-                        <p class="text-[#202020] font-semibold text-xl group-hover:text-white transition-colors duration-300">Node Js</p>
+                    <div class="group flex flex-row justify-start items-center gap-4 md:px-8 px-6 md:py-6 py-4 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
+                        <img src="/dist/cd/tech-5.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
+                        <p class="text-[#202020] font-semibold md:text-xl text-lg group-hover:text-white transition-colors duration-300">Node Js</p>
                     </div>
-                    <div class="group flex flex-row justify-start items-center gap-4 px-8 py-6 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
-                        <img src="/dist/cd/tech-6.webp" alt="tech stack custom dev" class="w-16 rounded-md">
-                        <p class="text-[#202020] font-semibold text-xl group-hover:text-white transition-colors duration-300">Java</p>
+                    <div class="group flex flex-row justify-start items-center gap-4 md:px-8 px-6 md:py-6 py-4 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
+                        <img src="/dist/cd/tech-6.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
+                        <p class="text-[#202020] font-semibold md:text-xl text-lg group-hover:text-white transition-colors duration-300">Java</p>
                     </div>
                 </div>
             </div>
@@ -1788,7 +1788,7 @@
                 </h2>
             </div>
             <!-- Box Portofolio -->
-            <div class="grid grid-cols-3 justify-start items-stretch gap-4 w-full mt-12">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-start items-stretch gap-4 w-full mt-12">
                 <div class="flex flex-col justify-start items-start gap-4 p-2 border border-[#e8e8e8] rounded-xl cursor-pointer hover:bg-[#f5f5f5]">
                     <div class="w-full aspect-video rounded-xl overflow-hidden">
                         <img src="/dist/cd/hero-1.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
