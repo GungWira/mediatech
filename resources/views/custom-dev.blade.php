@@ -1536,7 +1536,7 @@
 </head>
 
 <body class="bg-white">
-    <x-navbar />
+    <x-navbar :isLight="true" />
     <section
         class="w-full flex justify-center items-center relative pt-20 px-4"
         id="home">
