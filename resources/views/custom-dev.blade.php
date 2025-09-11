@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>CSR | Mediatech</title>
+    <title>Custom Dev | Mediatech</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -1536,244 +1536,195 @@
 </head>
 
 <body class="bg-white">
+    <x-navbar />
     <section
-        class="w-full flex justify-center items-center bg-[#0C192B] bg-cover bg-center relative pt-20"
-        style="background-image: url('/assets/bgheader.png');"
+        class="w-full flex justify-center items-center relative pt-20 px-4"
         id="home">
-        <x-navbar />
-        <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex justify-center items-center">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center w-full">
-                <div class="flex flex-col justify-center items-start md:items-center lg:items-start gap-4 text-left md:text-center lg:text-left">
-                    <p class="italic opacity-60 text-white text-sm md:text-base">
-                        Indonesian Digital Company
-                    </p>
+        <div class="w-full rounded-2xl px-3 py-3 max-w-6xl flex bg-[#0C192B] bg-cover bg-center justify-center items-center" style="background-image: url('/assets/bgheader.png');">
+            <div class="flex flex-row gap-8 lg:gap-12 items-stretch w-full">
+                <div class="px-6 py-20 flex flex-col justify-center items-start md:items-center lg:items-start gap-4 text-left lg:text-left w-full">
                     <h1 class="font-bold text-3xl md:text-4xl lg:text-6xl leading-tight text-white">
-                        Shaping Society Through Code
+                        Turn Your App Ideas Into Reality
                     </h1>
                     <p class="text-sm md:text-base opacity-60 text-white max-w-lg">
                         Transformasi digital bukanlah sekadar wacana masa depan, ia telah menjadi kenyataan yang dimulai hari ini bersama Mediatech.
                     </p>
-                    <div class="mt-4 w-full flex justify-start md:justify-center lg:justify-start md:mb-8">
+                    <div class="mt-2 w-full flex justify-start md:mb-8">
                         <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200">
-                            Get in touch
+                            Let's Talk
                         </button>
                     </div>
                 </div>
 
-                <div class="flex justify-center lg:justify-end items-center order-first lg:order-last">
-                    <img
-                        src="/dist/csr/hero-img.png"
-                        alt="Mediatech Hero Image"
-                        class="w-full max-w-md lg:max-w-none lg:w-4/5 h-auto object-contain" />
+                <div class="w-fit flex flex-col justify-start items-start gap-2">
+                    <img src="/dist/cd/hero-1.webp" alt="hero image 1 custom dev" class="w-full rounded-2xl overflow-hidden">
+                    <img src="/dist/cd/hero-2.webp" alt="hero image 1 custom dev" class="w-full rounded-2xl overflow-hidden">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Partner Slider Section -->
-    <section class="w-full bg-[#0C192B] py-8" role="region" aria-label="Partner section">
-        <div class="w-full overflow-hidden">
-            <div class="flex animate-infinite-scroll whitespace-nowrap">
-                <!-- First set of partners -->
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (1).svg"
-                        alt="Partner 1"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (2).svg"
-                        alt="Partner 2"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (3).svg"
-                        alt="Partner 3"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (4).svg"
-                        alt="Partner 4"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (5).svg"
-                        alt="Partner 5"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (6).svg"
-                        alt="Partner 6"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-
-                <!-- Second set of partners (exact duplicate) -->
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (1).svg"
-                        alt="Partner 1"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (2).svg"
-                        alt="Partner 2"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (3).svg"
-                        alt="Partner 3"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (4).svg"
-                        alt="Partner 4"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (5).svg"
-                        alt="Partner 5"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (6).svg"
-                        alt="Partner 6"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-
-                <!-- Third set of partners (exact duplicate) -->
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (1).svg"
-                        alt="Partner 1"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (2).svg"
-                        alt="Partner 2"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (3).svg"
-                        alt="Partner 3"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (4).svg"
-                        alt="Partner 4"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (5).svg"
-                        alt="Partner 5"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (6).svg"
-                        alt="Partner 6"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="relative w-full flex flex-col items-center py-16 md:py-20 bg-white overflow-hidden">
-        <div class="w-full max-w-6xl px-4 md:px-6 flex justify-center items-center flex-col relative z-10">
-            <div class="text-center space-y-4 md:space-y-6">
+    <!-- Services Section -->
+    <section class="w-full py-16 md:py-20 bg-white flex justify-center items-center">
+        <div class="w-full max-w-6xl px-4 md:px-6 grid grid-cols-3 justify-center items-start flex-row flex-wrap gap-3">
+            <div class="flex flex-col justify-start items-start gap-2 col-span-2">
                 <h3 class="text-blue-600 tracking-widest text-sm font-medium">
-                    ABOUT CSR
+                    OUR SERVICES
                 </h3>
-                <h2 class="text-[#202020] text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-xl mx-auto">
-                    Empowering Innovation With Building a Better Future
+                <h2 class="text-[#202020] mt-2 text-2xl md:text-3xl lg:text-4xl leading-relaxed font-bold">
+                    What We Can Build For You
                 </h2>
-                <p class="text-sm md:text-base opacity-80 leading-relaxed max-w-3xl mx-auto">
-                    Kami percaya bahwa keberlanjutan adalah masa depan kita bersama. Itulah sebabnya Koding Akademi merancang sebuah program untuk membantu perusahaan menjadi perusahaan yang berkelanjutan.
+                <p class="text-sm md:text-base opacity-60 text-[#202020] max-w-lg">
+                    Transformasi digital bukanlah sekadar wacana masa depan, ia telah menjadi kenyataan yang dimulai hari ini bersama Mediatech.
                 </p>
             </div>
-
-            <div class="relative mt-8 md:mt-12 w-full max-w-4xl rounded-2xl shadow-lg bg-[#d9d9d9] z-0">
-                <div class="relative w-full rounded-2xl overflow-hidden">
-                    <img
-                        src="/dist/csr/about-img.webp"
-                        alt="Video about Mediatech"
-                        class="w-full h-64 md:h-80 lg:h-96 object-cover brightness-75" />
+            <!-- Card Service -->
+            <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#E8E8E8] bg-[#006EFF]">
+                <img src="/dist/cd/service-icon-1.webp" alt="program image" class="w-20">
+                <div class="flex flex-col justify-start items-start gap-2">
+                    <h3 class="text-white mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Website Development</h3>
+                    <p class="text-xs md:text-sm opacity-60 leading-relaxed text-white">
+                        Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
+                    </p>
                 </div>
-
-                <div class="absolute -top-12 -left-8 -rotate-3 pointer-events-none z-20">
-                    <img
-                        src="/dist/csr/heart.webp"
-                        alt="heart ornament mediatech"
-                        class="h-16 md:h-20 lg:h-28 text-blue-500" />
+            </div>
+            <!-- Card Service -->
+            <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#E8E8E8] bg-white">
+                <img src="/dist/cd/service-icon-2.webp" alt="program image" class="w-20">
+                <div class="flex flex-col justify-start items-start gap-2">
+                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Android App</h3>
+                    <p class="text-xs md:text-sm opacity-60 leading-relaxed">
+                        Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
+                    </p>
                 </div>
-
-                <div class="absolute -bottom-12 -right-8 rotate-3 pointer-events-none z-20">
-                    <img
-                        src="/dist/csr/like.webp"
-                        alt="heart ornament mediatech"
-                        class="h-16 md:h-20 lg:h-28 text-blue-500" />
+            </div>
+            <!-- Card Service -->
+            <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#E8E8E8] bg-white">
+                <img src="/dist/cd/service-icon-3.webp" alt="program image" class="w-20">
+                <div class="flex flex-col justify-start items-start gap-2">
+                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Custom Development</h3>
+                    <p class="text-xs md:text-sm opacity-60 leading-relaxed">
+                        Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
+                    </p>
+                </div>
+            </div>
+            <!-- Card Service -->
+            <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#E8E8E8] bg-white">
+                <img src="/dist/cd/service-icon-4.webp" alt="program image" class="w-20">
+                <div class="flex flex-col justify-start items-start gap-2">
+                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">IT Consulting</h3>
+                    <p class="text-xs md:text-sm opacity-60 leading-relaxed">
+                        Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SDG's Section -->
+    <!-- Why Us Section -->
     <section class="relative w-full py-16 md:py-20 bg-white flex justify-center items-center">
-        <div class="w-full max-w-6xl px-4 md:px-6 flex justify-start items-start flex-row gap-12">
+        <div class="w-full max-w-6xl px-4 md:px-6 flex justify-start items-start flex-row-reverse gap-20">
             <div class="flex flex-col justify-start items-start gap-3 w-full">
                 <h3 class="text-blue-600 tracking-widest text-sm font-medium">
-                    SERVICES
+                    WHY CHOOSE US
                 </h3>
                 <h2 class="text-[#202020] text-2xl md:text-3xl lg:text-4xl leading-relaxed font-bold">
-                    Company With Aligned with the 17 SDG Goals
+                    More Than Devs. We’re Your Tech Allies.
                 </h2>
                 <p class="text-sm md:text-base opacity-80 leading-relaxed">
-                    Kami menyediakan layanan berbasis teknologi, mulai dari UI/UX,
-                    software development, hingga cloud-based solutions — semuanya
-                    dirancang untuk pertumbuhan yang berkelanjutan dan efisien.
+                    Transformasi digital bukanlah sekadar wacana masa depan, ia telah menjadi kenyataan yang dimulai hari ini bersama Mediatech.
                 </p>
-                <button class="bg-blue-600 mt-4 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200">
-                    Get in touch
-                </button>
+
+                <div class="flex flex-col w-full justify-start items-start gap-2 mt-4">
+                    <div class="flex flex-row justify-center items-center gap-3">
+                        <img src="/dist/cd/point.webp" alt="point icon" class="w-5">
+                        <p class="text-sm md:text-base font-semibold opacity-90 leading-relaxed">
+                            Experienced Developers
+                        </p>
+                    </div>
+                    <div class="flex flex-row justify-center items-center gap-3">
+                        <img src="/dist/cd/point.webp" alt="point icon" class="w-5">
+                        <p class="text-sm md:text-base font-semibold opacity-90 leading-relaxed">
+                            Fast Delivery & Agile Method
+                        </p>
+                    </div>
+                    <div class="flex flex-row justify-center items-center gap-3">
+                        <img src="/dist/cd/point.webp" alt="point icon" class="w-5">
+                        <p class="text-sm md:text-base font-semibold opacity-90 leading-relaxed">
+                            Friendly Support & Collaboration
+                        </p>
+                    </div>
+                    <div class="flex flex-row justify-center items-center gap-3">
+                        <img src="/dist/cd/point.webp" alt="point icon" class="w-5">
+                        <p class="text-sm md:text-base font-semibold opacity-90 leading-relaxed">
+                            Scalable & Future-Ready Solutions
+                        </p>
+                    </div>
+                </div>
+
             </div>
-            <div class="flex justify-start items-start w-full max-w-[600px]">
-                <img src="/dist/csr/sgds.webp" alt="sgds image mediatech">
+            <div class="flex justify-start items-start w-full max-w-[400px]">
+                <img src="/dist/cd/why-us-img.webp" alt="why us image mediatech">
             </div>
         </div>
     </section>
 
-    <!-- Programs Section -->
+    <!-- How It Work Section -->
+    <section class="w-full flex justify-center items-center relative py-20 px-4">
+        <div class="w-full rounded-3xl px-3 pe-0 py-3 pb-16 max-w-6xl flex bg-[#0C192B] bg-cover bg-center justify-center items-center" style="background-image: url('/assets/bgheader.png');">
+            <div class="flex flex-col gap-8 lg:gap-12 items-stretch w-full">
+                <div class="px-6 py-16 pb-0 flex flex-col justify-center items-center gap-2 text-center w-full">
+                    <h3 class="text-white tracking-widest text-sm font-medium">
+                        HOW IT WORKS
+                    </h3>
+                    <h2 class="text-2xl md:text-3xl lg:text-4xl leading-relaxed font-bold text-white">
+                        How We Bring Ideas to Life
+                    </h2>
+                </div>
+                <div class="flex flex-row justify-center items-start ps-12">
+                    <div class="flex flex-col justify-start items-start gap-2">
+                        <div class="w-fit flex flex-row justify-between items-start gap-4">
+                            <img src="/dist/cd/step-1.webp" alt="step work custom dev" class="w-24">
+
+                        </div>
+                        <h3 class="text-white font-semibold text-xl mt-2">Consulting</h3>
+                        <p class="text-sm md:text-base opacity-80 leading-relaxed text-white">
+                            Transformasi digital bukanlah sekadar wacana masa.
+                        </p>
+                    </div>
+                    <img src="/dist/cd/arrow-top.webp" alt="arrow icon custom dev" class="h-12 mx-10 ms-2 mt-5">
+                    <div class="flex flex-col justify-start items-start gap-2 pt-20">
+                        <div class="w-fit flex flex-row justify-between items-start gap-4">
+                            <img src="/dist/cd/step-2.webp" alt="step work custom dev" class="w-24">
+
+                        </div>
+                        <h3 class="text-white font-semibold text-xl mt-2">Planning</h3>
+                        <p class="text-sm md:text-base opacity-80 leading-relaxed text-white">
+                            Transformasi digital bukanlah sekadar wacana masa.
+                        </p>
+                    </div>
+                    <img src="/dist/cd/arrow-bottom.webp" alt="arrow icon custom dev" class="h-12 mx-10 ms-2 mt-10">
+                    <div class="flex flex-col justify-start items-start gap-2">
+                        <div class="w-fit flex flex-row justify-between items-start gap-4">
+                            <img src="/dist/cd/step-3.webp" alt="step work custom dev" class="w-24">
+
+                        </div>
+                        <h3 class="text-white font-semibold text-xl mt-2">Development</h3>
+                        <p class="text-sm md:text-base opacity-80 leading-relaxed text-white">
+                            Transformasi digital bukanlah sekadar wacana masa.
+                        </p>
+                    </div>
+                    <img src="/dist/cd/arrow-top.webp" alt="arrow icon custom dev" class="h-12 mx-10 ms-2 mt-5">
+                    <div class="flex flex-col justify-start items-start gap-2 bg-[#006EFF] px-16 ps-12 py-7 relative rounded-tl-full rounded-bl-full mt-20">
+                        <span class="bg-white text-[#006EFF] font-bold text-base p-3 rounded-full absolute -top-2 -left-2">04</span>
+                        <h3 class="text-white font-semibold text-xl mt-2">Launch</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
     <section class="w-full py-16 md:py-20 bg-white flex justify-center items-center">
         <div class="w-full max-w-6xl px-4 md:px-6 flex justify-center items-center flex-col">
             <div class="w-full mx-auto">
@@ -1781,10 +1732,10 @@
                 <div class="flex flex-col lg:flex-row lg:items-end gap-6 md:gap-8 mb-8 md:mb-12">
                     <div class="lg:w-1/2">
                         <h3 class="text-blue-600 tracking-widest text-sm font-medium">
-                            OUR PROGRAMS
+                            OUR TECH STACK
                         </h3>
                         <h2 class="text-[#202020] mt-2 text-2xl md:text-3xl lg:text-4xl leading-tight font-bold">
-                            Sustainable Programs We Drive
+                            Build With Modern Tech
                         </h2>
                     </div>
                     <div class="lg:w-1/2 flex justify-start lg:justify-end items-end">
@@ -1794,188 +1745,108 @@
                     </div>
                 </div>
 
-                <!-- Program Box -->
-                <div class="w-full flex flex-col justify-start items-start gap-4">
-                    <!-- Card Program -->
-                    <div class="w-full flex flex-row justify-start items-start gap-10 bg-[#FCFBFF] px-10 py-8 rounded-2xl">
-                        <div class="flex flex-col flex-1 justify-start items-start gap-2">
-                            <img src="/dist/csr/program-1.webp" alt="program icon mediatech" class="w-36">
-                            <h3 class="text-[#202020] mt-2 text-lg md:text-xl lg:text-2xl leading-tight font-semibold">Smart Workshop</h3>
-                            <p class="text-sm md:text-base opacity-60 leading-relaxed">
-                                Perusahaan memberikan donasi dengan memberikan workshop (pelatihan singkat) tentang coding dan robotika kepada siswa sekolah, panti asuhan, dan masyarakat dengan tema tertentu.
-                            </p>
-                        </div>
-                        <div class="flex justify-center items-center flex-1 rounded-lg overflow-hidden">
-                            <img src="/dist/csr/program-img-1.webp" alt="program image mediatech" class="w-full h-full object-cover">
-                        </div>
+                <!-- Tech Stack Area -->
+                <div class="grid flex-row justify-start items-stretch gap-6 grid-cols-3">
+                    <div class="group flex flex-row justify-start items-center gap-4 px-8 py-6 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
+                        <img src="/dist/cd/tech-1.webp" alt="tech stack custom dev" class="w-16 rounded-md">
+                        <p class="text-[#202020] font-semibold text-xl group-hover:text-white transition-colors duration-300">React Js</p>
                     </div>
-                    <!-- Card Program -->
-                    <div class="w-full flex flex-row justify-start items-start gap-10 bg-[#FCFBFF] px-10 py-8 rounded-2xl">
-                        <div class="flex justify-center items-center flex-1 rounded-lg overflow-hidden">
-                            <img src="/dist/csr/program-img-2.webp" alt="program image mediatech" class="w-full h-full object-cover">
-                        </div>
-                        <div class="flex flex-col flex-1 justify-start items-start gap-2">
-                            <img src="/dist/csr/program-2.webp" alt="program icon mediatech" class="w-36">
-                            <h3 class="text-[#202020] mt-2 text-lg md:text-xl lg:text-2xl leading-tight font-semibold">Green School</h3>
-                            <p class="text-sm md:text-base opacity-60 leading-relaxed">
-                                Perusahaan memberikan sumbangan dengan membantu membangun atau merenovasi fasilitas sekolah yang menggunakan teknologi. Kita dapat memilih satu atau beberapa ruangan
-                            </p>
-                        </div>
+                    <div class="group flex flex-row justify-start items-center gap-4 px-8 py-6 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
+                        <img src="/dist/cd/tech-2.webp" alt="tech stack custom dev" class="w-16 rounded-md">
+                        <p class="text-[#202020] font-semibold text-xl group-hover:text-white transition-colors duration-300">Python</p>
                     </div>
-                    <!-- Card Program -->
-                    <div class="w-full flex flex-row justify-start items-start gap-10 bg-[#FCFBFF] px-10 py-8 rounded-2xl">
-                        <div class="flex flex-col flex-1 justify-start items-start gap-2">
-                            <img src="/dist/csr/program-3.webp" alt="program icon mediatech" class="w-36">
-                            <h3 class="text-[#202020] mt-2 text-lg md:text-xl lg:text-2xl leading-tight font-semibold">Smart School</h3>
-                            <p class="text-sm md:text-base opacity-60 leading-relaxed">
-                                Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang dapat digunakan oleh guru dan siswa dalam proses pembelajaran.
-                            </p>
-                        </div>
-                        <div class="flex justify-center items-center flex-1 rounded-lg overflow-hidden">
-                            <img src="/dist/csr/program-img-3.webp" alt="program image mediatech" class="w-full h-full object-cover">
-                        </div>
+                    <div class="group flex flex-row justify-start items-center gap-4 px-8 py-6 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
+                        <img src="/dist/cd/tech-3.webp" alt="tech stack custom dev" class="w-16 rounded-md">
+                        <p class="text-[#202020] font-semibold text-xl group-hover:text-white transition-colors duration-300">PHP</p>
+                    </div>
+                    <div class="group flex flex-row justify-start items-center gap-4 px-8 py-6 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
+                        <img src="/dist/cd/tech-4.webp" alt="tech stack custom dev" class="w-16 rounded-md">
+                        <p class="text-[#202020] font-semibold text-xl group-hover:text-white transition-colors duration-300">Flutter</p>
+                    </div>
+                    <div class="group flex flex-row justify-start items-center gap-4 px-8 py-6 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
+                        <img src="/dist/cd/tech-5.webp" alt="tech stack custom dev" class="w-16 rounded-md">
+                        <p class="text-[#202020] font-semibold text-xl group-hover:text-white transition-colors duration-300">Node Js</p>
+                    </div>
+                    <div class="group flex flex-row justify-start items-center gap-4 px-8 py-6 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
+                        <img src="/dist/cd/tech-6.webp" alt="tech stack custom dev" class="w-16 rounded-md">
+                        <p class="text-[#202020] font-semibold text-xl group-hover:text-white transition-colors duration-300">Java</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Event Section -->
-    <section class="w-full py-16 md:py-20 bg-white flex justify-center items-center">
-        <div class="w-full max-w-6xl px-4 md:px-6 grid grid-cols-4 justify-center items-center flex-row flex-wrap gap-3">
-            <div class="flex flex-col justify-start items-start gap-2 col-span-2">
+    <!-- Portofolio Section -->
+    <section class="relative w-full flex flex-col items-center py-16 md:py-20 bg-white overflow-hidden">
+        <div class="w-full max-w-6xl px-4 md:px-6 flex justify-center items-center flex-col relative z-10">
+            <div class="text-center space-y-4 md:space-y-6">
                 <h3 class="text-blue-600 tracking-widest text-sm font-medium">
-                    OUR EVENTS
+                    OUR WORKS
                 </h3>
-                <h2 class="text-[#202020] mt-2 text-2xl md:text-3xl lg:text-4xl leading-relaxed font-bold">
-                    SDG-Focused Events for a Sustainable Future
+                <h2 class="text-[#202020] text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-xl mx-auto">
+                    Where Innovation Meets Execution
                 </h2>
-                <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200">
-                    Get in touch
-                </button>
             </div>
-            <!-- Card Event -->
-            <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
-                <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
-                <div class="flex flex-col justify-start items-start gap-2">
-                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
-                    <p class="text-xs md:text-sm opacity-60 leading-relaxed">
-                        Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
-                    </p>
+            <!-- Box Portofolio -->
+            <div class="grid grid-cols-3 justify-start items-stretch gap-4 w-full mt-12">
+                <div class="flex flex-col justify-start items-start gap-4 p-2 border border-[#e8e8e8] rounded-xl cursor-pointer hover:bg-[#f5f5f5]">
+                    <div class="w-full aspect-video rounded-xl overflow-hidden">
+                        <img src="/dist/cd/hero-1.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
+                    </div>
+                    <div class="w-full flex justify-between items-center gap-4 px-2 py-3">
+                        <p class="text-[#202020] font-semibold text-lg group-hover:text-white transition-colors duration-300">Portofolio Name</p>
+                        <img src="/dist/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
+                    </div>
                 </div>
-            </div>
-            <!-- Card Event -->
-            <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
-                <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
-                <div class="flex flex-col justify-start items-start gap-2">
-                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
-                    <p class="text-xs md:text-sm opacity-60 leading-relaxed">
-                        Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
-                    </p>
+                <div class="flex flex-col justify-start items-start gap-4 p-2 border border-[#e8e8e8] rounded-xl cursor-pointer hover:bg-[#f5f5f5]">
+                    <div class="w-full aspect-video rounded-xl overflow-hidden">
+                        <img src="/dist/cd/hero-2.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
+                    </div>
+                    <div class="w-full flex justify-between items-center gap-4 px-2 py-3">
+                        <p class="text-[#202020] font-semibold text-lg group-hover:text-white transition-colors duration-300">Portofolio Name</p>
+                        <img src="/dist/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
+                    </div>
                 </div>
-            </div>
-            <!-- Card Event -->
-            <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
-                <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
-                <div class="flex flex-col justify-start items-start gap-2">
-                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
-                    <p class="text-xs md:text-sm opacity-60 leading-relaxed">
-                        Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
-                    </p>
+                <div class="flex flex-col justify-start items-start gap-4 p-2 border border-[#e8e8e8] rounded-xl cursor-pointer hover:bg-[#f5f5f5]">
+                    <div class="w-full aspect-video rounded-xl overflow-hidden">
+                        <img src="/dist/cd/hero-1.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
+                    </div>
+                    <div class="w-full flex justify-between items-center gap-4 px-2 py-3">
+                        <p class="text-[#202020] font-semibold text-lg group-hover:text-white transition-colors duration-300">Portofolio Name</p>
+                        <img src="/dist/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
+                    </div>
                 </div>
-            </div>
-            <!-- Card Event -->
-            <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
-                <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
-                <div class="flex flex-col justify-start items-start gap-2">
-                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
-                    <p class="text-xs md:text-sm opacity-60 leading-relaxed">
-                        Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
-                    </p>
+                <div class="flex flex-col justify-start items-start gap-4 p-2 border border-[#e8e8e8] rounded-xl cursor-pointer hover:bg-[#f5f5f5]">
+                    <div class="w-full aspect-video rounded-xl overflow-hidden">
+                        <img src="/dist/cd/hero-2.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
+                    </div>
+                    <div class="w-full flex justify-between items-center gap-4 px-2 py-3">
+                        <p class="text-[#202020] font-semibold text-lg group-hover:text-white transition-colors duration-300">Portofolio Name</p>
+                        <img src="/dist/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
+                    </div>
                 </div>
-            </div>
-            <!-- Card Event -->
-            <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
-                <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
-                <div class="flex flex-col justify-start items-start gap-2">
-                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
-                    <p class="text-xs md:text-sm opacity-60 leading-relaxed">
-                        Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
-                    </p>
+                <div class="flex flex-col justify-start items-start gap-4 p-2 border border-[#e8e8e8] rounded-xl cursor-pointer hover:bg-[#f5f5f5]">
+                    <div class="w-full aspect-video rounded-xl overflow-hidden">
+                        <img src="/dist/cd/hero-1.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
+                    </div>
+                    <div class="w-full flex justify-between items-center gap-4 px-2 py-3">
+                        <p class="text-[#202020] font-semibold text-lg group-hover:text-white transition-colors duration-300">Portofolio Name</p>
+                        <img src="/dist/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
+                    </div>
                 </div>
-            </div>
-            <!-- Card Event -->
-            <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
-                <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
-                <div class="flex flex-col justify-start items-start gap-2">
-                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
-                    <p class="text-xs md:text-sm opacity-60 leading-relaxed">
-                        Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
-                    </p>
+                <div class="flex flex-col justify-start items-start gap-4 p-2 border border-[#e8e8e8] rounded-xl cursor-pointer hover:bg-[#f5f5f5]">
+                    <div class="w-full aspect-video rounded-xl overflow-hidden">
+                        <img src="/dist/cd/hero-2.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
+                    </div>
+                    <div class="w-full flex justify-between items-center gap-4 px-2 py-3">
+                        <p class="text-[#202020] font-semibold text-lg group-hover:text-white transition-colors duration-300">Portofolio Name</p>
+                        <img src="/dist/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Careers Section -->
-    <section class="relative w-full py-16 md:py-20 min-h-[70vh] md:min-h-[80vh] bg-cover bg-center bg-no-repeat overflow-hidden" style="background-image: url('/dist/careers-background.jpg');">
-        <div class="relative w-full min-h-[70vh] md:min-h-[80vh] max-w-6xl mx-auto px-4 md:px-6 z-10 flex justify-center items-center">
-            <!-- Floating Images -->
-            <div class="absolute inset-0 pointer-events-none hidden lg:block">
-                <!-- Top Left Image -->
-                <div class="absolute top-0 left-5 w-48 lg:w-64 opacity-40 h-auto rounded-lg overflow-hidden rotate-2">
-                    <img
-                        src="/dist/csr/insight-1.webp"
-                        alt="Insight mediatech 1"
-                        class="w-full h-auto object-contain" />
-                </div>
 
-                <!-- Top Right Image -->
-                <div class="absolute top-0 right-5 w-64 lg:w-96 h-auto rounded-lg overflow-hidden opacity-70 -rotate-3">
-                    <img
-                        src="/dist/csr/insight-3.webp"
-                        alt="Insight mediatech 2"
-                        class="w-full h-auto object-contain" />
-                </div>
-
-                <!-- Bottom Left Image -->
-                <div class="absolute bottom-0 left-5 lg:left-16 w-64 lg:w-96 h-auto rounded-lg overflow-hidden opacity-70 rotate-2">
-                    <img
-                        src="/dist/csr/insight-2.webp"
-                        alt="Insight mediatech 3"
-                        class="w-full h-auto object-contain" />
-                </div>
-
-                <!-- Bottom Right Image -->
-                <div class="absolute bottom-0 right-5 w-48 lg:w-64 h-auto rounded-lg overflow-hidden opacity-40 -rotate-3">
-                    <img
-                        src="/dist/csr/insight-4.webp"
-                        alt="Insight mediatech 4"
-                        class="w-full h-auto object-contain" />
-                </div>
-            </div>
-
-            <!-- Main Content -->
-            <div class="flex flex-col items-center justify-center min-h-[300px] md:min-h-[400px] text-center relative z-20 px-4">
-                <!-- Header -->
-                <h3 class="text-blue-400 tracking-widest text-sm font-medium mb-4">
-                    INSIGHTS
-                </h3>
-
-                <h2 class="text-white text-2xl md:text-3xl lg:text-5xl font-bold leading-relaxed mb-4 md:mb-6">
-                    “Setiap kamu daftar, kamu mendukung anak di daerah tertinggal belajar juga.”
-                </h2>
-
-                <p class="text-gray-300 text-sm md:text-base lg:text-lg leading-relaxed mb-6 md:mb-8 max-w-sm md:max-w-md opacity-60">
-                    Bersama Mediatech, hubungkan setiap penjuru dunia menjadi suatu inovasi digital
-                </p>
-
-                <!-- CTA Button -->
-                <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200">
-                    Contact Us
-                </button>
-            </div>
-        </div>
-    </section>
 
     <!-- Digital Idea Section -->
     <section class="relative w-full py-16 md:py-18 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-700 flex justify-center items-center overflow-hidden">

@@ -13,3 +13,7 @@ Route::get('/about', function () {
 Route::get('/csr', function () {
     return view('csr');
 });
+
+Route::get('/custom-dev', function () {
+    return view('custom-dev');
+});
