@@ -1750,7 +1750,7 @@
 
     <!-- SDG's Section -->
     <section class="relative w-full py-16 md:py-20 bg-white flex justify-center items-center">
-        <div class="w-full max-w-6xl px-4 md:px-6 flex justify-start items-start flex-row gap-12">
+        <div class="w-full max-w-6xl px-4 md:px-6 flex justify-start items-start md:flex-row flex-col gap-12">
             <div class="flex flex-col justify-start items-start gap-3 w-full">
                 <h3 class="text-blue-600 tracking-widest text-sm font-medium">
                     SERVICES
@@ -1797,9 +1797,9 @@
                 <!-- Program Box -->
                 <div class="w-full flex flex-col justify-start items-start gap-4">
                     <!-- Card Program -->
-                    <div class="w-full flex flex-row justify-start items-start gap-10 bg-[#FCFBFF] px-10 py-8 rounded-2xl">
+                    <div class="w-full flex flex-col-reverse md:flex-row justify-start items-start gap-6 md:gap-10 bg-[#FCFBFF] px-6 md:px-10 py-5 md:py-8 rounded-2xl">
                         <div class="flex flex-col flex-1 justify-start items-start gap-2">
-                            <img src="/dist/csr/program-1.webp" alt="program icon mediatech" class="w-36">
+                            <img src="/dist/csr/program-1.webp" alt="program icon mediatech" class="w-28 sm:w-32 md:w-36">
                             <h3 class="text-[#202020] mt-2 text-lg md:text-xl lg:text-2xl leading-tight font-semibold">Smart Workshop</h3>
                             <p class="text-sm md:text-base opacity-60 leading-relaxed">
                                 Perusahaan memberikan donasi dengan memberikan workshop (pelatihan singkat) tentang coding dan robotika kepada siswa sekolah, panti asuhan, dan masyarakat dengan tema tertentu.
@@ -1810,12 +1810,12 @@
                         </div>
                     </div>
                     <!-- Card Program -->
-                    <div class="w-full flex flex-row justify-start items-start gap-10 bg-[#FCFBFF] px-10 py-8 rounded-2xl">
+                    <div class="w-full flex flex-col md:flex-row justify-start items-start gap-6 md:gap-10 bg-[#FCFBFF] px-6 md:px-10 py-5 md:py-8 rounded-2xl">
                         <div class="flex justify-center items-center flex-1 rounded-lg overflow-hidden">
                             <img src="/dist/csr/program-img-2.webp" alt="program image mediatech" class="w-full h-full object-cover">
                         </div>
                         <div class="flex flex-col flex-1 justify-start items-start gap-2">
-                            <img src="/dist/csr/program-2.webp" alt="program icon mediatech" class="w-36">
+                            <img src="/dist/csr/program-2.webp" alt="program icon mediatech" class="w-28 sm:w-32 md:w-36">
                             <h3 class="text-[#202020] mt-2 text-lg md:text-xl lg:text-2xl leading-tight font-semibold">Green School</h3>
                             <p class="text-sm md:text-base opacity-60 leading-relaxed">
                                 Perusahaan memberikan sumbangan dengan membantu membangun atau merenovasi fasilitas sekolah yang menggunakan teknologi. Kita dapat memilih satu atau beberapa ruangan
@@ -1823,9 +1823,9 @@
                         </div>
                     </div>
                     <!-- Card Program -->
-                    <div class="w-full flex flex-row justify-start items-start gap-10 bg-[#FCFBFF] px-10 py-8 rounded-2xl">
+                    <div class="w-full flex flex-col-reverse md:flex-row justify-start items-start gap-6 md:gap-10 bg-[#FCFBFF] px-6 md:px-10 py-5 md:py-8 rounded-2xl">
                         <div class="flex flex-col flex-1 justify-start items-start gap-2">
-                            <img src="/dist/csr/program-3.webp" alt="program icon mediatech" class="w-36">
+                            <img src="/dist/csr/program-3.webp" alt="program icon mediatech" class="w-28 sm:w-32 md:w-36">
                             <h3 class="text-[#202020] mt-2 text-lg md:text-xl lg:text-2xl leading-tight font-semibold">Smart School</h3>
                             <p class="text-sm md:text-base opacity-60 leading-relaxed">
                                 Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang dapat digunakan oleh guru dan siswa dalam proses pembelajaran.
@@ -1842,8 +1842,8 @@
 
     <!-- Event Section -->
     <section class="w-full py-16 md:py-20 bg-white flex justify-center items-center">
-        <div class="w-full max-w-6xl px-4 md:px-6 grid grid-cols-4 justify-center items-center flex-row flex-wrap gap-3">
-            <div class="flex flex-col justify-start items-start gap-2 col-span-2">
+        <div class="w-full max-w-6xl px-4 md:px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 justify-center items-center flex-row flex-wrap gap-4 md:gap-3">
+            <div class="flex flex-col justify-start items-start gap-2 sm:col-span-2 md:mb-0 mb-8">
                 <h3 class="text-blue-600 tracking-widest text-sm font-medium">
                     OUR EVENTS
                 </h3>
@@ -1858,7 +1858,7 @@
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
                 <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
                 <div class="flex flex-col justify-start items-start gap-2">
-                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
+                    <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
                         Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
                     </p>
@@ -1868,7 +1868,7 @@
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
                 <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
                 <div class="flex flex-col justify-start items-start gap-2">
-                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
+                    <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
                         Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
                     </p>
@@ -1878,7 +1878,7 @@
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
                 <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
                 <div class="flex flex-col justify-start items-start gap-2">
-                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
+                    <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
                         Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
                     </p>
@@ -1888,7 +1888,7 @@
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
                 <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
                 <div class="flex flex-col justify-start items-start gap-2">
-                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
+                    <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
                         Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
                     </p>
@@ -1898,7 +1898,7 @@
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
                 <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
                 <div class="flex flex-col justify-start items-start gap-2">
-                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
+                    <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
                         Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
                     </p>
@@ -1908,7 +1908,7 @@
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
                 <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
                 <div class="flex flex-col justify-start items-start gap-2">
-                    <h3 class="text-[#202020] mt-2 text-sm md:text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
+                    <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
                         Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang
                     </p>
@@ -1916,6 +1916,8 @@
             </div>
         </div>
     </section>
+
+
     <!-- Careers Section -->
     <section class="relative w-full py-16 md:py-20 min-h-[70vh] md:min-h-[80vh] bg-cover bg-center bg-no-repeat overflow-hidden" style="background-image: url('/dist/careers-background.jpg');">
         <div class="relative w-full min-h-[70vh] md:min-h-[80vh] max-w-6xl mx-auto px-4 md:px-6 z-10 flex justify-center items-center">
