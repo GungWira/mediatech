@@ -69,9 +69,9 @@
 
       <section class="w-full min-h-screen flex flex-col justify-center items-center bg-white relative">
         <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex justify-center items-center flex-col">
-                      <div class="text-center space-y-4 md:space-y-6">
+            <div class="text-center space-y-4 md:space-y-6">
               <h3 class="text-blue-600 tracking-widest text-sm font-medium">
-                ABOUT US
+                VISION & MISION
               </h3>
               <h2 class="text-[#202020] text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-5xl mx-auto">
                 Innovative Solutions Across Industries Focused on Quality, Technology and Impact
@@ -119,7 +119,7 @@
                 </div>
               </div>
 
-              <!-- Point 4 -->
+              <!-- Point 4 -->    
               <div class="flex items-start gap-4">
                 <div class="flex-shrink-0 w-12 h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
                   <span class="text-blue-600 font-bold text-lg">4</span>
@@ -128,6 +128,49 @@
                   <p class="text-[#202020] text-base font-semibold md:text-lg leading-relaxed">
                     Mengembangkan lini usaha F&B dan properti dengan fokus pada kualitas, kenyamanan, dan pengalaman pelanggan.
                   </p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="w-full min-h-screen flex flex-col justify-center items-center bg-white relative py-12">
+        <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex justify-center items-center flex-col">
+            <div class="text-center space-y-4 md:space-y-6 mb-12">
+              <h3 class="text-blue-600 tracking-widest text-sm font-medium">
+                WORKING SPACE
+              </h3>
+              <h2 class="text-[#202020] text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-2xl mx-auto px-8">
+                A Workspace Where Ideas Grow and Innovation Happens 
+              </h2>
+            </div>
+            
+            <!-- Workspace Images Grid -->
+            <div class="w-full max-w-6xl mx-auto px-4">
+              <!-- Top Large Image -->
+              <div class="mb-6">
+                <img 
+                  src="dist/about/working space (2).png" 
+                  alt="Development Team Working" 
+                  class="w-full h-80 lg:h-[350px] object-cover rounded-2xl"
+                />
+              </div>
+              
+              <!-- Bottom Two Images -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <img 
+                    src="dist/about/working space (3).png" 
+                    alt="Team Collaboration" 
+                    class="w-full lg:h-[240px] object-cover rounded-2xl"
+                  />
+                </div>
+                <div>
+                  <img 
+                    src="dist/about/working space (1).png" 
+                    alt="Learning Environment" 
+                    class="w-full lg:h-[240px] object-cover rounded-2xl"
+                  />
                 </div>
               </div>
             </div>
