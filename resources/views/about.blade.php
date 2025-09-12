@@ -237,5 +237,287 @@
           </div>
       </div>
     </section>
+
+    <!-- Digital Idea Section -->
+    <section class="relative w-full py-16 md:py-18 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-700 flex justify-center items-center overflow-hidden">
+      <!-- White Ball Ornaments -->
+      <div class="absolute top-8 right-1.5/2 pointer-events-none z-20">
+        <img
+          src="/dist/white-ball.svg"
+          alt="White ball ornament"
+          class="w-16 h-16 md:w-20 md:h-20 lg:w-20 lg:h-20"
+        />
+      </div>
+
+      <div class="absolute bottom-0 right-0 pointer-events-none z-20 transform translate-y-2 translate-x-14">
+        <img
+          src="/dist/white-ball.svg"
+          alt="White ball ornament"
+          class="w-24 h-24 md:w-32 md:h-32 lg:w-38 lg:h-38"
+        />
+      </div>
+
+      <div class="absolute bottom-0 left-0 pointer-events-none z-20 transform translate-y-8 -translate-x-10">
+        <img
+          src="/dist/white-ball.svg"
+          alt="White ball ornament"
+          class="w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28"
+        />
+      </div>
+
+      <!-- Content -->
+      <div class="w-full max-w-6xl px-4 md:px-6 flex justify-start flex-col items-start relative z-10 text-left">
+        <div class="w-full max-w-4xl">
+          <!-- Subtitle -->
+          <p class="text-white/80 text-sm md:text-base italic mb-4 md:mb-6">
+            It's Your Time!
+          </p>
+        </div>
+
+        <div class="flex justify-between w-full items-start flex-col md:flex-row">
+          <!-- Main Title -->
+          <h2 class="text-white text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight font-bold max-w-[680px]">
+            Have a Digital Idea? Let's Build Together
+          </h2>
+
+          <!-- CTA Button -->
+          <button class="bg-white w-[180px] mt-8 md:mt-0 lg:mt-0 hover:bg-gray-100 text-blue-600 h-fit justify-center align-center py-3 text-lg font-medium rounded transition-colors duration-300 flex items-center gap-2">
+            Get in touch
+            <img
+              src="/dist/arrow-icon-blue.webp"
+              alt="Arrow"
+              class="w-4 h-4"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0F172A] text-white pt-16 pb-6 px-4 md:px-12 w-full flex justify-center items-center">
+      <div class="flex flex-col w-full max-w-6xl">
+        <div class="max-w-7xl mx-auto flex flex-row justify-between items-start gap-10 w-full flex-wrap sm:flex-nowrap">
+          <!-- Logo + Description -->
+          <div class="flex flex-col gap-4 justify-start items-start w-full sm:w-fit sm:max-w-sm">
+            <img
+              src="/dist/logo-white.webp"
+              alt="Mediatech Indonesia"
+              class="h-8 w-auto"
+            />
+            <p class="text-sm text-gray-300">
+              Jelajahi setiap lini kehidupan penuh warna bersama Mediatech
+              Indonesia
+            </p>
+          </div>
+
+          <!-- Company Links -->
+          <div>
+            <h4 class="font-semibold mb-4">Company</h4>
+            <ul class="space-y-2 text-sm text-gray-300">
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Service</li>
+              <li>Choose Us</li>
+              <li>Testimonials</li>
+            </ul>
+          </div>
+
+          <!-- Support Links -->
+          <div>
+            <h4 class="font-semibold mb-4">Support</h4>
+            <ul class="space-y-2 text-sm text-gray-300">
+              <li>Contact Us</li>
+              <li>Help Us</li>
+              <li>Customer Center</li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div>
+            <h4 class="font-semibold mb-4">Contact</h4>
+            <ul class="space-y-2 text-sm text-gray-300">
+              <li>mediatech@company.com</li>
+              <li>+62 8123-4567-8900</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Branch Locations -->
+        <div class="mt-16 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 text-sm text-gray-300">
+          <!-- Location 1: Bali - Denpasar (Head) -->
+          <div>
+            <h5 class="font-semibold text-white mb-2">Bali - Denpasar (Head)</h5>
+            <div class="flex items-start gap-2">
+              <img
+                src="/dist/location-icon.webp"
+                alt="location icon"
+                class="w-4"
+              />
+              <p>Jl. Tukad Batanghari No.55, Panjer, Denpasar Selatan, Kota Denpasar, Bali 80225</p>
+            </div>
+            <a
+              href="#"
+              class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
+            >
+              <img
+                src="/dist/to-maps-icon.webp"
+                alt="to maps icon"
+                class="w-4"
+              />
+              <span class="text-white opacity-80">Lihat di Peta</span>
+            </a>
+          </div>
+
+          <!-- Location 2: Bali - Gianyar -->
+          <div>
+            <h5 class="font-semibold text-white mb-2">Bali - Gianyar</h5>
+            <div class="flex items-start gap-2">
+              <img
+                src="/dist/location-icon.webp"
+                alt="location icon"
+                class="w-4"
+              />
+              <p>Jl. Dharma Giri No.777, Bitera, Kec. Gianyar, Kabupaten Gianyar, Bali 80581</p>
+            </div>
+            <a
+              href="#"
+              class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
+            >
+              <img
+                src="/dist/to-maps-icon.webp"
+                alt="to maps icon"
+                class="w-4"
+              />
+              <span class="text-white opacity-80">Lihat di Peta</span>
+            </a>
+          </div>
+
+          <!-- Location 3: Surabaya -->
+          <div>
+            <h5 class="font-semibold text-white mb-2">Surabaya</h5>
+            <div class="flex items-start gap-2">
+              <img
+                src="/dist/location-icon.webp"
+                alt="location icon"
+                class="w-4"
+              />
+              <p>Jl. Tenggilis Tengah III No.1, Kendangsari, Kec. Tenggilis Mejoyo, Surabaya, Jawa Timur 60231</p>
+            </div>
+            <a
+              href="#"
+              class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
+            >
+              <img
+                src="/dist/to-maps-icon.webp"
+                alt="to maps icon"
+                class="w-4"
+              />
+              <span class="text-white opacity-80">Lihat di Peta</span>
+            </a>
+          </div>
+
+          <!-- Location 4: Surabaya - Citraland -->
+          <div>
+            <h5 class="font-semibold text-white mb-2">Surabaya - Citraland</h5>
+            <div class="flex items-start gap-2">
+              <img
+                src="/dist/location-icon.webp"
+                alt="location icon"
+                class="w-4"
+              />
+              <p>Ruko Palma Galeria, RA3 No.11, Sememi, Kec. Benowo, Surabaya, Jawa Timur 60198</p>
+            </div>
+            <a
+              href="#"
+              class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
+            >
+              <img
+                src="/dist/to-maps-icon.webp"
+                alt="to maps icon"
+                class="w-4"
+              />
+              <span class="text-white opacity-80">Lihat di Peta</span>
+            </a>
+          </div>
+
+          <!-- Location 5: Jember -->
+          <div>
+            <h5 class="font-semibold text-white mb-2">Jember</h5>
+            <div class="flex items-start gap-2">
+              <img
+                src="/dist/location-icon.webp"
+                alt="location icon"
+                class="w-4"
+              />
+              <p>Jl. Majapahit, Komplek Ruko Esplanade, no R-22 Kaliwates, Jember</p>
+            </div>
+            <a
+              href="#"
+              class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
+            >
+              <img
+                src="/dist/to-maps-icon.webp"
+                alt="to maps icon"
+                class="w-4"
+              />
+              <span class="text-white opacity-80">Lihat di Peta</span>
+            </a>
+          </div>
+
+          <!-- Location 6: Banyuwangi -->
+          <div>
+            <h5 class="font-semibold text-white mb-2">Banyuwangi</h5>
+            <div class="flex items-start gap-2">
+              <img
+                src="/dist/location-icon.webp"
+                alt="location icon"
+                class="w-4"
+              />
+              <p>NX Point Lt. 2, Jl. Kepiting No.7 Sobo, Kec. Banyuwangi, Banyuwangi, Jawa Timur 68418</p>
+            </div>
+            <a
+              href="#"
+              class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
+            >
+              <img
+                src="/dist/to-maps-icon.webp"
+                alt="to maps icon"
+                class="w-4"
+              />
+              <span class="text-white opacity-80">Lihat di Peta</span>
+            </a>
+          </div>
+
+          <!-- Location 7: Sidoarjo -->
+          <div>
+            <h5 class="font-semibold text-white mb-2">Sidoarjo</h5>
+            <div class="flex items-start gap-2">
+              <img
+                src="/dist/location-icon.webp"
+                alt="location icon"
+                class="w-4"
+              />
+              <p>Jl. Thamrin no 13, Sidokumpul, Kec. Sidoarjo</p>
+            </div>
+            <a
+              href="#"
+              class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
+            >
+              <img
+                src="/dist/to-maps-icon.webp"
+                alt="to maps icon"
+                class="w-4"
+              />
+              <span class="text-white opacity-80">Lihat di Peta</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="mt-12 border-t border-white/10 pt-6 text-center text-xs text-gray-400">
+          © 2025 Mediatech All Right Reserved
+        </div>
+      </div>
+    </footer>
     </body>
 </html>
