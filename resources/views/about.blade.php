@@ -2,8 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1">          
         <title>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->
@@ -21,166 +20,180 @@
     </head>
     <body class="bg-white">
         <x-navbar/>
-        <section
-        class="w-full min-h-screen flex justify-center items-center bg-[#0C192B] bg-cover bg-center relative pt-20"
-        style="background-image: url('dist/about/headerbg.png');"
-        id="home"
-      >
-      <img src="dist/about/sphere.svg" alt="" class="absolute top-1/2 left-1/2 w-[40%] -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none" />
-        <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex justify-center items-center">
-            <div class="flex flex-col justify-center items-center md:items-center lg:items-center gap-4 text-center md:text-center">
-              <p class="italic opacity-60 text-white text-sm md:text-base">
-                Indonesian Digital Company
-              </p>
-              <h1 class="font-bold text-3xl md:text-4xl lg:text-6xl leading-tight text-white text-center max-w-[80%]">
-                Smart Tech for Digital Innovation
-              </h1>
-              <p class="text-sm md:text-base opacity-60 text-white max-w-lg text-center">
-                Mediatech Indonesia membantu bisnis bertransformasi secara digital melalui solusi teknologi yang cerdas dan tepat guna.
-              </p>
-              <div class="mt-4 w-full flex justify-center md:justify-center lg:justify-center md:mb-8">
-                <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200">
-                  Explore Our Company
-                </button>
-              </div>
-            </div>
-        </div>
-      </section>
-
-      <section class="w-full min-h-screen flex flex-col justify-center items-center bg-white relative">
-        <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex justify-center items-start ">
-            <div class="w-1/2 h-full flex justify-center items-center">
-              <img src="dist/about/about.png" alt="About Image" class="w-full h-auto object-cover rounded-lg shadow-lg" />
-            </div>
-            <div class="w-1/2 min-h-full flex justify-start items-start flex-col pl-12 gap-4">
-              <h3 class="text-blue-600 tracking-widest text-sm font-medium">
-                ABOUT COMPANY
-              </h3>
-              <h2 class="text-[#202020] text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-xl mx-auto pr-20">
-                Smart, Integrated Digital Solutions to Grow Your Brand
-              </h2>
-              <div class="w-full h-[1px] bg-gray-300 mt-20"></div>
-              <p class="text-sm md:text-base opacity-80 leading-relaxed max-w-3xl mx-auto">
-                Mediatech Indonesia adalah perusahaan teknologi yang menyediakan solusi digital terintegrasi untuk membantu bisnis tumbuh dan bertransformasi di era digital. Dengan pengalaman lebih dari satu dekade, kami hadir sebagai mitra andal dalam menghadapi tantangan teknologi masa kini.
-              </p>
-            </div>
-        </div>
-      </section>
-
-      <section class="w-full min-h-screen flex flex-col justify-center items-center bg-white relative">
-        <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex justify-center items-center flex-col">
-            <div class="text-center space-y-4 md:space-y-6">
-              <h3 class="text-blue-600 tracking-widest text-sm font-medium">
-                VISION & MISION
-              </h3>
-              <h2 class="text-[#202020] text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-5xl mx-auto">
-                Innovative Solutions Across Industries Focused on Quality, Technology and Impact
-              </h2>
-              <p class="text-sm md:text-base opacity-80 leading-relaxed max-w-2xl mx-auto px-8">
-                Mediatech Indonesia menciptakan solusi inovatif lintas industri dengan fokus pada kualitas, smart technology, dan dampak positif yang nyata bagi bisnis dan kehidupan sehari-hari.
-              </p>
-            </div>
+        <!-- Hero Section - Responsive -->
+        <section class="w-full min-h-screen flex justify-center items-center bg-[#0C192B] bg-cover bg-center relative pt-16 sm:pt-20"
+                 style="background-image: url('dist/about/headerbg.png');"
+                 id="home">
+            <img src="dist/about/sphere.svg" 
+                 alt="Decorative sphere" 
+                 class="absolute top-1/2 left-1/2 w-[60%] sm:w-[50%] md:w-[40%] -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none" />
             
-            <!-- 4 Points Grid -->
-            <div class="w-full max-w-6xl mx-auto mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 px-4">
-              <!-- Point 1 -->
-              <div class="flex items-start gap-4">
-                <div class="flex-shrink-0 w-12 h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
-                  <span class="text-blue-600 font-bold text-lg">1</span>
+            <div class="w-full min-h-[80vh] max-w-6xl px-4 sm:px-6 lg:px-8 flex justify-center items-center">
+                <div class="flex flex-col justify-center items-center gap-4 sm:gap-6 text-center max-w-4xl">
+                    <p class="italic opacity-60 text-white text-xs sm:text-sm md:text-base">
+                        Indonesian Digital Company
+                    </p>
+                    <h1 class="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight text-white text-center px-4">
+                        Smart Tech for Digital Innovation
+                    </h1>
+                    <p class="text-xs sm:text-sm md:text-base opacity-60 text-white max-w-lg text-center px-4">
+                        Mediatech Indonesia membantu bisnis bertransformasi secara digital melalui solusi teknologi yang cerdas dan tepat guna.
+                    </p>
+                    <div class="mt-4 sm:mt-6 w-full flex justify-center">
+                        <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 sm:py-3 sm:px-6 text-sm sm:text-base rounded-lg transition-colors duration-200">
+                            Explore Our Company
+                        </button>
+                    </div>
                 </div>
-                <div class="flex-1">
-                  <p class="text-[#202020] text-base font-semibold md:text-lg leading-relaxed">
-                    Membangun ekosistem bisnis terintegrasi yang memberikan dampak positif bagi pelanggan, komunitas, dan lingkungan.
-                  </p>
-                </div>
-              </div>
-
-              <!-- Point 2 -->
-              <div class="flex items-start gap-4">
-                <div class="flex-shrink-0 w-12 h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
-                  <span class="text-blue-600 font-bold text-lg">2</span>
-                </div>
-                <div class="flex-1">
-                  <p class="text-[#202020] text-base font-semibold md:text-lg leading-relaxed">
-                    Mendorong digital transformation dan memperluas akses terhadap teknologi untuk generasi masa depan.
-                  </p>
-                </div>
-              </div>
-
-              <!-- Point 3 -->
-              <div class="flex items-start gap-4">
-                <div class="flex-shrink-0 w-12 h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
-                  <span class="text-blue-600 font-bold text-lg">3</span>
-                </div>
-                <div class="flex-1">
-                  <p class="text-[#202020] text-base font-semibold md:text-lg leading-relaxed">
-                    Menjadi mitra terpercaya dalam menghadirkan solusi teknologi yang relevan dan kompetitif secara global.
-                  </p>
-                </div>
-              </div>
-
-              <!-- Point 4 -->    
-              <div class="flex items-start gap-4">
-                <div class="flex-shrink-0 w-12 h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
-                  <span class="text-blue-600 font-bold text-lg">4</span>
-                </div>
-                <div class="flex-1">
-                  <p class="text-[#202020] text-base font-semibold md:text-lg leading-relaxed">
-                    Mengembangkan lini usaha F&B dan properti dengan fokus pada kualitas, kenyamanan, dan pengalaman pelanggan.
-                  </p>
-                </div>
-              </div>
             </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="w-full min-h-screen flex flex-col justify-center items-center bg-white relative py-12">
-        <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex justify-center items-center flex-col">
-            <div class="text-center space-y-4 md:space-y-6 mb-12">
-              <h3 class="text-blue-600 tracking-widest text-sm font-medium">
-                WORKING SPACE
-              </h3>
-              <h2 class="text-[#202020] text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-2xl mx-auto px-8">
-                A Workspace Where Ideas Grow and Innovation Happens 
-              </h2>
-            </div>
-            
-            <!-- Workspace Images Grid -->
-            <div class="w-full max-w-6xl mx-auto px-4">
-              <!-- Top Large Image -->
-              <div class="mb-6">
-                <img 
-                  src="dist/about/working space (2).png" 
-                  alt="Development Team Working" 
-                  class="w-full h-80 lg:h-[350px] object-cover rounded-2xl"
-                />
-              </div>
-              
-              <!-- Bottom Two Images -->
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <img 
-                    src="dist/about/working space (3).png" 
-                    alt="Team Collaboration" 
-                    class="w-full lg:h-[240px] object-cover rounded-2xl"
-                  />
+        <!-- About Company Section - Responsive -->
+        <section class="w-full py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col justify-center items-center bg-white relative">
+            <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row justify-center items-center lg:items-start gap-8 lg:gap-12">
+                <!-- Image Container -->
+                <div class="w-full lg:w-1/2 flex justify-center items-center">
+                    <img src="dist/about/about.png" 
+                         alt="About Image" 
+                         class="w-full max-w-md lg:max-w-none h-auto object-cover rounded-lg shadow-lg" />
                 </div>
-                <div>
-                  <img 
-                    src="dist/about/working space (1).png" 
-                    alt="Learning Environment" 
-                    class="w-full lg:h-[240px] object-cover rounded-2xl"
-                  />
+                
+                <!-- Content Container -->
+                <div class="w-full lg:w-1/2 flex flex-col justify-start items-start gap-4 sm:gap-6 text-center lg:text-left lg:pl-8 xl:pl-12 md:justify-center md:items-center">
+                    <h3 class="text-blue-600 tracking-widest text-xs sm:text-sm font-medium md:text-center text-left w-full">
+                        ABOUT COMPANY
+                    </h3>
+                    <h2 class="text-[#202020] text-xl sm:text-2xl text-left md:text-center md:text-3xl lg:text-4xl leading-tight font-bold max-w-xl md:w-full ">
+                        Smart, Integrated Digital Solutions to Grow Your Brand
+                    </h2>
+                    <div class="w-full h-[1px] bg-gray-300 mt-6 sm:mt-8 md:mt-12 lg:mt-20"></div>
+                    <p class="text-xs sm:text-sm md:text-base opacity-80 leading-relaxed max-w-3xl text-left md:text-center">
+                        Mediatech Indonesia adalah perusahaan teknologi yang menyediakan solusi digital terintegrasi untuk membantu bisnis tumbuh dan bertransformasi di era digital. Dengan pengalaman lebih dari satu dekade, kami hadir sebagai mitra andal dalam menghadapi tantangan teknologi masa kini.
+                    </p>
                 </div>
-              </div>
             </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="w-full min-h-screen flex flex-col justify-center items-center bg-white relative py-12">
-        <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex justify-center items-start">
-            <img src="/dist/about/ceo-profile (1).png" alt="" class="w-[40%] h-auto object-cover rounded-lg" />
-          <div class="min-h-full flex justify-start items-start flex-col pl-12 gap-4">
+        <!-- Vision & Mission Section - Responsive -->
+        <section class="w-full py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col justify-center items-center bg-white relative">
+            <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex justify-center items-center flex-col">
+                <!-- Header -->
+                <div class="text-center space-y-4 sm:space-y-6 mb-8 sm:mb-12">
+                    <h3 class="text-blue-600 tracking-widest text-xs sm:text-sm font-medium">
+                        VISION & MISSION
+                    </h3>
+                    <h2 class="text-[#202020] text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-5xl mx-auto px-4">
+                        Innovative Solutions Across Industries Focused on Quality, Technology and Impact
+                    </h2>
+                    <p class="text-xs sm:text-sm md:text-base opacity-80 leading-relaxed max-w-2xl mx-auto px-4 sm:px-6">
+                        Mediatech Indonesia menciptakan solusi inovatif lintas industri dengan fokus pada kualitas, smart technology, dan dampak positif yang nyata bagi bisnis dan kehidupan sehari-hari.
+                    </p>
+                </div>
+                
+                <!-- 4 Points Grid - Responsive -->
+                <div class="w-full max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-12 px-4">
+                    <!-- Point 1 -->
+                    <div class="flex items-start gap-3 sm:gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
+                            <span class="text-blue-600 font-bold text-base sm:text-lg">1</span>
+                        </div>
+                        <div class="flex-1">
+                            <p class="text-[#202020] text-sm sm:text-base font-semibold md:text-lg leading-relaxed">
+                                Membangun ekosistem bisnis terintegrasi yang memberikan dampak positif bagi pelanggan, komunitas, dan lingkungan.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Point 2 -->
+                    <div class="flex items-start gap-3 sm:gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
+                            <span class="text-blue-600 font-bold text-base sm:text-lg">2</span>
+                        </div>
+                        <div class="flex-1">
+                            <p class="text-[#202020] text-sm sm:text-base font-semibold md:text-lg leading-relaxed">
+                                Mendorong digital transformation dan memperluas akses terhadap teknologi untuk generasi masa depan.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Point 3 -->
+                    <div class="flex items-start gap-3 sm:gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
+                            <span class="text-blue-600 font-bold text-base sm:text-lg">3</span>
+                        </div>
+                        <div class="flex-1">
+                            <p class="text-[#202020] text-sm sm:text-base font-semibold md:text-lg leading-relaxed">
+                                Menjadi mitra terpercaya dalam menghadirkan solusi teknologi yang relevan dan kompetitif secara global.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Point 4 -->    
+                    <div class="flex items-start gap-3 sm:gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
+                            <span class="text-blue-600 font-bold text-base sm:text-lg">4</span>
+                        </div>
+                        <div class="flex-1">
+                            <p class="text-[#202020] text-sm sm:text-base font-semibold md:text-lg leading-relaxed">
+                                Mengembangkan lini usaha F&B dan properti dengan fokus pada kualitas, kenyamanan, dan pengalaman pelanggan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Working Space Section - Responsive -->
+        <section class="w-full py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col justify-center items-center bg-white relative">
+            <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex justify-center items-center flex-col">
+                <div class="text-center space-y-4 sm:space-y-6 mb-8 sm:mb-12">
+                    <h3 class="text-blue-600 tracking-widest text-xs sm:text-sm font-medium">
+                        WORKING SPACE
+                    </h3>
+                    <h2 class="text-[#202020] text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-2xl mx-auto px-4">
+                        A Workspace Where Ideas Grow and Innovation Happens 
+                    </h2>
+                </div>
+                
+                <!-- Workspace Images Grid - Responsive -->
+                <div class="w-full max-w-6xl mx-auto px-4">
+                    <!-- Top Large Image -->
+                    <div class="mb-4 sm:mb-6">
+                        <img 
+                            src="dist/about/working space (2).png" 
+                            alt="Development Team Working" 
+                            class="w-full h-48 sm:h-64 lg:h-[350px] object-cover rounded-xl sm:rounded-2xl"
+                        />
+                    </div>
+                    
+                    <!-- Bottom Two Images -->
+                    <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+                        <div>
+                            <img 
+                                src="dist/about/working space (3).png" 
+                                alt="Team Collaboration" 
+                                class="w-full h-32 sm:h-40 lg:h-[240px] object-cover rounded-xl sm:rounded-2xl"
+                            />
+                        </div>
+                        <div>
+                            <img 
+                                src="dist/about/working space (1).png" 
+                                alt="Learning Environment" 
+                                class="w-full h-32 sm:h-40 lg:h-[240px] object-cover rounded-xl sm:rounded-2xl"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CEO Founder Section - Mobile Column Layout -->
+        <section class="w-full py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col justify-center items-center bg-white relative">
+        <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row justify-center items-center lg:items-start gap-6 sm:gap-8 lg:gap-12">
+            <img src="/dist/about/ceo-profile (1).png" 
+                 alt="CEO Profile" 
+                 class="w-full sm:w-[80%] md:w-[60%] lg:w-[40%] h-auto object-cover rounded-lg" />
+          <div class="min-h-full flex justify-start items-start flex-col gap-4">
               <h3 class="text-blue-600 tracking-widest text-sm font-medium">
                 CEO FOUNDER
               </h3>
@@ -193,17 +206,20 @@
             </div>
         </div>
       </section>
-      <section class="w-full min-h-screen flex flex-col justify-center items-center bg-white relative py-12">
-        <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex flex-row-reverse justify-center items-start">
-            <img src="/dist/about/ceo-profile (2).png" alt="" class="w-[40%] h-auto object-cover rounded-lg" />
-          <div class="min-h-full flex justify-start items-start flex-col pl-12 gap-4">
+        <!-- Co-Founder Section - Mobile Column Layout -->
+        <section class="w-full py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col justify-center items-center bg-white relative">
+        <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row-reverse justify-center items-center lg:items-start gap-6 sm:gap-8 lg:gap-12">
+            <img src="/dist/about/ceo-profile (2).png" 
+                 alt="Co-Founder Profile" 
+                 class="w-full sm:w-[80%] md:w-[60%] lg:w-[40%] h-auto object-cover rounded-lg" />
+          <div class="min-h-full flex lg:justify-end lg:items-end flex-col gap-4">
               <h3 class="text-blue-600 tracking-widest text-sm font-medium">
                 OUR CO-FOUNDER
               </h3>
-              <h2 class="text-[#202020] text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-xl pr-8">
+              <h2 class="text-[#202020] text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-xl lg:text-right">
                 Leading with Vision, Growing through Impact
               </h2>
-              <p class="text-sm md:text-base opacity-80 leading-relaxed max-w-3xl ">
+              <p class="text-sm md:text-base opacity-80 leading-relaxed max-w-3xl lg:text-right">
                 “Saya percaya bahwa inovasi lahir dari keberanian untuk mencoba, gagal, dan terus berkembang. Di Mediatech, kami membangun masa depan melalui kolaborasi dan keberlanjutan. Mari tumbuh bersama dan ciptakan dampak yang berarti di setiap langkah.”
               </p>
             </div>
@@ -211,313 +227,318 @@
       </section>
 
       <!-- Services Section -->
-    <section class="w-full py-16 md:py-20 bg-white flex justify-center items-center">
-      <div class="w-full max-w-6xl px-4 md:px-6 flex justify-center items-center flex-col">
-        <div class="w-full mx-auto">
-          <!-- Header -->
-          <div class="flex flex-col lg:flex-row lg:items-end gap-6 md:gap-8 mb-8 md:mb-12 justify-start">
-            <div class="lg:w-1/2">
-              <h3 class="text-blue-600 tracking-widest text-sm font-medium">
-                TEAMS
-              </h3>
-              <h2 class="text-[#202020] mt-2 text-2xl md:text-3xl lg:text-4xl leading-tight font-bold">
-                Meet the Team Driving Innovation at Mediatech
-              </h2>
+        <!-- Teams Section - Responsive -->
+        <section class="w-full py-12 sm:py-16 md:py-20 lg:py-24 bg-white flex justify-center items-center">
+            <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex justify-center items-center flex-col">
+                <div class="w-full mx-auto">
+                    <!-- Header -->
+                    <div class="flex flex-col lg:flex-row lg:items-end gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-12 justify-start">
+                        <div class="lg:w-1/2">
+                            <h3 class="text-blue-600 tracking-widest text-xs sm:text-sm font-medium">
+                                TEAMS
+                            </h3>
+                            <h2 class="text-[#202020] mt-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight font-bold">
+                                Meet the Team Driving Innovation at Mediatech
+                            </h2>
+                        </div>
+                        <div class="lg:w-1/2 flex justify-start lg:justify-end items-end">
+                            <p class="text-xs sm:text-sm md:text-base opacity-80 leading-relaxed text-left lg:text-right lg:max-w-[540px] lg:pl-[120px]">
+                                Tim Mediatech terdiri dari individu berdedikasi dengan semangat inovasi dan kolaborasi, siap menciptakan solusi yang berarti dan berkelanjutan.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="w-full flex justify-center items-center">
+                        <img src="/dist/about/teams.png" 
+                             alt="Mediatech Team" 
+                             class="w-full h-auto object-cover rounded-lg" />
+                    </div>
+                </div>
             </div>
-            <div class="lg:w-1/2 flex justify-start lg:justify-end items-end">
-              <p class="text-sm md:text-base opacity-80 leading-relaxed text-left lg:text-right lg:max-w-[540px] pl-[120px]">
-                Tim Mediatech terdiri dari individu berdedikasi dengan semangat inovasi dan kolaborasi, siap menciptakan solusi yang berarti dan berkelanjutan.
-              </p>
+        </section>
+
+        <!-- Digital Idea Section - Responsive -->
+        <section class="relative w-full py-12 sm:py-16 md:py-18 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-700 flex justify-center items-center overflow-hidden">
+            <!-- White Ball Ornaments -->
+            <div class="absolute top-4 sm:top-8 right-1.5/2 pointer-events-none z-20">
+                <img
+                    src="/dist/white-ball.svg"
+                    alt="White ball ornament"
+                    class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-20 lg:h-20"
+                />
             </div>
-          </div>
 
-          <div class="w-full h-2/3 flex justify-center items-center">
-            <img src="/dist/about/teams.png" alt="" class="w-full h-auto object-cover rounded-lg" />
-          </div>
-          </div>
-      </div>
-    </section>
-
-    <!-- Digital Idea Section -->
-    <section class="relative w-full py-16 md:py-18 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-700 flex justify-center items-center overflow-hidden">
-      <!-- White Ball Ornaments -->
-      <div class="absolute top-8 right-1.5/2 pointer-events-none z-20">
-        <img
-          src="/dist/white-ball.svg"
-          alt="White ball ornament"
-          class="w-16 h-16 md:w-20 md:h-20 lg:w-20 lg:h-20"
-        />
-      </div>
-
-      <div class="absolute bottom-0 right-0 pointer-events-none z-20 transform translate-y-2 translate-x-14">
-        <img
-          src="/dist/white-ball.svg"
-          alt="White ball ornament"
-          class="w-24 h-24 md:w-32 md:h-32 lg:w-38 lg:h-38"
-        />
-      </div>
-
-      <div class="absolute bottom-0 left-0 pointer-events-none z-20 transform translate-y-8 -translate-x-10">
-        <img
-          src="/dist/white-ball.svg"
-          alt="White ball ornament"
-          class="w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28"
-        />
-      </div>
-
-      <!-- Content -->
-      <div class="w-full max-w-6xl px-4 md:px-6 flex justify-start flex-col items-start relative z-10 text-left">
-        <div class="w-full max-w-4xl">
-          <!-- Subtitle -->
-          <p class="text-white/80 text-sm md:text-base italic mb-4 md:mb-6">
-            It's Your Time!
-          </p>
-        </div>
-
-        <div class="flex justify-between w-full items-start flex-col md:flex-row">
-          <!-- Main Title -->
-          <h2 class="text-white text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight font-bold max-w-[680px]">
-            Have a Digital Idea? Let's Build Together
-          </h2>
-
-          <!-- CTA Button -->
-          <button class="bg-white w-[180px] mt-8 md:mt-0 lg:mt-0 hover:bg-gray-100 text-blue-600 h-fit justify-center align-center py-3 text-lg font-medium rounded transition-colors duration-300 flex items-center gap-2">
-            Get in touch
-            <img
-              src="/dist/arrow-icon-blue.webp"
-              alt="Arrow"
-              class="w-4 h-4"
-            />
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-[#0F172A] text-white pt-16 pb-6 px-4 md:px-12 w-full flex justify-center items-center">
-      <div class="flex flex-col w-full max-w-6xl">
-        <div class="max-w-7xl mx-auto flex flex-row justify-between items-start gap-10 w-full flex-wrap sm:flex-nowrap">
-          <!-- Logo + Description -->
-          <div class="flex flex-col gap-4 justify-start items-start w-full sm:w-fit sm:max-w-sm">
-            <img
-              src="/dist/logo-white.webp"
-              alt="Mediatech Indonesia"
-              class="h-8 w-auto"
-            />
-            <p class="text-sm text-gray-300">
-              Jelajahi setiap lini kehidupan penuh warna bersama Mediatech
-              Indonesia
-            </p>
-          </div>
-
-          <!-- Company Links -->
-          <div>
-            <h4 class="font-semibold mb-4">Company</h4>
-            <ul class="space-y-2 text-sm text-gray-300">
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Service</li>
-              <li>Choose Us</li>
-              <li>Testimonials</li>
-            </ul>
-          </div>
-
-          <!-- Support Links -->
-          <div>
-            <h4 class="font-semibold mb-4">Support</h4>
-            <ul class="space-y-2 text-sm text-gray-300">
-              <li>Contact Us</li>
-              <li>Help Us</li>
-              <li>Customer Center</li>
-            </ul>
-          </div>
-
-          <!-- Contact -->
-          <div>
-            <h4 class="font-semibold mb-4">Contact</h4>
-            <ul class="space-y-2 text-sm text-gray-300">
-              <li>mediatech@company.com</li>
-              <li>+62 8123-4567-8900</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Branch Locations -->
-        <div class="mt-16 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 text-sm text-gray-300">
-          <!-- Location 1: Bali - Denpasar (Head) -->
-          <div>
-            <h5 class="font-semibold text-white mb-2">Bali - Denpasar (Head)</h5>
-            <div class="flex items-start gap-2">
-              <img
-                src="/dist/location-icon.webp"
-                alt="location icon"
-                class="w-4"
-              />
-              <p>Jl. Tukad Batanghari No.55, Panjer, Denpasar Selatan, Kota Denpasar, Bali 80225</p>
+            <div class="absolute bottom-0 right-0 pointer-events-none z-20 transform translate-y-2 translate-x-14">
+                <img
+                    src="/dist/white-ball.svg"
+                    alt="White ball ornament"
+                    class="w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-38 lg:h-38"
+                />
             </div>
-            <a
-              href="#"
-              class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
-            >
-              <img
-                src="/dist/to-maps-icon.webp"
-                alt="to maps icon"
-                class="w-4"
-              />
-              <span class="text-white opacity-80">Lihat di Peta</span>
-            </a>
-          </div>
 
-          <!-- Location 2: Bali - Gianyar -->
-          <div>
-            <h5 class="font-semibold text-white mb-2">Bali - Gianyar</h5>
-            <div class="flex items-start gap-2">
-              <img
-                src="/dist/location-icon.webp"
-                alt="location icon"
-                class="w-4"
-              />
-              <p>Jl. Dharma Giri No.777, Bitera, Kec. Gianyar, Kabupaten Gianyar, Bali 80581</p>
+            <div class="absolute bottom-0 left-0 pointer-events-none z-20 transform translate-y-8 -translate-x-10">
+                <img
+                    src="/dist/white-ball.svg"
+                    alt="White ball ornament"
+                    class="w-14 h-14 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28"
+                />
             </div>
-            <a
-              href="#"
-              class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
-            >
-              <img
-                src="/dist/to-maps-icon.webp"
-                alt="to maps icon"
-                class="w-4"
-              />
-              <span class="text-white opacity-80">Lihat di Peta</span>
-            </a>
-          </div>
 
-          <!-- Location 3: Surabaya -->
-          <div>
-            <h5 class="font-semibold text-white mb-2">Surabaya</h5>
-            <div class="flex items-start gap-2">
-              <img
-                src="/dist/location-icon.webp"
-                alt="location icon"
-                class="w-4"
-              />
-              <p>Jl. Tenggilis Tengah III No.1, Kendangsari, Kec. Tenggilis Mejoyo, Surabaya, Jawa Timur 60231</p>
+            <!-- Content -->
+            <div class="w-full max-w-6xl px-4 sm:px-6 md:px-6 flex justify-start flex-col items-start relative z-10 text-left">
+                <div class="w-full max-w-4xl">
+                    <!-- Subtitle -->
+                    <p class="text-white/80 text-xs sm:text-sm md:text-base italic mb-3 sm:mb-4 md:mb-6">
+                        It's Your Time!
+                    </p>
+                </div>
+
+                <div class="flex justify-between w-full items-start flex-col md:flex-row">
+                    <!-- Main Title -->
+                    <h2 class="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-tight font-bold max-w-[680px]">
+                        Have a Digital Idea? Let's Build Together
+                    </h2>
+
+                    <!-- CTA Button -->
+                    <button class="bg-white w-[140px] sm:w-[160px] md:w-[180px] mt-6 sm:mt-8 md:mt-0 lg:mt-0 hover:bg-gray-100 text-blue-600 h-fit justify-center align-center py-2 sm:py-3 text-sm sm:text-base md:text-lg font-medium rounded transition-colors duration-300 flex items-center gap-2">
+                        Get in touch
+                        <img
+                            src="/dist/arrow-icon-blue.webp"
+                            alt="Arrow"
+                            class="w-3 h-3 sm:w-4 sm:h-4"
+                        />
+                    </button>
+                </div>
             </div>
-            <a
-              href="#"
-              class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
-            >
-              <img
-                src="/dist/to-maps-icon.webp"
-                alt="to maps icon"
-                class="w-4"
-              />
-              <span class="text-white opacity-80">Lihat di Peta</span>
-            </a>
-          </div>
+        </section>
 
-          <!-- Location 4: Surabaya - Citraland -->
-          <div>
-            <h5 class="font-semibold text-white mb-2">Surabaya - Citraland</h5>
-            <div class="flex items-start gap-2">
-              <img
-                src="/dist/location-icon.webp"
-                alt="location icon"
-                class="w-4"
-              />
-              <p>Ruko Palma Galeria, RA3 No.11, Sememi, Kec. Benowo, Surabaya, Jawa Timur 60198</p>
+        <!-- Footer - Responsive -->
+        <footer class="bg-[#0F172A] text-white pt-12 sm:pt-16 pb-4 sm:pb-6 px-4 sm:px-6 md:px-12 w-full flex justify-center items-center">
+            <div class="flex flex-col w-full max-w-6xl">
+                <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-start gap-6 sm:gap-8 md:gap-10 w-full">
+                    <!-- Logo + Description -->
+                    <div class="flex flex-col gap-3 sm:gap-4 justify-start items-start w-full sm:w-fit sm:max-w-sm">
+                        <img
+                            src="/dist/logo-white.webp"
+                            alt="Mediatech Indonesia"
+                            class="h-6 sm:h-8 w-auto"
+                        />
+                        <p class="text-xs sm:text-sm text-gray-300">
+                            Jelajahi setiap lini kehidupan penuh warna bersama Mediatech Indonesia
+                        </p>
+                    </div>
+
+                    <!-- Links Grid - Mobile Stack, Desktop Side by Side -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 w-full sm:w-auto">
+                        <!-- Company Links -->
+                        <div>
+                            <h4 class="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">Company</h4>
+                            <ul class="space-y-1 sm:space-y-2 text-xs sm:text-sm text-gray-300">
+                                <li>Home</li>
+                                <li>About Us</li>
+                                <li>Service</li>
+                                <li>Choose Us</li>
+                                <li>Testimonials</li>
+                            </ul>
+                        </div>
+
+                        <!-- Support Links -->
+                        <div>
+                            <h4 class="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">Support</h4>
+                            <ul class="space-y-1 sm:space-y-2 text-xs sm:text-sm text-gray-300">
+                                <li>Contact Us</li>
+                                <li>Help Us</li>
+                                <li>Customer Center</li>
+                            </ul>
+                        </div>
+
+                        <!-- Contact -->
+                        <div>
+                            <h4 class="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">Contact</h4>
+                            <ul class="space-y-1 sm:space-y-2 text-xs sm:text-sm text-gray-300">
+                                <li>mediatech@company.com</li>
+                                <li>+62 8123-4567-8900</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Branch Locations -->
+                <div class="mt-12 sm:mt-16 max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-8 text-xs sm:text-sm text-gray-300">
+                    <!-- Location 1: Bali - Denpasar (Head) -->
+                    <div>
+                        <h5 class="font-semibold text-white mb-2 text-sm sm:text-base">Bali - Denpasar (Head)</h5>
+                        <div class="flex items-start gap-2">
+                            <img
+                                src="/dist/location-icon.webp"
+                                alt="location icon"
+                                class="w-3 sm:w-4 mt-0.5"
+                            />
+                            <p>Jl. Tukad Batanghari No.55, Panjer, Denpasar Selatan, Kota Denpasar, Bali 80225</p>
+                        </div>
+                        <a
+                            href="#"
+                            class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
+                        >
+                            <img
+                                src="/dist/to-maps-icon.webp"
+                                alt="to maps icon"
+                                class="w-3 sm:w-4"
+                            />
+                            <span class="text-white opacity-80 text-xs sm:text-sm">Lihat di Peta</span>
+                        </a>
+                    </div>
+
+                    <!-- Location 2: Bali - Gianyar -->
+                    <div>
+                        <h5 class="font-semibold text-white mb-2 text-sm sm:text-base">Bali - Gianyar</h5>
+                        <div class="flex items-start gap-2">
+                            <img
+                                src="/dist/location-icon.webp"
+                                alt="location icon"
+                                class="w-3 sm:w-4 mt-0.5"
+                            />
+                            <p>Jl. Dharma Giri No.777, Bitera, Kec. Gianyar, Kabupaten Gianyar, Bali 80581</p>
+                        </div>
+                        <a
+                            href="#"
+                            class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
+                        >
+                            <img
+                                src="/dist/to-maps-icon.webp"
+                                alt="to maps icon"
+                                class="w-3 sm:w-4"
+                            />
+                            <span class="text-white opacity-80 text-xs sm:text-sm">Lihat di Peta</span>
+                        </a>
+                    </div>
+
+                    <!-- Location 3: Surabaya -->
+                    <div>
+                        <h5 class="font-semibold text-white mb-2 text-sm sm:text-base">Surabaya</h5>
+                        <div class="flex items-start gap-2">
+                            <img
+                                src="/dist/location-icon.webp"
+                                alt="location icon"
+                                class="w-3 sm:w-4 mt-0.5"
+                            />
+                            <p>Jl. Tenggilis Tengah III No.1, Kendangsari, Kec. Tenggilis Mejoyo, Surabaya, Jawa Timur 60231</p>
+                        </div>
+                        <a
+                            href="#"
+                            class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
+                        >
+                            <img
+                                src="/dist/to-maps-icon.webp"
+                                alt="to maps icon"
+                                class="w-3 sm:w-4"
+                            />
+                            <span class="text-white opacity-80 text-xs sm:text-sm">Lihat di Peta</span>
+                        </a>
+                    </div>
+
+                    <!-- Location 4: Surabaya - Citraland -->
+                    <div>
+                        <h5 class="font-semibold text-white mb-2 text-sm sm:text-base">Surabaya - Citraland</h5>
+                        <div class="flex items-start gap-2">
+                            <img
+                                src="/dist/location-icon.webp"
+                                alt="location icon"
+                                class="w-3 sm:w-4 mt-0.5"
+                            />
+                            <p>Ruko Palma Galeria, RA3 No.11, Sememi, Kec. Benowo, Surabaya, Jawa Timur 60198</p>
+                        </div>
+                        <a
+                            href="#"
+                            class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
+                        >
+                            <img
+                                src="/dist/to-maps-icon.webp"
+                                alt="to maps icon"
+                                class="w-3 sm:w-4"
+                            />
+                            <span class="text-white opacity-80 text-xs sm:text-sm">Lihat di Peta</span>
+                        </a>
+                    </div>
+
+                    <!-- Location 5: Jember -->
+                    <div>
+                        <h5 class="font-semibold text-white mb-2 text-sm sm:text-base">Jember</h5>
+                        <div class="flex items-start gap-2">
+                            <img
+                                src="/dist/location-icon.webp"
+                                alt="location icon"
+                                class="w-3 sm:w-4 mt-0.5"
+                            />
+                            <p>Jl. Majapahit, Komplek Ruko Esplanade, no R-22 Kaliwates, Jember</p>
+                        </div>
+                        <a
+                            href="#"
+                            class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
+                        >
+                            <img
+                                src="/dist/to-maps-icon.webp"
+                                alt="to maps icon"
+                                class="w-3 sm:w-4"
+                            />
+                            <span class="text-white opacity-80 text-xs sm:text-sm">Lihat di Peta</span>
+                        </a>
+                    </div>
+
+                    <!-- Location 6: Banyuwangi -->
+                    <div>
+                        <h5 class="font-semibold text-white mb-2 text-sm sm:text-base">Banyuwangi</h5>
+                        <div class="flex items-start gap-2">
+                            <img
+                                src="/dist/location-icon.webp"
+                                alt="location icon"
+                                class="w-3 sm:w-4 mt-0.5"
+                            />
+                            <p>NX Point Lt. 2, Jl. Kepiting No.7 Sobo, Kec. Banyuwangi, Banyuwangi, Jawa Timur 68418</p>
+                        </div>
+                        <a
+                            href="#"
+                            class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
+                        >
+                            <img
+                                src="/dist/to-maps-icon.webp"
+                                alt="to maps icon"
+                                class="w-3 sm:w-4"
+                            />
+                            <span class="text-white opacity-80 text-xs sm:text-sm">Lihat di Peta</span>
+                        </a>
+                    </div>
+
+                    <!-- Location 7: Sidoarjo -->
+                    <div>
+                        <h5 class="font-semibold text-white mb-2 text-sm sm:text-base">Sidoarjo</h5>
+                        <div class="flex items-start gap-2">
+                            <img
+                                src="/dist/location-icon.webp"
+                                alt="location icon"
+                                class="w-3 sm:w-4 mt-0.5"
+                            />
+                            <p>Jl. Thamrin no 13, Sidokumpul, Kec. Sidoarjo</p>
+                        </div>
+                        <a
+                            href="#"
+                            class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
+                        >
+                            <img
+                                src="/dist/to-maps-icon.webp"
+                                alt="to maps icon"
+                                class="w-3 sm:w-4"
+                            />
+                            <span class="text-white opacity-80 text-xs sm:text-sm">Lihat di Peta</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Footer Bottom -->
+                <div class="mt-8 sm:mt-12 border-t border-white/10 pt-4 sm:pt-6 text-center text-xs text-gray-400">
+                    © 2025 Mediatech All Right Reserved
+                </div>
             </div>
-            <a
-              href="#"
-              class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
-            >
-              <img
-                src="/dist/to-maps-icon.webp"
-                alt="to maps icon"
-                class="w-4"
-              />
-              <span class="text-white opacity-80">Lihat di Peta</span>
-            </a>
-          </div>
-
-          <!-- Location 5: Jember -->
-          <div>
-            <h5 class="font-semibold text-white mb-2">Jember</h5>
-            <div class="flex items-start gap-2">
-              <img
-                src="/dist/location-icon.webp"
-                alt="location icon"
-                class="w-4"
-              />
-              <p>Jl. Majapahit, Komplek Ruko Esplanade, no R-22 Kaliwates, Jember</p>
-            </div>
-            <a
-              href="#"
-              class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
-            >
-              <img
-                src="/dist/to-maps-icon.webp"
-                alt="to maps icon"
-                class="w-4"
-              />
-              <span class="text-white opacity-80">Lihat di Peta</span>
-            </a>
-          </div>
-
-          <!-- Location 6: Banyuwangi -->
-          <div>
-            <h5 class="font-semibold text-white mb-2">Banyuwangi</h5>
-            <div class="flex items-start gap-2">
-              <img
-                src="/dist/location-icon.webp"
-                alt="location icon"
-                class="w-4"
-              />
-              <p>NX Point Lt. 2, Jl. Kepiting No.7 Sobo, Kec. Banyuwangi, Banyuwangi, Jawa Timur 68418</p>
-            </div>
-            <a
-              href="#"
-              class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
-            >
-              <img
-                src="/dist/to-maps-icon.webp"
-                alt="to maps icon"
-                class="w-4"
-              />
-              <span class="text-white opacity-80">Lihat di Peta</span>
-            </a>
-          </div>
-
-          <!-- Location 7: Sidoarjo -->
-          <div>
-            <h5 class="font-semibold text-white mb-2">Sidoarjo</h5>
-            <div class="flex items-start gap-2">
-              <img
-                src="/dist/location-icon.webp"
-                alt="location icon"
-                class="w-4"
-              />
-              <p>Jl. Thamrin no 13, Sidokumpul, Kec. Sidoarjo</p>
-            </div>
-            <a
-              href="#"
-              class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
-            >
-              <img
-                src="/dist/to-maps-icon.webp"
-                alt="to maps icon"
-                class="w-4"
-              />
-              <span class="text-white opacity-80">Lihat di Peta</span>
-            </a>
-          </div>
-        </div>
-
-        <!-- Footer Bottom -->
-        <div class="mt-12 border-t border-white/10 pt-6 text-center text-xs text-gray-400">
-          © 2025 Mediatech All Right Reserved
-        </div>
-      </div>
-    </footer>
+        </footer>
     </body>
 </html>
