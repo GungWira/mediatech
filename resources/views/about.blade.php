@@ -46,5 +46,25 @@
             </div>
         </div>
       </section>
+
+      <section class="w-full min-h-screen flex flex-col justify-center items-center bg-white relative">
+        <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex justify-center items-start ">
+            <div class="w-1/2 h-full flex justify-center items-center">
+              <img src="dist/about/about.png" alt="About Image" class="w-full h-auto object-cover rounded-lg shadow-lg" />
+            </div>
+            <div class="w-1/2 min-h-full flex justify-start items-start flex-col pl-12 gap-4">
+              <h3 class="text-blue-600 tracking-widest text-sm font-medium">
+                ABOUT COMPANY
+              </h3>
+              <h2 class="text-[#202020] text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-xl mx-auto pr-20">
+                Smart, Integrated Digital Solutions to Grow Your Brand
+              </h2>
+              <div class="w-full h-[1px] bg-gray-300 mt-20"></div>
+              <p class="text-sm md:text-base opacity-80 leading-relaxed max-w-3xl mx-auto">
+                Mediatech Indonesia adalah perusahaan teknologi yang menyediakan solusi digital terintegrasi untuk membantu bisnis tumbuh dan bertransformasi di era digital. Dengan pengalaman lebih dari satu dekade, kami hadir sebagai mitra andal dalam menghadapi tantangan teknologi masa kini.
+              </p>
+            </div>
+        </div>
+      </section>
     </body>
 </html>
