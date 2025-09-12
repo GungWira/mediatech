@@ -176,5 +176,66 @@
             </div>
         </div>
       </section>
+
+      <section class="w-full min-h-screen flex flex-col justify-center items-center bg-white relative py-12">
+        <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex justify-center items-start">
+            <img src="/dist/about/ceo-profile (1).png" alt="" class="w-[40%] h-auto object-cover rounded-lg" />
+          <div class="min-h-full flex justify-start items-start flex-col pl-12 gap-4">
+              <h3 class="text-blue-600 tracking-widest text-sm font-medium">
+                CEO FOUNDER
+              </h3>
+              <h2 class="text-[#202020] text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-xl pr-8">
+                Leading with Vision, Growing through Impact
+              </h2>
+              <p class="text-sm md:text-base opacity-80 leading-relaxed max-w-3xl ">
+                “Saya percaya bahwa inovasi lahir dari keberanian untuk mencoba, gagal, dan terus berkembang. Di Mediatech, kami membangun masa depan melalui kolaborasi dan keberlanjutan. Mari tumbuh bersama dan ciptakan dampak yang berarti di setiap langkah.”
+              </p>
+            </div>
+        </div>
+      </section>
+      <section class="w-full min-h-screen flex flex-col justify-center items-center bg-white relative py-12">
+        <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex flex-row-reverse justify-center items-start">
+            <img src="/dist/about/ceo-profile (2).png" alt="" class="w-[40%] h-auto object-cover rounded-lg" />
+          <div class="min-h-full flex justify-start items-start flex-col pl-12 gap-4">
+              <h3 class="text-blue-600 tracking-widest text-sm font-medium">
+                OUR CO-FOUNDER
+              </h3>
+              <h2 class="text-[#202020] text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-xl pr-8">
+                Leading with Vision, Growing through Impact
+              </h2>
+              <p class="text-sm md:text-base opacity-80 leading-relaxed max-w-3xl ">
+                “Saya percaya bahwa inovasi lahir dari keberanian untuk mencoba, gagal, dan terus berkembang. Di Mediatech, kami membangun masa depan melalui kolaborasi dan keberlanjutan. Mari tumbuh bersama dan ciptakan dampak yang berarti di setiap langkah.”
+              </p>
+            </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+    <section class="w-full py-16 md:py-20 bg-white flex justify-center items-center">
+      <div class="w-full max-w-6xl px-4 md:px-6 flex justify-center items-center flex-col">
+        <div class="w-full mx-auto">
+          <!-- Header -->
+          <div class="flex flex-col lg:flex-row lg:items-end gap-6 md:gap-8 mb-8 md:mb-12 justify-start">
+            <div class="lg:w-1/2">
+              <h3 class="text-blue-600 tracking-widest text-sm font-medium">
+                TEAMS
+              </h3>
+              <h2 class="text-[#202020] mt-2 text-2xl md:text-3xl lg:text-4xl leading-tight font-bold">
+                Meet the Team Driving Innovation at Mediatech
+              </h2>
+            </div>
+            <div class="lg:w-1/2 flex justify-start lg:justify-end items-end">
+              <p class="text-sm md:text-base opacity-80 leading-relaxed text-left lg:text-right lg:max-w-[540px] pl-[120px]">
+                Tim Mediatech terdiri dari individu berdedikasi dengan semangat inovasi dan kolaborasi, siap menciptakan solusi yang berarti dan berkelanjutan.
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full h-2/3 flex justify-center items-center">
+            <img src="/dist/about/teams.png" alt="" class="w-full h-auto object-cover rounded-lg" />
+          </div>
+          </div>
+      </div>
+    </section>
     </body>
 </html>
