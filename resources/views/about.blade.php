@@ -8,7 +8,7 @@
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
+        <link href="https://fonts.bunny.net/css?family=montserrat:400,500,600,700,800,900" rel="stylesheet" />
 
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
@@ -20,37 +20,30 @@
         @endif
     </head>
     <body class="bg-white">
+        <x-navbar/>
         <section
         class="w-full min-h-screen flex justify-center items-center bg-[#0C192B] bg-cover bg-center relative pt-20"
-        style="background-image: url('/assets/bgheader.png');"
+        style="background-image: url('dist/about/headerbg.png');"
         id="home"
       >
+      <img src="dist/about/sphere.svg" alt="" class="absolute top-1/2 left-1/2 w-[40%] -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none" />
         <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex justify-center items-center">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center w-full">
-            <div class="flex flex-col justify-center items-start md:items-center lg:items-start gap-4 text-left md:text-center lg:text-left">
+            <div class="flex flex-col justify-center items-center md:items-center lg:items-center gap-4 text-center md:text-center">
               <p class="italic opacity-60 text-white text-sm md:text-base">
                 Indonesian Digital Company
               </p>
-              <h1 class="font-bold text-3xl md:text-4xl lg:text-6xl leading-tight text-white">
-                Ini Halaman About
+              <h1 class="font-bold text-3xl md:text-4xl lg:text-6xl leading-tight text-white text-center max-w-[80%]">
+                Smart Tech for Digital Innovation
               </h1>
-              <p class="text-sm md:text-base opacity-60 text-white max-w-lg">
-                Solusi digital terintegrasi untuk mendukung transformasi dan
-                pertumbuhan bisnis Anda di era teknologi.
+              <p class="text-sm md:text-base opacity-60 text-white max-w-lg text-center">
+                Mediatech Indonesia membantu bisnis bertransformasi secara digital melalui solusi teknologi yang cerdas dan tepat guna.
               </p>
-              <div class="mt-4 w-full flex justify-start md:justify-center lg:justify-start md:mb-8">
-                <Button>Get in touch</Button>
+              <div class="mt-4 w-full flex justify-center md:justify-center lg:justify-center md:mb-8">
+                <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200">
+                  Explore Our Company
+                </button>
               </div>
             </div>
-
-            <div class="flex justify-center lg:justify-end items-center order-first lg:order-last">
-              <img
-                src="https://github.com/Radityas-hub/mediatech-lp/blob/main/public/header-home.png?raw=true"
-                alt="Mediatech Hero Image"
-                class="w-full max-w-md lg:max-w-none lg:w-4/5 h-auto object-contain"
-              />
-            </div>
-          </div>
         </div>
       </section>
     </body>
