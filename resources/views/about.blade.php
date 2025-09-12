@@ -66,5 +66,72 @@
             </div>
         </div>
       </section>
+
+      <section class="w-full min-h-screen flex flex-col justify-center items-center bg-white relative">
+        <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex justify-center items-center flex-col">
+                      <div class="text-center space-y-4 md:space-y-6">
+              <h3 class="text-blue-600 tracking-widest text-sm font-medium">
+                ABOUT US
+              </h3>
+              <h2 class="text-[#202020] text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-5xl mx-auto">
+                Innovative Solutions Across Industries Focused on Quality, Technology and Impact
+              </h2>
+              <p class="text-sm md:text-base opacity-80 leading-relaxed max-w-2xl mx-auto px-8">
+                Mediatech Indonesia menciptakan solusi inovatif lintas industri dengan fokus pada kualitas, smart technology, dan dampak positif yang nyata bagi bisnis dan kehidupan sehari-hari.
+              </p>
+            </div>
+            
+            <!-- 4 Points Grid -->
+            <div class="w-full max-w-6xl mx-auto mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 px-4">
+              <!-- Point 1 -->
+              <div class="flex items-start gap-4">
+                <div class="flex-shrink-0 w-12 h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
+                  <span class="text-blue-600 font-bold text-lg">1</span>
+                </div>
+                <div class="flex-1">
+                  <p class="text-[#202020] text-base font-semibold md:text-lg leading-relaxed">
+                    Membangun ekosistem bisnis terintegrasi yang memberikan dampak positif bagi pelanggan, komunitas, dan lingkungan.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Point 2 -->
+              <div class="flex items-start gap-4">
+                <div class="flex-shrink-0 w-12 h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
+                  <span class="text-blue-600 font-bold text-lg">2</span>
+                </div>
+                <div class="flex-1">
+                  <p class="text-[#202020] text-base font-semibold md:text-lg leading-relaxed">
+                    Mendorong digital transformation dan memperluas akses terhadap teknologi untuk generasi masa depan.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Point 3 -->
+              <div class="flex items-start gap-4">
+                <div class="flex-shrink-0 w-12 h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
+                  <span class="text-blue-600 font-bold text-lg">3</span>
+                </div>
+                <div class="flex-1">
+                  <p class="text-[#202020] text-base font-semibold md:text-lg leading-relaxed">
+                    Menjadi mitra terpercaya dalam menghadirkan solusi teknologi yang relevan dan kompetitif secara global.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Point 4 -->
+              <div class="flex items-start gap-4">
+                <div class="flex-shrink-0 w-12 h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
+                  <span class="text-blue-600 font-bold text-lg">4</span>
+                </div>
+                <div class="flex-1">
+                  <p class="text-[#202020] text-base font-semibold md:text-lg leading-relaxed">
+                    Mengembangkan lini usaha F&B dan properti dengan fokus pada kualitas, kenyamanan, dan pengalaman pelanggan.
+                  </p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
     </body>
 </html>
