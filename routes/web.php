@@ -10,6 +10,10 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/blogs', function () {
+    return view('blogs');
+});
+
 Route::get('/csr', function () {
     return view('csr');
 });

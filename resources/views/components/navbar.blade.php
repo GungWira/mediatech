@@ -19,13 +19,13 @@
                 <a href="/" class="nav-link {{ $isLight ? 'text-black/80 hover:text-black' : 'text-white/80 hover:text-white' }} transition-colors duration-200 font-medium">
                     Home
                 </a>
-                <a href="#about" class="nav-link {{ $isLight ? 'text-black/80 hover:text-black' : 'text-white/80 hover:text-white' }} transition-colors duration-200 font-medium">
+                <a href="/about" class="nav-link {{ $isLight ? 'text-black/80 hover:text-black' : 'text-white/80 hover:text-white' }} transition-colors duration-200 font-medium">
                     About
                 </a>
-                <a href="#services" class="nav-link {{ $isLight ? 'text-black/80 hover:text-black' : 'text-white/80 hover:text-white' }} transition-colors duration-200 font-medium">
+                <a href="/service" class="nav-link {{ $isLight ? 'text-black/80 hover:text-black' : 'text-white/80 hover:text-white' }} transition-colors duration-200 font-medium">
                     Services
                 </a>
-                <a href="#blog" class="nav-link {{ $isLight ? 'text-black/80 hover:text-black' : 'text-white/80 hover:text-white' }} transition-colors duration-200 font-medium">
+                <a href="/blogs" class="nav-link {{ $isLight ? 'text-black/80 hover:text-black' : 'text-white/80 hover:text-white' }} transition-colors duration-200 font-medium">
                     Blog
                 </a>
                 <a href="/csr" class="nav-link {{ $isLight ? 'text-black/80 hover:text-black' : 'text-white/80 hover:text-white' }} transition-colors duration-200 font-medium">

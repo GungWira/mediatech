@@ -50,8 +50,9 @@
                 pertumbuhan bisnis Anda di era teknologi.
               </p>
               <div class="mt-4 w-full flex justify-start md:justify-center lg:justify-start md:mb-8">
-                <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200">
+                <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded transition-colors duration-200">
                   Get in touch
+                  <img src="dist/arrow-icon.webp" alt="" class="w-4 h-4 inline-block ml-2" />
                 </button>
               </div>
             </div>
@@ -473,8 +474,9 @@
 
             <!-- CTA Button -->
             <div class="flex justify-start">
-              <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200">
+              <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded transition-colors duration-200">
                 Get in touch
+                <img src="dist/arrow-icon.webp" alt="" class="w-4 h-4 inline-block ml-2" />
               </button>
             </div>
           </div>
@@ -924,8 +926,9 @@
           </p>
 
           <!-- CTA Button -->
-          <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200">
+          <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded transition-colors duration-200">
             Peluang Karir
+            <img src="dist/arrow-icon.webp" alt="" class="w-4 h-4 inline-block ml-2" />
           </button>
         </div>
       </div>
