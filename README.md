@@ -59,3 +59,62 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Menjalankan Proyek (Development)
+
+Bagian ini menjelaskan langkah cepat untuk menyiapkan dan menjalankan proyek pada mesin development (Windows PowerShell contoh perintah). Pastikan Anda memiliki PHP (8.x+), Composer, Node.js (v16+ direkomendasikan) dan npm/yarn terinstall, serta database (MySQL/Postgres) yang dikonfigurasi.
+
+1. Clone repository (jika belum):
+
+	git clone <repo-url>
+
+2. Masuk ke direktori proyek:
+
+	cd path/to/project
+
+3. Install dependensi PHP (Composer):
+
+	composer install
+
+4. Copy file environment dan konfigurasi dasar:
+
+	# PowerShell
+	Copy-Item -Path .env.example -Destination .env
+
+	# atau (bash)
+	cp .env.example .env
+
+5. Generate application key:
+
+	php artisan key:generate
+
+6. Atur konfigurasi database di file `.env` (DB_CONNECTION, DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD). Setelah konfigurasi database selesai, jalankan migrasi:
+
+	php artisan migrate
+
+	Jika Anda ingin juga menjalankan seeder (jika tersedia):
+
+	php artisan db:seed
+
+7. Install dependensi front-end dan jalankan Vite (development):
+
+	npm install
+	npm run dev
+
+	Untuk build produksi:
+
+	npm run build
+
+8. Jalankan server development Laravel (opsional):
+
+	php artisan serve --host=127.0.0.1 --port=8000
+
+9. Buka browser ke http://127.0.0.1:8000 atau ke URL yang ditampilkan oleh `php artisan serve` / Vite dev server.
+
+Tips & Troubleshooting
+- Jika mendapat error permission pada Windows PowerShell saat menjalankan script npm, jalankan PowerShell sebagai Administrator atau gunakan Git Bash/WSL.
+- Pastikan ekstensi PHP yang diperlukan (pdo, pdo_mysql) aktif untuk koneksi database.
+- Jika ada file environment lain (.env.local, .env.testing), sesuaikan dengan kebutuhan environment Anda.
+- Untuk push ke remote GitHub, pastikan Anda sudah mengatur remote dan authentication (SSH key atau Personal Access Token jika menggunakan HTTPS).
+
+Jika Anda ingin saya yang melakukan langkah push ke remote tertentu, beri tahu remote URL dan saya akan bantu menyiapkan perintah yang harus Anda jalankan (atau saya bisa menjalankan push bila Anda memberikan akses). 
