@@ -222,7 +222,7 @@
       </section>
 
       <section class="relative w-full flex flex-col items-center py-16 md:py-20 bg-white overflow-hidden">
-      <div class="absolute top-[240px] right-0 md:bottom-[430px] md:top-[270px] md:right-0 lg:right-24 pointer-events-none z-20">
+      <div class="absolute top-[240px] right-0 md:bottom-[430px] md:top-[270px] md:right-0 lg:right-35 pointer-events-none z-20">
         <img
           src="/dist/gear.svg"
           alt="Gear ornament"
@@ -230,7 +230,7 @@
         />
       </div>
 
-      <div class="absolute bottom-6 left-4 md:bottom-6 md:left-8 lg:left-22  pointer-events-none z-20">
+      <div class="absolute bottom-6 left-4 md:bottom-6 md:left-8 lg:left-40  pointer-events-none z-20">
         <img
           src="/dist/gear.svg"
           alt="Gear ornament"
@@ -253,7 +253,7 @@
           </p>
         </div>
 
-        <div class="relative mt-8 md:mt-12 w-full max-w-4xl rounded-2xl overflow-hidden shadow-lg bg-[#d9d9d9] z-0">
+        <div class="relative mt-8 md:mt-12 w-full max-w-6xl rounded-2xl overflow-hidden shadow-lg bg-[#d9d9d9] z-0">
           <img
             src="/dist/video-placeholder.png"
             alt="Video about Mediatech"
@@ -430,7 +430,7 @@
         />
       </div>
 
-      <div class="absolute bottom-1/8 left-80 pointer-events-none z-20 hidden lg:block">
+      <div class="absolute bottom-1/8 left-120 pointer-events-none z-20 hidden lg:block">
         <img
           src="/dist/blue-ball.svg"
           alt="Blue ball ornament"
