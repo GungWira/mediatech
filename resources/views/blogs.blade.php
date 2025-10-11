@@ -72,12 +72,12 @@
             </div>
 
             <!-- Blog Posts Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
+            <div class="mb-12 md:mb-16">
             
             <!-- Page 1 Posts -->
-            <div id="page-1-posts" class="contents">
+            <div id="page-1-posts" class="flex flex-wrap justify-end gap-4 md:gap-4 lg:gap-6 w-full">
             <!-- Blog Post 1 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -100,7 +100,7 @@
             </article>
 
             <!-- Blog Post 2 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -123,7 +123,7 @@
             </article>
 
             <!-- Blog Post 3 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -146,7 +146,7 @@
             </article>  
             
             <!-- Blog Post 4 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -169,7 +169,7 @@
             </article>
 
             <!-- Blog Post 5 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -192,7 +192,7 @@
             </article>
 
             <!-- Blog Post 6 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -215,7 +215,7 @@
             </article>
 
             <!-- Blog Post 7 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -238,7 +238,7 @@
             </article>
 
             <!-- Blog Post 8 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -261,7 +261,7 @@
             </article>
 
             <!-- Blog Post 9 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -285,9 +285,9 @@
             </div>
 
             <!-- Page 2 Posts (Hidden by default) -->
-            <div id="page-2-posts" class="hidden">
+            <div id="page-2-posts" class="hidden w-full">
             <!-- Blog Post 10 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -310,7 +310,7 @@
             </article>
 
             <!-- Blog Post 11 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -333,7 +333,7 @@
             </article>
 
             <!-- Blog Post 12 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -356,7 +356,7 @@
             </article>
 
             <!-- Blog Post 13 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -379,7 +379,7 @@
             </article>
 
             <!-- Blog Post 14 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -402,7 +402,7 @@
             </article>
 
             <!-- Blog Post 15 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -425,7 +425,7 @@
             </article>
 
             <!-- Blog Post 16 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -448,7 +448,7 @@
             </article>
 
             <!-- Blog Post 17 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -471,7 +471,7 @@
             </article>
 
             <!-- Blog Post 18 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -495,9 +495,9 @@
             </div>
 
             <!-- Page 3 Posts (Hidden by default) -->
-            <div id="page-3-posts" class="hidden">
+            <div id="page-3-posts" class="hidden w-full">
             <!-- Blog Post 19 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -520,7 +520,7 @@
             </article>
 
             <!-- Blog Post 20 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -543,7 +543,7 @@
             </article>
 
             <!-- Blog Post 21 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -566,7 +566,7 @@
             </article>
 
             <!-- Blog Post 22 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -589,7 +589,7 @@
             </article>
 
             <!-- Blog Post 23 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -612,7 +612,7 @@
             </article>
 
             <!-- Blog Post 24 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -635,7 +635,7 @@
             </article>
 
             <!-- Blog Post 25 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -658,7 +658,7 @@
             </article>
 
             <!-- Blog Post 26 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -681,7 +681,7 @@
             </article>
 
             <!-- Blog Post 27 -->
-            <article class="cursor-pointer">
+            <article class="cursor-pointer w-full md:w-1/2 lg:w-1/3 md:max-w-[calc(50%-0.5rem)] lg:max-w-[calc(33.333%-1rem)]">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -1020,10 +1020,12 @@
                 if (pageElement && buttonElement) {
                     if (i === pageNumber) {
                         pageElement.classList.remove('hidden');
+                        pageElement.classList.add('flex', 'flex-wrap', 'justify-end', 'gap-4', 'md:gap-4', 'lg:gap-6', 'w-full');
                         buttonElement.classList.remove('text-gray-700', 'bg-white', 'border-gray-300');
                         buttonElement.classList.add('text-white', 'bg-blue-600', 'border-blue-600');
                     } else {
                         pageElement.classList.add('hidden');
+                        pageElement.classList.remove('flex', 'flex-wrap', 'justify-end', 'gap-4', 'md:gap-4', 'lg:gap-6', 'w-full');
                         buttonElement.classList.remove('text-white', 'bg-blue-600', 'border-blue-600');
                         buttonElement.classList.add('text-gray-700', 'bg-white', 'border-gray-300');
                     }

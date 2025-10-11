@@ -865,8 +865,8 @@
     </section>
 
     <!-- Careers Section -->
-    <section class="relative w-full py-16 md:py-20 min-h-[70vh] md:min-h-[80vh] bg-cover bg-center bg-no-repeat overflow-hidden" style="background-image: url('/dist/careers-background.jpg');">
-      <div class="relative w-full min-h-[70vh] md:min-h-[80vh] max-w-6xl mx-auto px-4 md:px-6 z-10 flex justify-center items-center">
+    <section class="relative w-full py-4 md:py-4 min-h-[40vh] lg:min-h-[80vh] lg:py-16 bg-cover bg-center bg-no-repeat overflow-hidden" style="background-image: url('/dist/careers-background.jpg');">
+      <div class="relative w-full min-h-[40vh] lg:min-h-[80vh] lg:py-16 max-w-6xl mx-auto px-4 md:px-6 z-10 flex justify-center items-center">
         <!-- Floating Images -->
         <div class="absolute inset-0 pointer-events-none hidden lg:block">
           <!-- Top Left Image -->

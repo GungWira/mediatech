@@ -41,7 +41,7 @@
                     <p class="italic opacity-60 text-white text-xs sm:text-sm md:text-base">
                         Indonesian Digital Company
                     </p>
-                    <h1 class="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight text-white text-center px-8">
+                    <h1 class="font-bold text-2xl sm:text-3xl md:text-4xl md:px-24 lg:text-5xl xl:text-6xl leading-tight text-white text-center px-8">
                         Smart Tech for Digital Innovation
                     </h1>
                     <p class="text-xs sm:text-sm md:text-base opacity-60 text-white max-w-lg text-center ">
