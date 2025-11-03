@@ -72,10 +72,10 @@
             </div>
 
             <!-- Blog Posts Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
+            <div class="mb-12 md:mb-16">
 
             <!-- Page 1 Posts -->
-            <div id="page-1-posts" class="contents">
+            <div id="page-1-posts" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             <!-- Blog Post 1 -->
             <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
@@ -285,7 +285,7 @@
             </div>
 
             <!-- Page 2 Posts (Hidden by default) -->
-            <div id="page-2-posts" class="hidden">
+            <div id="page-2-posts" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 hidden">
             <!-- Blog Post 10 -->
             <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
@@ -495,7 +495,7 @@
             </div>
 
             <!-- Page 3 Posts (Hidden by default) -->
-            <div id="page-3-posts" class="hidden">
+            <div id="page-3-posts" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 hidden">
             <!-- Blog Post 19 -->
             <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
@@ -1020,10 +1020,12 @@
                 if (pageElement && buttonElement) {
                     if (i === pageNumber) {
                         pageElement.classList.remove('hidden');
+                        pageElement.classList.add('flex', 'flex-wrap', 'justify-end', 'gap-4', 'md:gap-4', 'lg:gap-6', 'w-full');
                         buttonElement.classList.remove('text-gray-700', 'bg-white', 'border-gray-300');
                         buttonElement.classList.add('text-white', 'bg-blue-600', 'border-blue-600');
                     } else {
                         pageElement.classList.add('hidden');
+                        pageElement.classList.remove('flex', 'flex-wrap', 'justify-end', 'gap-4', 'md:gap-4', 'lg:gap-6', 'w-full');
                         buttonElement.classList.remove('text-white', 'bg-blue-600', 'border-blue-600');
                         buttonElement.classList.add('text-gray-700', 'bg-white', 'border-gray-300');
                     }
