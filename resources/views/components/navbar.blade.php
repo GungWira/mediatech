@@ -83,13 +83,13 @@
                 <a href="/" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
                     Home
                 </a>
-                <a href="#about" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
+                <a href="/about" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
                     About
                 </a>
-                <a href="#services" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
+                <a href="/services" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
                     Services
                 </a>
-                <a href="#blog" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
+                <a href="/blogs" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
                     Blog
                 </a>
                 <a href="/csr" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
