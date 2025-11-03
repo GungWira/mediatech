@@ -14,6 +14,10 @@ Route::get('/blogs', function () {
     return view('blogs');
 });
 
+Route::get('/blog/detail', function () {
+    return view('blogdetail');
+});
+
 Route::get('/csr', function () {
     return view('csr');
 });

@@ -24,19 +24,19 @@
         <section class="w-full min-h-screen flex justify-center items-center bg-[#0C192B] bg-cover bg-center relative pt-16 sm:pt-20 overflow-x-hidden"
                  style="background-image: url('dist/about/headerbg.png');"
                  id="home">
-            <img src="dist/about/sphere.svg" 
-                 alt="Decorative sphere" 
+            <img src="dist/about/sphere.svg"
+                 alt="Decorative sphere"
                  class="absolute top-1/2 left-1/2 w-[60%] sm:w-[50%] md:w-[40%] -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none z-0" />
 
-            <img src="dist/gear.svg" alt="" 
+            <img src="dist/gear.svg" alt=""
                  class="absolute top-20 -left-10 w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 pointer-events-none select-none z-0" />
-            <img src="dist/gear.svg" alt="" 
+            <img src="dist/gear.svg" alt=""
                  class="absolute bottom-20 -right-10 w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 pointer-events-none select-none z-0" />
-            <img src="dist/blue-ball.svg" alt="" 
+            <img src="dist/blue-ball.svg" alt=""
                  class="absolute bottom-20 left-1/4 w-12 h-12 pointer-events-none select-none z-0" />
-            <img src="dist/blue-ball.svg" alt="" 
+            <img src="dist/blue-ball.svg" alt=""
                  class="absolute top-50 right-1/6 w-8 h-8 pointer-events-none select-none z-0" />
-            
+
             <div class="w-full min-h-[80vh] max-w-6xl px-4 sm:px-6 lg:px-8 flex justify-center items-center z-10">
                 <div class="flex flex-col justify-center items-center gap-4 sm:gap-6 text-center max-w-4xl">
                     <p class="italic opacity-60 text-white text-xs sm:text-sm md:text-base">
@@ -73,7 +73,7 @@
 
             <!-- Blog Posts Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
-            
+
             <!-- Page 1 Posts -->
             <div id="page-1-posts" class="contents">
             <!-- Blog Post 1 -->
@@ -143,8 +143,8 @@
                     Panduan singkat bagi pelaku bisnis properti dalam memanfaatkan solusi digital untuk mengoptimalkan operasional dan pengalaman pelanggan.
                 </p>
                 </div>
-            </article>  
-            
+            </article>
+
             <!-- Blog Post 4 -->
             <article class="cursor-pointer">
                 <!-- Blog Image -->
@@ -1016,7 +1016,7 @@
             for (let i = 1; i <= 3; i++) {
                 const pageElement = document.getElementById(`page-${i}-posts`);
                 const buttonElement = document.getElementById(`page-${i}`);
-                
+
                 if (pageElement && buttonElement) {
                     if (i === pageNumber) {
                         pageElement.classList.remove('hidden');
@@ -1029,13 +1029,13 @@
                     }
                 }
             }
-            
+
             currentPage = pageNumber;
-            
+
             // Smooth scroll to top of blog section
             const blogSection = document.querySelector('#blog-section');
             if (blogSection) {
-                blogSection.scrollIntoView({ 
+                blogSection.scrollIntoView({
                     behavior: 'smooth',
                     block: 'start'
                 });
