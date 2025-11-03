@@ -26,7 +26,8 @@
                  id="home">
             <img src="dist/about/sphere.svg" 
                  alt="Decorative sphere" 
-                 class="absolute top-1/2 left-1/2 w-[60%] sm:w-[50%] md:w-[40%] -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none" />
+                 class="absolute top-1/2 left-1/2 w-[60%] sm:w-[50%] md:w-[40%] -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none z-0" />
+
             <img src="dist/gear.svg" alt="" 
                  class="absolute top-20 -left-10 w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 pointer-events-none select-none z-0" />
             <img src="dist/gear.svg" alt="" 
@@ -34,18 +35,18 @@
             <img src="dist/blue-ball.svg" alt="" 
                  class="absolute bottom-20 left-1/4 w-12 h-12 pointer-events-none select-none z-0" />
             <img src="dist/blue-ball.svg" alt="" 
-                 class="absolute top-50 right-1/6 w-8 h-8 pointer-events-none select-none z-0" />            
-
-            <div class="w-full min-h-[80vh] max-w-6xl px-4 sm:px-6 lg:px-8 flex justify-center items-center">
+                 class="absolute top-50 right-1/6 w-8 h-8 pointer-events-none select-none z-0" />
+            
+            <div class="w-full min-h-[80vh] max-w-6xl px-4 sm:px-6 lg:px-8 flex justify-center items-center z-10">
                 <div class="flex flex-col justify-center items-center gap-4 sm:gap-6 text-center max-w-4xl">
                     <p class="italic opacity-60 text-white text-xs sm:text-sm md:text-base">
                         Indonesian Digital Company
                     </p>
-                    <h1 class="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight text-white text-center px-8">
-                        Smart Tech for Digital Innovation
+                    <h1 class="font-bold text-2xl sm:text-3xl lg:text-6xl xl:text-6xl leading-tight text-white text-center w-[80%] lg:w-[70%]">
+                        Discover Our Fresh Industry Stories
                     </h1>
-                    <p class="text-xs sm:text-sm md:text-base opacity-60 text-white max-w-lg text-center ">
-                        Mediatech Indonesia membantu bisnis bertransformasi secara digital melalui solusi teknologi yang cerdas dan tepat guna.
+                    <p class="text-xs sm:text-sm md:text-base opacity-60 text-white max-w-xl text-center ">
+                        Baca berbagai wawasan terbaru, cerita inspiratif, dan update teknologi dari sudut pandang tim Mediatech yang bergerak di berbagai industri.
                     </p>
                     <div class="mt-4 sm:mt-6 w-full flex justify-center">
                         <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 sm:py-3 sm:px-6 text-sm sm:text-base rounded transition-colors duration-200">
@@ -57,213 +58,669 @@
             </div>
         </section>
 
-        <!-- About Company Section - Responsive -->
-        <section class="w-full py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col justify-center items-center bg-white relative">
-            <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row justify-center items-center lg:items-start gap-8 lg:gap-12">
-                <!-- Image Container -->
-                <div class="w-full lg:w-1/2 flex justify-center items-center">
-                    <img src="dist/about/about.png" 
-                         alt="About Image" 
-                         class="w-full max-w-md lg:max-w-none h-auto object-cover rounded-lg shadow-lg" />
-                </div>
-                
-                <!-- Content Container -->
-                <div class="w-full lg:w-1/2 flex flex-col justify-start items-start gap-4 sm:gap-6 text-center lg:text-left lg:pl-8 xl:pl-12 md:justify-center md:items-center">
-                    <h3 class="text-blue-600 tracking-widest text-xs sm:text-sm font-medium md:text-center text-left lg:text-left w-full">
-                        ABOUT COMPANY
-                    </h3>
-                    <h2 class="text-[#202020] text-xl sm:text-2xl text-left md:text-center md:text-3xl lg:text-4xl leading-tight font-bold max-w-xl md:w-full lg:text-left pr-8">
-                        Smart, Integrated Digital Solutions to Grow Your Brand
-                    </h2>
-                    <div class="w-full h-[1px] bg-gray-300 mt-6 sm:mt-8 md:mt-0 lg:mt-12"></div>
-                    <p class="text-xs sm:text-sm md:text-base opacity-80 leading-relaxed max-w-3xl text-left md:text-center lg:text-left">
-                        Mediatech Indonesia adalah perusahaan teknologi yang menyediakan solusi digital terintegrasi untuk membantu bisnis tumbuh dan bertransformasi di era digital. Dengan pengalaman lebih dari satu dekade, kami hadir sebagai mitra andal dalam menghadapi tantangan teknologi masa kini.
-                    </p>
-                </div>
+        <!-- Blog Section -->
+        <section id="blog-section" class="relative w-full py-16 md:py-20 bg-white">
+        <div class="w-full max-w-6xl mx-auto px-4 md:px-6">
+            <!-- Header -->
+            <div class="text-center mb-12 md:mb-16">
+            <h3 class="text-blue-600 tracking-widest text-sm font-medium mb-4">
+                BLOGS
+            </h3>
+            <h2 class="text-[#202020] text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 md:mb-6 max-w-[80%] mx-auto">
+                Empowering Innovation Through Digital Technology
+            </h2>
             </div>
-        </section>
 
-        <!-- Vision & Mission Section - Responsive -->
-        <section class="w-full py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col justify-center items-center bg-white relative">
-            <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex justify-center items-center flex-col">
-                <!-- Header -->
-                <div class="text-center space-y-4 sm:space-y-6 mb-8 sm:mb-12">
-                    <h3 class="text-blue-600 tracking-widest text-xs sm:text-sm font-medium">
-                        VISION & MISSION
-                    </h3>
-                    <h2 class="text-[#202020] text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-5xl mx-auto px-4">
-                        Innovative Solutions Across Industries Focused on Quality, Technology and Impact
-                    </h2>
-                    <p class="text-xs sm:text-sm md:text-base opacity-80 leading-relaxed max-w-2xl mx-auto px-4 sm:px-6">
-                        Mediatech Indonesia menciptakan solusi inovatif lintas industri dengan fokus pada kualitas, smart technology, dan dampak positif yang nyata bagi bisnis dan kehidupan sehari-hari.
-                    </p>
+            <!-- Blog Posts Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
+            
+            <!-- Page 1 Posts -->
+            <div id="page-1-posts" class="contents">
+            <!-- Blog Post 1 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Mengapa UI/UX Menjadi Kunci Transformasi Digital"
+                    class="w-full h-full object-cover"
+                />
                 </div>
-                
-                <!-- 4 Points Grid - Responsive -->
-                <div class="w-full max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-12 px-4">
-                    <!-- Point 1 -->
-                    <div class="flex items-start gap-3 sm:gap-4">
-                        <div class="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
-                            <span class="text-blue-600 font-bold text-base sm:text-lg">1</span>
-                        </div>
-                        <div class="flex-1">
-                            <p class="text-[#202020] text-sm sm:text-base font-semibold md:text-lg leading-relaxed">
-                                Membangun ekosistem bisnis terintegrasi yang memberikan dampak positif bagi pelanggan, komunitas, dan lingkungan.
-                            </p>
-                        </div>
-                    </div>
 
-                    <!-- Point 2 -->
-                    <div class="flex items-start gap-3 sm:gap-4">
-                        <div class="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
-                            <span class="text-blue-600 font-bold text-base sm:text-lg">2</span>
-                        </div>
-                        <div class="flex-1">
-                            <p class="text-[#202020] text-sm sm:text-base font-semibold md:text-lg leading-relaxed">
-                                Mendorong digital transformation dan memperluas akses terhadap teknologi untuk generasi masa depan.
-                            </p>
-                        </div>
-                    </div>
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Mengapa UI/UX Menjadi Kunci Transformasi Digital
+                </h3>
 
-                    <!-- Point 3 -->
-                    <div class="flex items-start gap-3 sm:gap-4">
-                        <div class="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
-                            <span class="text-blue-600 font-bold text-base sm:text-lg">3</span>
-                        </div>
-                        <div class="flex-1">
-                            <p class="text-[#202020] text-sm sm:text-base font-semibold md:text-lg leading-relaxed">
-                                Menjadi mitra terpercaya dalam menghadirkan solusi teknologi yang relevan dan kompetitif secara global.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Point 4 -->    
-                    <div class="flex items-start gap-3 sm:gap-4">
-                        <div class="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
-                            <span class="text-blue-600 font-bold text-base sm:text-lg">4</span>
-                        </div>
-                        <div class="flex-1">
-                            <p class="text-[#202020] text-sm sm:text-base font-semibold md:text-lg leading-relaxed">
-                                Mengembangkan lini usaha F&B dan properti dengan fokus pada kualitas, kenyamanan, dan pengalaman pelanggan.
-                            </p>
-                        </div>
-                    </div>
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Kami membahas peran penting desain dalam membentuk pengalaman pengguna yang optimal dan strategis untuk bisnis modern.
+                </p>
                 </div>
+            </article>
+
+            <!-- Blog Post 2 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Mediatech Ekspansi ke Sektor F&B Digital"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Mediatech Ekspansi ke Sektor F&B Digital
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Langkah strategis terbaru kami dalam membawa teknologi ke industri kuliner lokal dengan solusi digital terintegrasi.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 3 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Tips Membangun Startup Properti dengan Teknologi"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Tips Membangun Startup Properti dengan Teknologi
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Panduan singkat bagi pelaku bisnis properti dalam memanfaatkan solusi digital untuk mengoptimalkan operasional dan pengalaman pelanggan.
+                </p>
+                </div>
+            </article>  
+            
+            <!-- Blog Post 4 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Tren Teknologi 2025 yang Perlu Diketahui"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Tren Teknologi 2025 yang Perlu Diketahui
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Melihat berbagai teknologi emerging yang akan mendominasi tahun 2025 dan bagaimana bisnis dapat mempersiapkan diri.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 5 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Strategi Digital Marketing untuk UMKM"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Strategi Digital Marketing untuk UMKM
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Tips praktis untuk usaha kecil dan menengah dalam memanfaatkan platform digital untuk memperluas jangkauan pasar.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 6 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Keamanan Data dalam Transformasi Digital"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Keamanan Data dalam Transformasi Digital
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Pentingnya cybersecurity dan best practices dalam melindungi aset digital perusahaan di era digitalisasi.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 7 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="AI dan Machine Learning dalam Bisnis"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    AI dan Machine Learning dalam Bisnis
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Bagaimana artificial intelligence dapat mengoptimalkan proses bisnis dan memberikan competitive advantage.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 8 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Mobile-First Development Strategy"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Mobile-First Development Strategy
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Mengapa pendekatan mobile-first sangat penting dalam pengembangan aplikasi dan website modern.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 9 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Cloud Computing untuk Efisiensi Bisnis"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Cloud Computing untuk Efisiensi Bisnis
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Manfaat cloud computing dalam meningkatkan efisiensi operasional dan skalabilitas infrastruktur teknologi.
+                </p>
+                </div>
+            </article>
             </div>
-        </section>
 
-        <!-- Working Space Section - Responsive -->
-        <section class="w-full py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col justify-center items-center bg-white relative">
-            <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex justify-center items-center flex-col">
-                <div class="text-center space-y-4 sm:space-y-6 mb-8 sm:mb-12">
-                    <h3 class="text-blue-600 tracking-widest text-xs sm:text-sm font-medium">
-                        WORKING SPACE
-                    </h3>
-                    <h2 class="text-[#202020] text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-2xl mx-auto px-4">
-                        A Workspace Where Ideas Grow and Innovation Happens 
-                    </h2>
+            <!-- Page 2 Posts (Hidden by default) -->
+            <div id="page-2-posts" class="hidden">
+            <!-- Blog Post 10 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Blockchain dan Cryptocurrency untuk Bisnis"
+                    class="w-full h-full object-cover"
+                />
                 </div>
-                
-                <!-- Workspace Images Grid - Responsive -->
-                <div class="w-full max-w-6xl mx-auto px-4">
-                    <!-- Top Large Image -->
-                    <div class="mb-4 sm:mb-6">
-                        <img 
-                            src="dist/about/working space (2).png" 
-                            alt="Development Team Working" 
-                            class="w-full h-48 sm:h-64 lg:h-[350px] object-cover rounded-xl sm:rounded-2xl"
-                        />
-                    </div>
-                    
-                    <!-- Bottom Two Images -->
-                    <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-                        <div>
-                            <img 
-                                src="dist/about/working space (3).png" 
-                                alt="Team Collaboration" 
-                                class="w-full h-32 sm:h-40 lg:h-[240px] object-cover rounded-xl sm:rounded-2xl"
-                            />
-                        </div>
-                        <div>
-                            <img 
-                                src="dist/about/working space (1).png" 
-                                alt="Learning Environment" 
-                                class="w-full h-32 sm:h-40 lg:h-[240px] object-cover rounded-xl sm:rounded-2xl"
-                            />
-                        </div>
-                    </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Blockchain dan Cryptocurrency untuk Bisnis
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Memahami potensi teknologi blockchain dalam revolusi sistem pembayaran dan transparansi bisnis digital.
+                </p>
                 </div>
+            </article>
+
+            <!-- Blog Post 11 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Internet of Things (IoT) dalam Smart Cities"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Internet of Things (IoT) dalam Smart Cities
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Bagaimana IoT mengubah konsep kota pintar dan meningkatkan kualitas hidup masyarakat urban.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 12 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="DevOps dan Continuous Integration"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    DevOps dan Continuous Integration
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Implementasi DevOps untuk mempercepat development cycle dan meningkatkan kualitas software delivery.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 13 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Progressive Web Apps (PWA) Revolution"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Progressive Web Apps (PWA) Revolution
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Menggabungkan pengalaman native app dengan fleksibilitas web untuk user experience yang optimal.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 14 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Data Analytics untuk Business Intelligence"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Data Analytics untuk Business Intelligence
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Memanfaatkan big data dan analytics untuk mengambil keputusan bisnis yang lebih akurat dan strategis.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 15 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Microservices Architecture Pattern"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Microservices Architecture Pattern
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Membangun aplikasi yang scalable dan maintainable dengan arsitektur microservices modern.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 16 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Augmented Reality dalam Retail"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Augmented Reality dalam Retail
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Transformasi pengalaman berbelanja dengan teknologi AR yang memberikan interaksi lebih immersive.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 17 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Quantum Computing: Future of Technology"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Quantum Computing: Future of Technology
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Memahami potensi revolusioner quantum computing dalam memecahkan masalah kompleks di masa depan.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 18 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Green Technology dan Sustainability"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Green Technology dan Sustainability
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Peran teknologi hijau dalam menciptakan solusi berkelanjutan untuk masa depan planet yang lebih baik.
+                </p>
+                </div>
+            </article>
             </div>
-        </section>
 
-        <!-- CEO Founder Section - Mobile Column Layout -->
-        <section class="w-full py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col justify-center items-center bg-white relative">
-        <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-center items-center md:items-start gap-6 sm:gap-8 lg:gap-12">
-            <img src="/dist/about/ceo-profile (1).png" 
-                 alt="CEO Profile" 
-                 class="w-full sm:w-[70%] md:w-[45%] lg:w-[40%] h-auto object-cover rounded-lg" />
-          <div class="min-h-full flex justify-start items-start flex-col gap-4">
-              <h3 class="text-blue-600 tracking-widest text-sm font-medium">
-                CEO FOUNDER
-              </h3>
-              <h2 class="text-[#202020] text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-xl pr-8">
-                Leading with Vision, Growing through Impact
-              </h2>
-              <p class="text-sm md:text-base opacity-80 leading-relaxed max-w-3xl ">
-                “Saya percaya bahwa inovasi lahir dari keberanian untuk mencoba, gagal, dan terus berkembang. Di Mediatech, kami membangun masa depan melalui kolaborasi dan keberlanjutan. Mari tumbuh bersama dan ciptakan dampak yang berarti di setiap langkah.”
-              </p>
+            <!-- Page 3 Posts (Hidden by default) -->
+            <div id="page-3-posts" class="hidden">
+            <!-- Blog Post 19 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="5G Technology dan Industrial Revolution"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    5G Technology dan Industrial Revolution
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Bagaimana jaringan 5G mendorong otomasi industri dan menciptakan ekosistem digital yang lebih cepat.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 20 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Voice Technology dan Smart Assistants"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Voice Technology dan Smart Assistants
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Evolusi voice interface dalam mengubah cara manusia berinteraksi dengan teknologi digital.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 21 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Fintech Innovation dalam Financial Services"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Fintech Innovation dalam Financial Services
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Revolusi industri keuangan melalui inovasi fintech yang menghadirkan layanan lebih inklusif dan efisien.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 22 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Edge Computing untuk Real-time Processing"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Edge Computing untuk Real-time Processing
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Memproses data di ujung jaringan untuk mengurangi latency dan meningkatkan responsivitas aplikasi.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 23 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Digital Twin Technology dalam Manufacturing"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Digital Twin Technology dalam Manufacturing
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Simulasi virtual untuk optimasi proses produksi dan predictive maintenance di industri manufaktur.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 24 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Cybersecurity dalam Era Digital"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Cybersecurity dalam Era Digital
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Strategi comprehensive untuk melindungi aset digital dari ancaman siber yang semakin sophisticated.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 25 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="No-Code/Low-Code Platform Revolution"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    No-Code/Low-Code Platform Revolution
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Demokratisasi pengembangan software dengan platform yang memungkinkan non-programmer membuat aplikasi.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 26 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Metaverse dan Virtual Collaboration"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Metaverse dan Virtual Collaboration
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Masa depan kolaborasi remote melalui virtual reality dan lingkungan digital yang immersive.
+                </p>
+                </div>
+            </article>
+
+            <!-- Blog Post 27 -->
+            <article class="cursor-pointer">
+                <!-- Blog Image -->
+                <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
+                <img
+                    src="/dist/blog-img.png"
+                    alt="Robotic Process Automation (RPA)"
+                    class="w-full h-full object-cover"
+                />
+                </div>
+
+                <!-- Blog Content -->
+                <div class="space-y-2 md:space-y-3">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 leading-tight">
+                    Robotic Process Automation (RPA)
+                </h3>
+
+                <p class="text-gray-600 text-sm md:text-sm lg:text-base leading-relaxed line-clamp-3">
+                    Otomasi proses bisnis repetitif untuk meningkatkan efisiensi dan akurasi operasional perusahaan.
+                </p>
+                </div>
+            </article>
+            </div>
+            </div>
+
+            <!-- Pagination - Right Aligned -->
+            <div class="flex justify-end items-center mt-8 md:mt-12">
+                <nav class="flex items-center space-x-1" aria-label="Pagination">
+                    <!-- Page Numbers Only -->
+                    <button onclick="showPage(1)" id="page-1" class="w-8 h-8 text-sm font-medium text-white bg-blue-600 border border-blue-600 rounded-full hover:bg-gray-200 hover:cursor-pointer flex items-center justify-center">
+                        1
+                    </button>
+                    <button onclick="showPage(2)" id="page-2" class="w-8 h-8 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-full hover:bg-gray-200 hover:cursor-pointer flex items-center justify-center">
+                        2
+                    </button>
+                    <button onclick="showPage(3)" id="page-3" class="w-8 h-8 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-full hover:bg-gray-200 hover:cursor-pointer flex items-center justify-center">
+                        3
+                    </button>
+                </nav>
             </div>
         </div>
-      </section>
-        <!-- Co-Founder Section - Mobile Column Layout -->
-        <section class="w-full py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col justify-center items-center bg-white relative">
-        <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row-reverse justify-center items-center md:items-start gap-6 sm:gap-8 lg:gap-12">
-            <img src="/dist/about/ceo-profile (2).png" 
-                 alt="Co-Founder Profile" 
-                 class="w-full sm:w-[70%] md:w-[45%] lg:w-[40%] h-auto object-cover rounded-lg" />
-          <div class="min-h-full flex lg:justify-end lg:items-end flex-col gap-4">
-              <h3 class="text-blue-600 tracking-widest text-sm font-medium">
-                OUR CO-FOUNDER
-              </h3>
-              <h2 class="text-[#202020] text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-xl lg:text-right">
-                Leading with Vision, Growing through Impact
-              </h2>
-              <p class="text-sm md:text-base opacity-80 leading-relaxed max-w-3xl lg:text-right">
-                “Saya percaya bahwa inovasi lahir dari keberanian untuk mencoba, gagal, dan terus berkembang. Di Mediatech, kami membangun masa depan melalui kolaborasi dan keberlanjutan. Mari tumbuh bersama dan ciptakan dampak yang berarti di setiap langkah.”
-              </p>
-            </div>
-        </div>
-      </section>
-
-      <!-- Services Section -->
-        <!-- Teams Section - Responsive -->
-        <section class="w-full py-12 sm:py-16 md:py-20 lg:py-24 bg-white flex justify-center items-center">
-            <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex justify-center items-center flex-col">
-                <div class="w-full mx-auto">
-                    <!-- Header -->
-                    <div class="flex flex-col lg:flex-row lg:items-end gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-12 justify-start">
-                        <div class="lg:w-1/2">
-                            <h3 class="text-blue-600 tracking-widest text-xs sm:text-sm font-medium">
-                                TEAMS
-                            </h3>
-                            <h2 class="text-[#202020] mt-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight font-bold">
-                                Meet the Team Driving Innovation at Mediatech
-                            </h2>
-                        </div>
-                        <div class="lg:w-1/2 flex justify-start lg:justify-end items-end">
-                            <p class="text-xs sm:text-sm md:text-base opacity-80 leading-relaxed text-left lg:text-right lg:max-w-[540px] lg:pl-[120px]">
-                                Tim Mediatech terdiri dari individu berdedikasi dengan semangat inovasi dan kolaborasi, siap menciptakan solusi yang berarti dan berkelanjutan.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="w-full flex justify-center items-center">
-                        <img src="/dist/about/teams.png" 
-                             alt="Mediatech Team" 
-                             class="w-full h-auto object-cover rounded-lg" />
-                    </div>
-                </div>
-            </div>
         </section>
 
         <!-- Digital Idea Section - Responsive -->
@@ -549,5 +1006,46 @@
                 </div>
             </div>
         </footer>
+
+        <script>
+        // Blog Pagination Functionality
+        let currentPage = 1;
+
+        function showPage(pageNumber) {
+            // Hide all page posts
+            for (let i = 1; i <= 3; i++) {
+                const pageElement = document.getElementById(`page-${i}-posts`);
+                const buttonElement = document.getElementById(`page-${i}`);
+                
+                if (pageElement && buttonElement) {
+                    if (i === pageNumber) {
+                        pageElement.classList.remove('hidden');
+                        buttonElement.classList.remove('text-gray-700', 'bg-white', 'border-gray-300');
+                        buttonElement.classList.add('text-white', 'bg-blue-600', 'border-blue-600');
+                    } else {
+                        pageElement.classList.add('hidden');
+                        buttonElement.classList.remove('text-white', 'bg-blue-600', 'border-blue-600');
+                        buttonElement.classList.add('text-gray-700', 'bg-white', 'border-gray-300');
+                    }
+                }
+            }
+            
+            currentPage = pageNumber;
+            
+            // Smooth scroll to top of blog section
+            const blogSection = document.querySelector('#blog-section');
+            if (blogSection) {
+                blogSection.scrollIntoView({ 
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        }
+
+        // Initialize page 1 as active on load
+        document.addEventListener('DOMContentLoaded', function() {
+            showPage(1);
+        });
+        </script>
     </body>
 </html>
