@@ -77,7 +77,7 @@
             <!-- Page 1 Posts -->
             <div id="page-1-posts" class="contents">
             <!-- Blog Post 1 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -97,10 +97,10 @@
                     Kami membahas peran penting desain dalam membentuk pengalaman pengguna yang optimal dan strategis untuk bisnis modern.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 2 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -120,10 +120,10 @@
                     Langkah strategis terbaru kami dalam membawa teknologi ke industri kuliner lokal dengan solusi digital terintegrasi.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 3 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -143,10 +143,10 @@
                     Panduan singkat bagi pelaku bisnis properti dalam memanfaatkan solusi digital untuk mengoptimalkan operasional dan pengalaman pelanggan.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 4 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -166,10 +166,10 @@
                     Melihat berbagai teknologi emerging yang akan mendominasi tahun 2025 dan bagaimana bisnis dapat mempersiapkan diri.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 5 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -189,10 +189,10 @@
                     Tips praktis untuk usaha kecil dan menengah dalam memanfaatkan platform digital untuk memperluas jangkauan pasar.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 6 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -212,10 +212,10 @@
                     Pentingnya cybersecurity dan best practices dalam melindungi aset digital perusahaan di era digitalisasi.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 7 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -235,10 +235,10 @@
                     Bagaimana artificial intelligence dapat mengoptimalkan proses bisnis dan memberikan competitive advantage.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 8 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -258,10 +258,10 @@
                     Mengapa pendekatan mobile-first sangat penting dalam pengembangan aplikasi dan website modern.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 9 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -281,13 +281,13 @@
                     Manfaat cloud computing dalam meningkatkan efisiensi operasional dan skalabilitas infrastruktur teknologi.
                 </p>
                 </div>
-            </article>
+            </a>
             </div>
 
             <!-- Page 2 Posts (Hidden by default) -->
             <div id="page-2-posts" class="hidden">
             <!-- Blog Post 10 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -307,10 +307,10 @@
                     Memahami potensi teknologi blockchain dalam revolusi sistem pembayaran dan transparansi bisnis digital.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 11 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -330,10 +330,10 @@
                     Bagaimana IoT mengubah konsep kota pintar dan meningkatkan kualitas hidup masyarakat urban.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 12 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -353,10 +353,10 @@
                     Implementasi DevOps untuk mempercepat development cycle dan meningkatkan kualitas software delivery.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 13 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -376,10 +376,10 @@
                     Menggabungkan pengalaman native app dengan fleksibilitas web untuk user experience yang optimal.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 14 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -399,10 +399,10 @@
                     Memanfaatkan big data dan analytics untuk mengambil keputusan bisnis yang lebih akurat dan strategis.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 15 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -422,10 +422,10 @@
                     Membangun aplikasi yang scalable dan maintainable dengan arsitektur microservices modern.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 16 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -445,10 +445,10 @@
                     Transformasi pengalaman berbelanja dengan teknologi AR yang memberikan interaksi lebih immersive.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 17 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -468,10 +468,10 @@
                     Memahami potensi revolusioner quantum computing dalam memecahkan masalah kompleks di masa depan.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 18 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -491,13 +491,13 @@
                     Peran teknologi hijau dalam menciptakan solusi berkelanjutan untuk masa depan planet yang lebih baik.
                 </p>
                 </div>
-            </article>
+            </a>
             </div>
 
             <!-- Page 3 Posts (Hidden by default) -->
             <div id="page-3-posts" class="hidden">
             <!-- Blog Post 19 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -517,10 +517,10 @@
                     Bagaimana jaringan 5G mendorong otomasi industri dan menciptakan ekosistem digital yang lebih cepat.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 20 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -540,10 +540,10 @@
                     Evolusi voice interface dalam mengubah cara manusia berinteraksi dengan teknologi digital.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 21 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -563,10 +563,10 @@
                     Revolusi industri keuangan melalui inovasi fintech yang menghadirkan layanan lebih inklusif dan efisien.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 22 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -586,10 +586,10 @@
                     Memproses data di ujung jaringan untuk mengurangi latency dan meningkatkan responsivitas aplikasi.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 23 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -609,10 +609,10 @@
                     Simulasi virtual untuk optimasi proses produksi dan predictive maintenance di industri manufaktur.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 24 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -632,10 +632,10 @@
                     Strategi comprehensive untuk melindungi aset digital dari ancaman siber yang semakin sophisticated.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 25 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -655,10 +655,10 @@
                     Demokratisasi pengembangan software dengan platform yang memungkinkan non-programmer membuat aplikasi.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 26 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -678,10 +678,10 @@
                     Masa depan kolaborasi remote melalui virtual reality dan lingkungan digital yang immersive.
                 </p>
                 </div>
-            </article>
+            </a>
 
             <!-- Blog Post 27 -->
-            <article class="cursor-pointer">
+            <a href="/blog/detail" class="cursor-pointer">
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
@@ -701,7 +701,7 @@
                     Otomasi proses bisnis repetitif untuk meningkatkan efisiensi dan akurasi operasional perusahaan.
                 </p>
                 </div>
-            </article>
+            </a>
             </div>
             </div>
 

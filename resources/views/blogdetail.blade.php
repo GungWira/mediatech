@@ -1540,7 +1540,7 @@
 
     <!-- HERO -->
     <section class="w-full flex justify-center items-center pt-24 sm:pt-28 md:pt-32">
-        <div class="flex flex-col justify-center items-center gap-4 sm:gap-6 md:gap-8 px-4 md:px-6 w-full">
+        <div class="flex flex-col justify-center items-center gap-4 sm:gap-6 md:gap-8 px-4 md:px-6 w-full max-w-[90rem]">
             <div class="flex flex-col justify-center items-center gap-2">
                 <h2 class="font-medium text-xs sm:text-sm md:text-base uppercase tracking-widest leading-tight text-[#006EFF] text-center w-[80%] lg:w-[70%]">13 Agustus 2025</h2>
                 <h1 class="font-bold text-2xl lg:text-5xl xl:text-5xl sm:mb-2 leading-tight text-gray-900 text-center w-[80%] lg:w-[70%]">
