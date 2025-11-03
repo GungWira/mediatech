@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Homepage | Mediatech</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -1364,7 +1364,7 @@
             }
         }
 
-        @property --tw-translate-x {
+        /* @property --tw-translate-x {
             syntax: "*";
             inherits: false;
             initial-value: 0
@@ -1560,7 +1560,7 @@
             syntax: "*";
             inherits: false;
             initial-value: ""
-        }
+        } */
     </style>
     @endif
 </head>
@@ -1601,53 +1601,6 @@
             </div>
         </div>
     </section>
-
-    <style>
-        /* Partner Slider Animation - Inline */
-        .partner-slider {
-            width: 100%;
-            overflow: hidden;
-            position: relative;
-        }
-
-        .partner-track {
-            display: flex !important;
-            gap: 4rem !important;
-            animation: partnerScroll 15s linear infinite !important;
-            white-space: nowrap !important;
-            align-items: center !important;
-        }
-
-        .partner-logo {
-            height: 2.5rem !important;
-            width: auto !important;
-            object-fit: contain !important;
-            filter: brightness(0) invert(1) !important;
-            opacity: 0.6 !important;
-            transition: opacity 0.3s !important;
-            flex-shrink: 0 !important;
-            display: inline-block !important;
-        }
-
-        .partner-logo:hover {
-            opacity: 0.9 !important;
-        }
-
-        @keyframes partnerScroll {
-            0% {
-                transform: translateX(0);
-            }
-            100% {
-                transform: translateX(-25%);
-            }
-        }
-
-        @media (min-width: 768px) {
-            .partner-logo {
-                height: 3rem !important;
-            }
-        }
-    </style>
 
     <!-- Partner Slider Section -->
     <section class="w-full bg-[#0C192B] py-8 overflow-hidden">

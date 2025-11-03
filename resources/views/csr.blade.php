@@ -17,19 +17,94 @@
     @else
     <style>
         /* Partner Slider Animation */
-        @keyframes infinite-scroll {
+        .partner-slider {
+            width: 100%;
+            background-color: #000;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .partner-track {
+            display: flex;
+            gap: 4rem;
+            animation: scroll 40s linear infinite;
+            white-space: nowrap;
+            align-items: center;
+        }
+
+        .partner-logo {
+            height: 2.5rem;
+            width: auto;
+            object-fit: contain;
+            filter: brightness(0) invert(1);
+            opacity: 0.6;
+            transition: opacity 0.3s;
+            flex-shrink: 0;
+            display: inline-block;
+        }
+
+        .partner-logo:hover {
+            opacity: 0.9;
+        }
+
+        @keyframes scroll {
             0% {
                 transform: translateX(0);
             }
-
             100% {
-                transform: translateX(-50%);
+                transform: translateX(-25%);
             }
         }
 
-        .animate-infinite-scroll {
-            animation: infinite-scroll 20s linear infinite;
-            width: calc(200%);
+        @media (min-width: 768px) {
+            .partner-logo {
+                height: 3rem;
+            }
+        }
+
+        /* Partner Slider Animation - Inline */
+        .partner-slider {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .partner-track {
+            display: flex !important;
+            gap: 4rem !important;
+            animation: partnerScroll 15s linear infinite !important;
+            white-space: nowrap !important;
+            align-items: center !important;
+        }
+
+        .partner-logo {
+            height: 2.5rem !important;
+            width: auto !important;
+            object-fit: contain !important;
+            filter: brightness(0) invert(1) !important;
+            opacity: 0.6 !important;
+            transition: opacity 0.3s !important;
+            flex-shrink: 0 !important;
+            display: inline-block !important;
+        }
+
+        .partner-logo:hover {
+            opacity: 0.9 !important;
+        }
+
+        @keyframes partnerScroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-25%);
+            }
+        }
+
+        @media (min-width: 768px) {
+            .partner-logo {
+                height: 3rem !important;
+            }
         }
 
         /*! tailwindcss v4.0.7 | MIT License | https://tailwindcss.com */
@@ -1571,140 +1646,36 @@
     </section>
 
     <!-- Partner Slider Section -->
-    <section class="w-full bg-[#0C192B] py-8" role="region" aria-label="Partner section">
-        <div class="w-full overflow-hidden">
-            <div class="flex animate-infinite-scroll whitespace-nowrap">
-                <!-- First set of partners -->
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (1).svg"
-                        alt="Partner 1"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (2).svg"
-                        alt="Partner 2"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (3).svg"
-                        alt="Partner 3"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (4).svg"
-                        alt="Partner 4"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (5).svg"
-                        alt="Partner 5"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (6).svg"
-                        alt="Partner 6"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-
-                <!-- Second set of partners (exact duplicate) -->
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (1).svg"
-                        alt="Partner 1"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (2).svg"
-                        alt="Partner 2"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (3).svg"
-                        alt="Partner 3"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (4).svg"
-                        alt="Partner 4"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (5).svg"
-                        alt="Partner 5"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (6).svg"
-                        alt="Partner 6"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-
-                <!-- Third set of partners (exact duplicate) -->
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (1).svg"
-                        alt="Partner 1"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (2).svg"
-                        alt="Partner 2"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (3).svg"
-                        alt="Partner 3"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (4).svg"
-                        alt="Partner 4"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (5).svg"
-                        alt="Partner 5"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
-                <div class="flex-shrink-0 mx-8 flex justify-center items-center min-w-[100px]">
-                    <img
-                        src="dist/partners/partner (6).svg"
-                        alt="Partner 6"
-                        class="h-8 md:h-10 w-auto object-contain filter brightness-0 invert opacity-60 hover:opacity-80 transition-opacity duration-300"
-                        loading="lazy" />
-                </div>
+    <section class="w-full bg-[#0C192B] py-8 overflow-hidden">
+        <div class="partner-slider">
+            <div class="partner-track">
+                <img src="dist/partners/partner (1).svg" alt="Partner 1" class="partner-logo" />
+                <img src="dist/partners/partner (2).svg" alt="Partner 2" class="partner-logo" />
+                <img src="dist/partners/partner (3).svg" alt="Partner 3" class="partner-logo" />
+                <img src="dist/partners/partner (4).svg" alt="Partner 4" class="partner-logo" />
+                <img src="dist/partners/partner (5).svg" alt="Partner 5" class="partner-logo" />
+                <img src="dist/partners/partner (6).svg" alt="Partner 6" class="partner-logo" />
+                <!-- Duplicate for seamless loop -->
+                <img src="dist/partners/partner (1).svg" alt="Partner 1" class="partner-logo" />
+                <img src="dist/partners/partner (2).svg" alt="Partner 2" class="partner-logo" />
+                <img src="dist/partners/partner (3).svg" alt="Partner 3" class="partner-logo" />
+                <img src="dist/partners/partner (4).svg" alt="Partner 4" class="partner-logo" />
+                <img src="dist/partners/partner (5).svg" alt="Partner 5" class="partner-logo" />
+                <img src="dist/partners/partner (6).svg" alt="Partner 6" class="partner-logo" />
+                <!-- Third set -->
+                <img src="dist/partners/partner (1).svg" alt="Partner 1" class="partner-logo" />
+                <img src="dist/partners/partner (2).svg" alt="Partner 2" class="partner-logo" />
+                <img src="dist/partners/partner (3).svg" alt="Partner 3" class="partner-logo" />
+                <img src="dist/partners/partner (4).svg" alt="Partner 4" class="partner-logo" />
+                <img src="dist/partners/partner (5).svg" alt="Partner 5" class="partner-logo" />
+                <img src="dist/partners/partner (6).svg" alt="Partner 6" class="partner-logo" />
+                <!-- Fourth set -->
+                <img src="dist/partners/partner (1).svg" alt="Partner 1" class="partner-logo" />
+                <img src="dist/partners/partner (2).svg" alt="Partner 2" class="partner-logo" />
+                <img src="dist/partners/partner (3).svg" alt="Partner 3" class="partner-logo" />
+                <img src="dist/partners/partner (4).svg" alt="Partner 4" class="partner-logo" />
+                <img src="dist/partners/partner (5).svg" alt="Partner 5" class="partner-logo" />
+                <img src="dist/partners/partner (6).svg" alt="Partner 6" class="partner-logo" />
             </div>
         </div>
     </section>
