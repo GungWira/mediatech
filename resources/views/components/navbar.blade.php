@@ -77,19 +77,19 @@
         {{-- Mobile Navigation --}}
         <div id="mobile-menu" class="md:hidden pt-4 pb-6 bg-[#081425] hidden">
             <div class="flex flex-col space-y-4">
-                <a href="#home" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
+                <a href="/" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
                     Home
                 </a>
-                <a href="#about" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
+                <a href="/about" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
                     About
                 </a>
-                <a href="#services" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
+                <a href="/services" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
                     Services
                 </a>
-                <a href="#blog" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
+                <a href="/blogs" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
                     Blog
                 </a>
-                <a href="#csr" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
+                <a href="/csr" class="text-white/80 hover:text-white transition-colors duration-200 font-medium py-2 mobile-nav-link">
                     CSR
                 </a>
                 <button class="bg-[#2563EB] hover:bg-[#1D4ED8] text-white px-6 py-3 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors duration-200 mt-4">
