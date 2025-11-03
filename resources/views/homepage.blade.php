@@ -2230,7 +2230,8 @@
             <!-- Blog Posts Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 <!-- Blog Post 1 -->
-                <article class="cursor-pointer">
+                <a href="/blog/detail" class="cursor-pointer block hover:opacity-80 transition-opacity duration-300">
+                    <article>
                     <!-- Blog Image -->
                     <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded-lg">
                         <img
@@ -2249,10 +2250,12 @@
                             Kami membahas peran penting desain dalam membentuk pengalaman pengguna yang optimal dan strategis untuk bisnis modern.
                         </p>
                     </div>
-                </article>
+                    </article>
+                </a>
 
                 <!-- Blog Post 2 -->
-                <article class="cursor-pointer">
+                <a href="/blog/detail" class="cursor-pointer block hover:opacity-80 transition-opacity duration-300">
+                    <article>
                     <!-- Blog Image -->
                     <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded-lg">
                         <img
@@ -2272,10 +2275,12 @@
                             Langkah strategis terbaru kami dalam membawa teknologi ke industri kuliner lokal dengan solusi digital terintegrasi.
                         </p>
                     </div>
-                </article>
+                    </article>
+                </a>
 
                 <!-- Blog Post 3 -->
-                <article class="cursor-pointer">
+                <a href="/blog/detail" class="cursor-pointer block hover:opacity-80 transition-opacity duration-300">
+                    <article>
                     <!-- Blog Image -->
                     <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded-lg">
                         <img
@@ -2295,7 +2300,8 @@
                             Panduan singkat bagi pelaku bisnis properti dalam memanfaatkan solusi digital untuk mengoptimalkan operasional dan pengalaman pelanggan.
                         </p>
                     </div>
-                </article>
+                    </article>
+                </a>
             </div>
         </div>
     </section>

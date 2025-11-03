@@ -1024,10 +1024,12 @@
                 if (pageElement && buttonElement) {
                     if (i === pageNumber) {
                         pageElement.classList.remove('hidden');
+                        pageElement.classList.add('flex', 'flex-wrap', 'justify-end', 'gap-4', 'md:gap-4', 'lg:gap-6', 'w-full');
                         buttonElement.classList.remove('text-gray-700', 'bg-white', 'border-gray-300');
                         buttonElement.classList.add('text-white', 'bg-blue-600', 'border-blue-600');
                     } else {
                         pageElement.classList.add('hidden');
+                        pageElement.classList.remove('flex', 'flex-wrap', 'justify-end', 'gap-4', 'md:gap-4', 'lg:gap-6', 'w-full');
                         buttonElement.classList.remove('text-white', 'bg-blue-600', 'border-blue-600');
                         buttonElement.classList.add('text-gray-700', 'bg-white', 'border-gray-300');
                     }
