@@ -14,3 +14,47 @@
 .flex-row-reverse {
     flex-direction: row-reverse;
 }
+
+.partner-slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.partner-track {
+    display: flex !important;
+    gap: 4rem !important;
+    animation: partnerScroll 15s linear infinite !important;
+    white-space: nowrap !important;
+    align-items: center !important;
+}
+
+.partner-logo {
+    height: 2.5rem !important;
+    width: auto !important;
+    object-fit: contain !important;
+    filter: brightness(0) invert(1) !important;
+    opacity: 0.6 !important;
+    transition: opacity 0.3s !important;
+    flex-shrink: 0 !important;
+    display: inline-block !important;
+}
+
+.partner-logo:hover {
+    opacity: 0.9 !important;
+}
+
+@keyframes partnerScroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-25%);
+    }
+}
+
+@media (min-width: 768px) {
+    .partner-logo {
+        height: 3rem !important;
+    }
+}

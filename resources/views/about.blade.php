@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title></title>
+        <title>About Page | Mediatech</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -24,17 +24,17 @@
         <section class="w-full min-h-screen flex justify-center items-center bg-[#0C192B] bg-cover bg-center relative pt-16 sm:pt-20 overflow-x-hidden"
                  style="background-image: url('dist/about/headerbg.png');"
                  id="home">
-            <img src="dist/about/sphere.svg" 
-                 alt="Decorative sphere" 
+            <img src="dist/about/sphere.svg"
+                 alt="Decorative sphere"
                  class="absolute top-1/2 left-1/2 w-[60%] sm:w-[50%] md:w-[40%] -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none" />
-            <img src="dist/gear.svg" alt="" 
+            <img src="dist/gear.svg" alt=""
                  class="absolute top-20 -left-10 w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 pointer-events-none select-none z-0" />
-            <img src="dist/gear.svg" alt="" 
+            <img src="dist/gear.svg" alt=""
                  class="absolute bottom-20 -right-10 w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 pointer-events-none select-none z-0" />
-            <img src="dist/blue-ball.svg" alt="" 
+            <img src="dist/blue-ball.svg" alt=""
                  class="absolute bottom-20 left-1/4 w-12 h-12 pointer-events-none select-none z-0" />
-            <img src="dist/blue-ball.svg" alt="" 
-                 class="absolute top-50 right-1/6 w-8 h-8 pointer-events-none select-none z-0" />            
+            <img src="dist/blue-ball.svg" alt=""
+                 class="absolute top-50 right-1/6 w-8 h-8 pointer-events-none select-none z-0" />
 
             <div class="w-full min-h-[80vh] max-w-6xl px-4 sm:px-6 lg:px-8 flex justify-center items-center">
                 <div class="flex flex-col justify-center items-center gap-4 sm:gap-6 text-center max-w-4xl">
@@ -62,11 +62,11 @@
             <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row justify-center items-center lg:items-start gap-8 lg:gap-12">
                 <!-- Image Container -->
                 <div class="w-full lg:w-1/2 flex justify-center items-center">
-                    <img src="dist/about/about.png" 
-                         alt="About Image" 
+                    <img src="dist/about/about.png"
+                         alt="About Image"
                          class="w-full max-w-md lg:max-w-none h-auto object-cover rounded-lg shadow-lg" />
                 </div>
-                
+
                 <!-- Content Container -->
                 <div class="w-full lg:w-1/2 flex flex-col justify-start items-start gap-4 sm:gap-6 text-center lg:text-left lg:pl-8 xl:pl-12 md:justify-center md:items-center">
                     <h3 class="text-blue-600 tracking-widest text-xs sm:text-sm font-medium md:text-center text-left lg:text-left w-full">
@@ -98,7 +98,7 @@
                         Mediatech Indonesia menciptakan solusi inovatif lintas industri dengan fokus pada kualitas, smart technology, dan dampak positif yang nyata bagi bisnis dan kehidupan sehari-hari.
                     </p>
                 </div>
-                
+
                 <!-- 4 Points Grid - Responsive -->
                 <div class="w-full max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-12 px-4">
                     <!-- Point 1 -->
@@ -137,7 +137,7 @@
                         </div>
                     </div>
 
-                    <!-- Point 4 -->    
+                    <!-- Point 4 -->
                     <div class="flex items-start gap-3 sm:gap-4">
                         <div class="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center">
                             <span class="text-blue-600 font-bold text-base sm:text-lg">4</span>
@@ -160,34 +160,34 @@
                         WORKING SPACE
                     </h3>
                     <h2 class="text-[#202020] text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight font-bold max-w-2xl mx-auto px-4">
-                        A Workspace Where Ideas Grow and Innovation Happens 
+                        A Workspace Where Ideas Grow and Innovation Happens
                     </h2>
                 </div>
-                
+
                 <!-- Workspace Images Grid - Responsive -->
                 <div class="w-full max-w-6xl mx-auto px-4">
                     <!-- Top Large Image -->
                     <div class="mb-4 sm:mb-6">
-                        <img 
-                            src="dist/about/working space (2).png" 
-                            alt="Development Team Working" 
+                        <img
+                            src="dist/about/working space (2).png"
+                            alt="Development Team Working"
                             class="w-full h-48 sm:h-64 lg:h-[350px] object-cover rounded-xl sm:rounded-2xl"
                         />
                     </div>
-                    
+
                     <!-- Bottom Two Images -->
                     <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
                         <div>
-                            <img 
-                                src="dist/about/working space (3).png" 
-                                alt="Team Collaboration" 
+                            <img
+                                src="dist/about/working space (3).png"
+                                alt="Team Collaboration"
                                 class="w-full h-32 sm:h-40 lg:h-[240px] object-cover rounded-xl sm:rounded-2xl"
                             />
                         </div>
                         <div>
-                            <img 
-                                src="dist/about/working space (1).png" 
-                                alt="Learning Environment" 
+                            <img
+                                src="dist/about/working space (1).png"
+                                alt="Learning Environment"
                                 class="w-full h-32 sm:h-40 lg:h-[240px] object-cover rounded-xl sm:rounded-2xl"
                             />
                         </div>
@@ -199,8 +199,8 @@
         <!-- CEO Founder Section - Mobile Column Layout -->
         <section class="w-full py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col justify-center items-center bg-white relative">
         <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-center items-center md:items-start gap-6 sm:gap-8 lg:gap-12">
-            <img src="/dist/about/ceo-profile (1).png" 
-                 alt="CEO Profile" 
+            <img src="/dist/about/ceo-profile (1).png"
+                 alt="CEO Profile"
                  class="w-full sm:w-[70%] md:w-[45%] lg:w-[40%] h-auto object-cover rounded-lg" />
           <div class="min-h-full flex justify-start items-start flex-col gap-4">
               <h3 class="text-blue-600 tracking-widest text-sm font-medium">
@@ -218,8 +218,8 @@
         <!-- Co-Founder Section - Mobile Column Layout -->
         <section class="w-full py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col justify-center items-center bg-white relative">
         <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row-reverse justify-center items-center md:items-start gap-6 sm:gap-8 lg:gap-12">
-            <img src="/dist/about/ceo-profile (2).png" 
-                 alt="Co-Founder Profile" 
+            <img src="/dist/about/ceo-profile (2).png"
+                 alt="Co-Founder Profile"
                  class="w-full sm:w-[70%] md:w-[45%] lg:w-[40%] h-auto object-cover rounded-lg" />
           <div class="min-h-full flex lg:justify-end lg:items-end flex-col gap-4">
               <h3 class="text-blue-600 tracking-widest text-sm font-medium">
@@ -258,8 +258,8 @@
                     </div>
 
                     <div class="w-full flex justify-center items-center">
-                        <img src="/dist/about/teams.png" 
-                             alt="Mediatech Team" 
+                        <img src="/dist/about/teams.png"
+                             alt="Mediatech Team"
                              class="w-full h-auto object-cover rounded-lg" />
                     </div>
                 </div>
