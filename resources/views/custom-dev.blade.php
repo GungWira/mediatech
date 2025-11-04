@@ -1540,7 +1540,7 @@
     <section
         class="w-full flex justify-center items-center relative pt-20 px-4"
         id="home">
-        <div class="w-full rounded-2xl px-5 sm:px-3 py-5 sm:py-3 max-w-6xl flex bg-[#0C192B] bg-cover bg-center justify-center items-center" style="background-image: url('/assets/bgheader.png');">
+        <div class="w-full rounded-2xl px-5 sm:px-3 py-5 sm:py-3 max-w-6xl flex bg-[#0C192B] bg-cover bg-center justify-center items-center" style="background-image: url('/dist/minified/bgheader.webp');">
             <div class="flex flex-col-reverse sm:flex-col md:flex-row gap-8 lg:gap-12 items-stretch w-full">
                 <div class="px-0 sm:px-6 py-10 pt-0 sm:py-12 sm:pb-2 md:py-20 flex flex-col justify-center items-start md:items-center lg:items-start gap-4 text-left lg:text-left w-full">
                     <h1 class="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-6xl leading-tight text-white">
@@ -1557,8 +1557,8 @@
                 </div>
 
                 <div class="w-fit flex flex-row md:flex-col justify-start items-start gap-2">
-                    <img src="/dist/cd/hero-1.webp" alt="hero image 1 custom dev" class="w-full rounded-2xl overflow-hidden hidden sm:flex">
-                    <img src="/dist/cd/hero-2.webp" alt="hero image 1 custom dev" class="w-full rounded-2xl overflow-hidden">
+                    <img src="/dist/minified/cd/hero-1.webp" alt="hero image 1 custom dev" class="w-full rounded-2xl overflow-hidden hidden sm:flex">
+                    <img src="/dist/minified/cd/hero-2.webp" alt="hero image 1 custom dev" class="w-full rounded-2xl overflow-hidden">
                 </div>
             </div>
         </div>
@@ -1580,7 +1580,7 @@
             </div>
             <!-- Card Service -->
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#E8E8E8] bg-[#006EFF]">
-                <img src="/dist/cd/service-icon-1.webp" alt="program image" class="w-14 sm:w-16 md:w-20">
+                <img src="/dist/minified/cd/service-icon-1.webp" alt="program image" class="w-14 sm:w-16 md:w-20">
                 <div class="flex flex-col justify-start items-start gap-2">
                     <h3 class="text-white mt-2 text-md lg:text-lg leading-tight font-semibold">Website Development</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed text-white">
@@ -1590,7 +1590,7 @@
             </div>
             <!-- Card Service -->
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#E8E8E8] bg-white">
-                <img src="/dist/cd/service-icon-2.webp" alt="program image" class="w-14 sm:w-16 md:w-20">
+                <img src="/dist/minified/cd/service-icon-2.webp" alt="program image" class="w-14 sm:w-16 md:w-20">
                 <div class="flex flex-col justify-start items-start gap-2">
                     <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">Android App</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
@@ -1600,7 +1600,7 @@
             </div>
             <!-- Card Service -->
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#E8E8E8] bg-white">
-                <img src="/dist/cd/service-icon-3.webp" alt="program image" class="w-14 sm:w-16 md:w-20">
+                <img src="/dist/minified/cd/service-icon-3.webp" alt="program image" class="w-14 sm:w-16 md:w-20">
                 <div class="flex flex-col justify-start items-start gap-2">
                     <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">Custom Development</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
@@ -1610,7 +1610,7 @@
             </div>
             <!-- Card Service -->
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#E8E8E8] bg-white">
-                <img src="/dist/cd/service-icon-4.webp" alt="program image" class="w-14 sm:w-16 md:w-20">
+                <img src="/dist/minified/cd/service-icon-4.webp" alt="program image" class="w-14 sm:w-16 md:w-20">
                 <div class="flex flex-col justify-start items-start gap-2">
                     <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">IT Consulting</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
@@ -1637,25 +1637,25 @@
 
                 <div class="flex flex-col w-full justify-start items-start gap-2 mt-4">
                     <div class="flex flex-row justify-center items-center gap-3">
-                        <img src="/dist/cd/point.webp" alt="point icon" class="w-5">
+                        <img src="/dist/minified/cd/point.webp" alt="point icon" class="w-5">
                         <p class="text-sm md:text-base font-semibold opacity-90 leading-relaxed">
                             Experienced Developers
                         </p>
                     </div>
                     <div class="flex flex-row justify-center items-center gap-3">
-                        <img src="/dist/cd/point.webp" alt="point icon" class="w-5">
+                        <img src="/dist/minified/cd/point.webp" alt="point icon" class="w-5">
                         <p class="text-sm md:text-base font-semibold opacity-90 leading-relaxed">
                             Fast Delivery & Agile Method
                         </p>
                     </div>
                     <div class="flex flex-row justify-center items-center gap-3">
-                        <img src="/dist/cd/point.webp" alt="point icon" class="w-5">
+                        <img src="/dist/minified/cd/point.webp" alt="point icon" class="w-5">
                         <p class="text-sm md:text-base font-semibold opacity-90 leading-relaxed">
                             Friendly Support & Collaboration
                         </p>
                     </div>
                     <div class="flex flex-row justify-center items-center gap-3">
-                        <img src="/dist/cd/point.webp" alt="point icon" class="w-5">
+                        <img src="/dist/minified/cd/point.webp" alt="point icon" class="w-5">
                         <p class="text-sm md:text-base font-semibold opacity-90 leading-relaxed">
                             Scalable & Future-Ready Solutions
                         </p>
@@ -1664,14 +1664,14 @@
 
             </div>
             <div class="flex justify-center md:justify-start items-center md:items-start w-full ">
-                <img src="/dist/cd/why-us-img.webp" alt="why us image mediatech" class="max-w-[400px] w-full">
+                <img src="/dist/minified/cd/why-us-img.webp" alt="why us image mediatech" class="max-w-[400px] w-full">
             </div>
         </div>
     </section>
 
     <!-- How It Work Section -->
     <section class="w-full flex justify-center items-center relative py-20 px-4">
-        <div class="w-full rounded-3xl px-3 pe-0 py-3 pb-16 max-w-6xl flex bg-[#0C192B] bg-cover bg-center justify-center items-center" style="background-image: url('/assets/bgheader.png');">
+        <div class="w-full rounded-3xl px-3 pe-0 py-3 pb-16 max-w-6xl flex bg-[#0C192B] bg-cover bg-center justify-center items-center" style="background-image: url('/dist/minified/bgheader.webp');">
             <div class="flex flex-col gap-8 lg:gap-12 items-stretch w-full">
                 <div class="px-6 py-16 pb-0 flex flex-col justify-center items-center gap-2 text-center w-full">
                     <h3 class="text-white tracking-widest text-sm font-medium">
@@ -1684,7 +1684,7 @@
                 <div class="grid md:flex grid-cols-2 md:grid-cols-none flex-row justify-center items-start ps-4 sm:ps-12 gap-4 lg:gap-0">
                     <div class="flex flex-col justify-start items-start gap-2">
                         <div class="w-fit flex flex-row justify-between items-start gap-4">
-                            <img src="/dist/cd/step-1.webp" alt="step work custom dev" class="w-14 sm:w-16 md:w-20">
+                            <img src="/dist/minified/cd/step-1.webp" alt="step work custom dev" class="w-14 sm:w-16 md:w-20">
 
                         </div>
                         <h3 class="text-white font-semibold text-lg md:text-xl mt-2">Consulting</h3>
@@ -1692,10 +1692,10 @@
                             Transformasi digital bukanlah sekadar wacana masa.
                         </p>
                     </div>
-                    <img src="/dist/cd/arrow-top.webp" alt="arrow icon custom dev" class="hidden lg:flex h-10 xl:h-12 mx-10 ms-2 mt-5">
+                    <img src="/dist/minified/cd/arrow-top.webp" alt="arrow icon custom dev" class="hidden lg:flex h-10 xl:h-12 mx-10 ms-2 mt-5">
                     <div class="flex flex-col justify-start items-start gap-2 md:pt-20">
                         <div class="w-fit flex flex-row justify-between items-start gap-4">
-                            <img src="/dist/cd/step-2.webp" alt="step work custom dev" class="w-14 sm:w-16 md:w-20">
+                            <img src="/dist/minified/cd/step-2.webp" alt="step work custom dev" class="w-14 sm:w-16 md:w-20">
 
                         </div>
                         <h3 class="text-white font-semibold text-lg md:text-xl mt-2">Planning</h3>
@@ -1703,10 +1703,10 @@
                             Transformasi digital bukanlah sekadar wacana masa.
                         </p>
                     </div>
-                    <img src="/dist/cd/arrow-bottom.webp" alt="arrow icon custom dev" class="hidden lg:flex h-10 xl:h-12 mx-10 ms-2 mt-10">
+                    <img src="/dist/minified/cd/arrow-bottom.webp" alt="arrow icon custom dev" class="hidden lg:flex h-10 xl:h-12 mx-10 ms-2 mt-10">
                     <div class="flex flex-col justify-start items-start gap-2">
                         <div class="w-fit flex flex-row justify-between items-start gap-4">
-                            <img src="/dist/cd/step-3.webp" alt="step work custom dev" class="w-14 sm:w-16 md:w-20">
+                            <img src="/dist/minified/cd/step-3.webp" alt="step work custom dev" class="w-14 sm:w-16 md:w-20">
 
                         </div>
                         <h3 class="text-white font-semibold text-lg md:text-xl mt-2">Development</h3>
@@ -1714,7 +1714,7 @@
                             Transformasi digital bukanlah sekadar wacana masa.
                         </p>
                     </div>
-                    <img src="/dist/cd/arrow-top.webp" alt="arrow icon custom dev" class="hidden lg:flex h-10 xl:h-12 mx-10 ms-2 mt-5">
+                    <img src="/dist/minified/cd/arrow-top.webp" alt="arrow icon custom dev" class="hidden lg:flex h-10 xl:h-12 mx-10 ms-2 mt-5">
                     <div class="flex flex-col justify-start items-start gap-2 bg-[#006EFF] px-16 ps-12 py-7 relative rounded-tl-full rounded-bl-full md:mt-20 mt-12">
                         <span class="bg-white text-[#006EFF] font-bold md:text-base text-sm p-3 rounded-full absolute -top-2 -left-2">04</span>
                         <h3 class="text-white font-semibold text-lg md:text-xl mt-2">Launch</h3>
@@ -1748,27 +1748,27 @@
                 <!-- Tech Stack Area -->
                 <div class="grid flex-row justify-start items-stretch gap-3 md:gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
                     <div class="group flex flex-row justify-start items-center gap-4 md:px-8 px-6 md:py-6 py-4 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
-                        <img src="/dist/cd/tech-1.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
+                        <img src="/dist/minified/cd/tech-1.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
                         <p class="text-[#202020] font-semibold md:text-xl text-lg group-hover:text-white transition-colors duration-300">React Js</p>
                     </div>
                     <div class="group flex flex-row justify-start items-center gap-4 md:px-8 px-6 md:py-6 py-4 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
-                        <img src="/dist/cd/tech-2.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
+                        <img src="/dist/minified/cd/tech-2.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
                         <p class="text-[#202020] font-semibold md:text-xl text-lg group-hover:text-white transition-colors duration-300">Python</p>
                     </div>
                     <div class="group flex flex-row justify-start items-center gap-4 md:px-8 px-6 md:py-6 py-4 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
-                        <img src="/dist/cd/tech-3.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
+                        <img src="/dist/minified/cd/tech-3.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
                         <p class="text-[#202020] font-semibold md:text-xl text-lg group-hover:text-white transition-colors duration-300">PHP</p>
                     </div>
                     <div class="group flex flex-row justify-start items-center gap-4 md:px-8 px-6 md:py-6 py-4 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
-                        <img src="/dist/cd/tech-4.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
+                        <img src="/dist/minified/cd/tech-4.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
                         <p class="text-[#202020] font-semibold md:text-xl text-lg group-hover:text-white transition-colors duration-300">Flutter</p>
                     </div>
                     <div class="group flex flex-row justify-start items-center gap-4 md:px-8 px-6 md:py-6 py-4 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
-                        <img src="/dist/cd/tech-5.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
+                        <img src="/dist/minified/cd/tech-5.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
                         <p class="text-[#202020] font-semibold md:text-xl text-lg group-hover:text-white transition-colors duration-300">Node Js</p>
                     </div>
                     <div class="group flex flex-row justify-start items-center gap-4 md:px-8 px-6 md:py-6 py-4 rounded-xl border border-[#E8E8E8] hover:bg-[#006EFF] cursor-pointer transition-colors duration-300">
-                        <img src="/dist/cd/tech-6.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
+                        <img src="/dist/minified/cd/tech-6.webp" alt="tech stack custom dev" class="w-12 sm:w-14 md:w-16 rounded-md">
                         <p class="text-[#202020] font-semibold md:text-xl text-lg group-hover:text-white transition-colors duration-300">Java</p>
                     </div>
                 </div>
@@ -1791,56 +1791,56 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-start items-stretch gap-4 w-full mt-12">
                 <div class="flex flex-col justify-start items-start gap-4 p-2 border border-[#e8e8e8] rounded-xl cursor-pointer hover:bg-[#f5f5f5]">
                     <div class="w-full aspect-video rounded-xl overflow-hidden">
-                        <img src="/dist/cd/hero-1.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
+                        <img src="/dist/minified/cd/hero-1.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
                     </div>
                     <div class="w-full flex justify-between items-center gap-4 px-2 py-3">
                         <p class="text-[#202020] font-semibold text-lg group-hover:text-white transition-colors duration-300">Portofolio Name</p>
-                        <img src="/dist/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
+                        <img src="/dist/minified/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
                     </div>
                 </div>
                 <div class="flex flex-col justify-start items-start gap-4 p-2 border border-[#e8e8e8] rounded-xl cursor-pointer hover:bg-[#f5f5f5]">
                     <div class="w-full aspect-video rounded-xl overflow-hidden">
-                        <img src="/dist/cd/hero-2.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
+                        <img src="/dist/minified/cd/hero-2.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
                     </div>
                     <div class="w-full flex justify-between items-center gap-4 px-2 py-3">
                         <p class="text-[#202020] font-semibold text-lg group-hover:text-white transition-colors duration-300">Portofolio Name</p>
-                        <img src="/dist/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
+                        <img src="/dist/minified/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
                     </div>
                 </div>
                 <div class="flex flex-col justify-start items-start gap-4 p-2 border border-[#e8e8e8] rounded-xl cursor-pointer hover:bg-[#f5f5f5]">
                     <div class="w-full aspect-video rounded-xl overflow-hidden">
-                        <img src="/dist/cd/hero-1.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
+                        <img src="/dist/minified/cd/hero-1.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
                     </div>
                     <div class="w-full flex justify-between items-center gap-4 px-2 py-3">
                         <p class="text-[#202020] font-semibold text-lg group-hover:text-white transition-colors duration-300">Portofolio Name</p>
-                        <img src="/dist/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
+                        <img src="/dist/minified/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
                     </div>
                 </div>
                 <div class="flex flex-col justify-start items-start gap-4 p-2 border border-[#e8e8e8] rounded-xl cursor-pointer hover:bg-[#f5f5f5]">
                     <div class="w-full aspect-video rounded-xl overflow-hidden">
-                        <img src="/dist/cd/hero-2.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
+                        <img src="/dist/minified/cd/hero-2.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
                     </div>
                     <div class="w-full flex justify-between items-center gap-4 px-2 py-3">
                         <p class="text-[#202020] font-semibold text-lg group-hover:text-white transition-colors duration-300">Portofolio Name</p>
-                        <img src="/dist/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
+                        <img src="/dist/minified/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
                     </div>
                 </div>
                 <div class="flex flex-col justify-start items-start gap-4 p-2 border border-[#e8e8e8] rounded-xl cursor-pointer hover:bg-[#f5f5f5]">
                     <div class="w-full aspect-video rounded-xl overflow-hidden">
-                        <img src="/dist/cd/hero-1.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
+                        <img src="/dist/minified/cd/hero-1.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
                     </div>
                     <div class="w-full flex justify-between items-center gap-4 px-2 py-3">
                         <p class="text-[#202020] font-semibold text-lg group-hover:text-white transition-colors duration-300">Portofolio Name</p>
-                        <img src="/dist/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
+                        <img src="/dist/minified/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
                     </div>
                 </div>
                 <div class="flex flex-col justify-start items-start gap-4 p-2 border border-[#e8e8e8] rounded-xl cursor-pointer hover:bg-[#f5f5f5]">
                     <div class="w-full aspect-video rounded-xl overflow-hidden">
-                        <img src="/dist/cd/hero-2.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
+                        <img src="/dist/minified/cd/hero-2.webp" alt="portofolio image preview custom dev" class="w-full h-full object-cover">
                     </div>
                     <div class="w-full flex justify-between items-center gap-4 px-2 py-3">
                         <p class="text-[#202020] font-semibold text-lg group-hover:text-white transition-colors duration-300">Portofolio Name</p>
-                        <img src="/dist/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
+                        <img src="/dist/minified/cd/right-up-arrow.webp" alt="right up arrow icon" class="w-6">
                     </div>
                 </div>
             </div>
@@ -1853,21 +1853,21 @@
         <!-- White Ball Ornaments -->
         <div class="absolute top-8 right-1.5/2 pointer-events-none z-20">
             <img
-                src="/dist/white-ball.svg"
+                src="/dist/minified/white-ball.svg"
                 alt="White ball ornament"
                 class="w-16 h-16 md:w-20 md:h-20 lg:w-20 lg:h-20" />
         </div>
 
         <div class="absolute bottom-0 right-0 pointer-events-none z-20 transform translate-y-2 translate-x-14">
             <img
-                src="/dist/white-ball.svg"
+                src="/dist/minified/white-ball.svg"
                 alt="White ball ornament"
                 class="w-24 h-24 md:w-32 md:h-32 lg:w-38 lg:h-38" />
         </div>
 
         <div class="absolute bottom-0 left-0 pointer-events-none z-20 transform translate-y-8 -translate-x-10">
             <img
-                src="/dist/white-ball.svg"
+                src="/dist/minified/white-ball.svg"
                 alt="White ball ornament"
                 class="w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28" />
         </div>
@@ -1891,7 +1891,7 @@
                 <button class="bg-white w-[180px] mt-8 md:mt-0 lg:mt-0 hover:bg-gray-100 text-blue-600 h-fit justify-center align-center py-3 text-lg font-medium rounded transition-colors duration-300 flex items-center gap-2">
                     Get in touch
                     <img
-                        src="/dist/arrow-icon-blue.webp"
+                        src="/dist/minified/arrow-icon-blue.webp"
                         alt="Arrow"
                         class="w-4 h-4" />
                 </button>
@@ -1906,7 +1906,7 @@
                 <!-- Logo + Description -->
                 <div class="flex flex-col gap-4 justify-start items-start w-full sm:w-fit sm:max-w-sm">
                     <img
-                        src="/dist/logo-white.webp"
+                        src="/dist/minified/logo-white.webp"
                         alt="Mediatech Indonesia"
                         class="h-8 w-auto" />
                     <p class="text-sm text-gray-300">
@@ -1954,7 +1954,7 @@
                     <h5 class="font-semibold text-white mb-2">Bali - Denpasar (Head)</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Tukad Batanghari No.55, Panjer, Denpasar Selatan, Kota Denpasar, Bali 80225</p>
@@ -1963,7 +1963,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -1975,7 +1975,7 @@
                     <h5 class="font-semibold text-white mb-2">Bali - Gianyar</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Dharma Giri No.777, Bitera, Kec. Gianyar, Kabupaten Gianyar, Bali 80581</p>
@@ -1984,7 +1984,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -1996,7 +1996,7 @@
                     <h5 class="font-semibold text-white mb-2">Surabaya</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Tenggilis Tengah III No.1, Kendangsari, Kec. Tenggilis Mejoyo, Surabaya, Jawa Timur 60231</p>
@@ -2005,7 +2005,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -2017,7 +2017,7 @@
                     <h5 class="font-semibold text-white mb-2">Surabaya - Citraland</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Ruko Palma Galeria, RA3 No.11, Sememi, Kec. Benowo, Surabaya, Jawa Timur 60198</p>
@@ -2026,7 +2026,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -2038,7 +2038,7 @@
                     <h5 class="font-semibold text-white mb-2">Jember</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Majapahit, Komplek Ruko Esplanade, no R-22 Kaliwates, Jember</p>
@@ -2047,7 +2047,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -2059,7 +2059,7 @@
                     <h5 class="font-semibold text-white mb-2">Banyuwangi</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>NX Point Lt. 2, Jl. Kepiting No.7 Sobo, Kec. Banyuwangi, Banyuwangi, Jawa Timur 68418</p>
@@ -2068,7 +2068,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -2080,7 +2080,7 @@
                     <h5 class="font-semibold text-white mb-2">Sidoarjo</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Thamrin no 13, Sidokumpul, Kec. Sidoarjo</p>
@@ -2089,7 +2089,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
