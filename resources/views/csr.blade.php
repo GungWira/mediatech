@@ -1613,7 +1613,7 @@
 <body class="bg-white">
     <section
         class="w-full flex justify-center items-center bg-[#0C192B] bg-cover bg-center relative pt-20"
-        style="background-image: url('/assets/bgheader.png');"
+        style="background-image: url('/dist/minified/bgheader.webp');"
         id="home">
         <x-navbar />
         <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex justify-center items-center">
@@ -1637,7 +1637,7 @@
 
                 <div class="flex justify-center lg:justify-end items-center order-first lg:order-last">
                     <img
-                        src="/dist/csr/hero-img.png"
+                        src="/dist/minified/csr/hero-img.webp"
                         alt="Mediatech Hero Image"
                         class="w-full max-w-md lg:max-w-none lg:w-4/5 h-auto object-contain" />
                 </div>
@@ -1697,21 +1697,21 @@
             <div class="relative mt-8 md:mt-12 w-full max-w-4xl rounded-2xl shadow-lg bg-[#d9d9d9] z-0">
                 <div class="relative w-full rounded-2xl overflow-hidden">
                     <img
-                        src="/dist/csr/about-img.webp"
+                        src="/dist/minified/csr/about-img.webp"
                         alt="Video about Mediatech"
                         class="w-full h-64 md:h-80 lg:h-96 object-cover brightness-75" />
                 </div>
 
                 <div class="absolute -top-12 -left-8 -rotate-3 pointer-events-none z-20">
                     <img
-                        src="/dist/csr/heart.webp"
+                        src="/dist/minified/csr/heart.webp"
                         alt="heart ornament mediatech"
                         class="h-16 md:h-20 lg:h-28 text-blue-500" />
                 </div>
 
                 <div class="absolute -bottom-12 -right-8 rotate-3 pointer-events-none z-20">
                     <img
-                        src="/dist/csr/like.webp"
+                        src="/dist/minified/csr/like.webp"
                         alt="heart ornament mediatech"
                         class="h-16 md:h-20 lg:h-28 text-blue-500" />
                 </div>
@@ -1739,7 +1739,7 @@
                 </button>
             </div>
             <div class="flex justify-start items-start w-full max-w-[600px]">
-                <img src="/dist/csr/sgds.webp" alt="sgds image mediatech">
+                <img src="/dist/minified/csr/sgds.webp" alt="sgds image mediatech">
             </div>
         </div>
     </section>
@@ -1770,23 +1770,23 @@
                     <!-- Card Program -->
                     <div class="w-full flex flex-col-reverse md:flex-row justify-start items-start gap-6 md:gap-10 bg-[#FCFBFF] px-6 md:px-10 py-5 md:py-8 rounded-2xl">
                         <div class="flex flex-col flex-1 justify-start items-start gap-2">
-                            <img src="/dist/csr/program-1.webp" alt="program icon mediatech" class="w-28 sm:w-32 md:w-36">
+                            <img src="/dist/minified/csr/program-1.webp" alt="program icon mediatech" class="w-28 sm:w-32 md:w-36">
                             <h3 class="text-[#202020] mt-2 text-lg md:text-xl lg:text-2xl leading-tight font-semibold">Smart Workshop</h3>
                             <p class="text-sm md:text-base opacity-60 leading-relaxed">
                                 Perusahaan memberikan donasi dengan memberikan workshop (pelatihan singkat) tentang coding dan robotika kepada siswa sekolah, panti asuhan, dan masyarakat dengan tema tertentu.
                             </p>
                         </div>
                         <div class="flex justify-center items-center flex-1 rounded-lg overflow-hidden">
-                            <img src="/dist/csr/program-img-1.webp" alt="program image mediatech" class="w-full h-full object-cover">
+                            <img src="/dist/minified/csr/program-img-1.webp" alt="program image mediatech" class="w-full h-full object-cover">
                         </div>
                     </div>
                     <!-- Card Program -->
                     <div class="w-full flex flex-col md:flex-row justify-start items-start gap-6 md:gap-10 bg-[#FCFBFF] px-6 md:px-10 py-5 md:py-8 rounded-2xl">
                         <div class="flex justify-center items-center flex-1 rounded-lg overflow-hidden">
-                            <img src="/dist/csr/program-img-2.webp" alt="program image mediatech" class="w-full h-full object-cover">
+                            <img src="/dist/minified/csr/program-img-2.webp" alt="program image mediatech" class="w-full h-full object-cover">
                         </div>
                         <div class="flex flex-col flex-1 justify-start items-start gap-2">
-                            <img src="/dist/csr/program-2.webp" alt="program icon mediatech" class="w-28 sm:w-32 md:w-36">
+                            <img src="/dist/minified/csr/program-2.webp" alt="program icon mediatech" class="w-28 sm:w-32 md:w-36">
                             <h3 class="text-[#202020] mt-2 text-lg md:text-xl lg:text-2xl leading-tight font-semibold">Green School</h3>
                             <p class="text-sm md:text-base opacity-60 leading-relaxed">
                                 Perusahaan memberikan sumbangan dengan membantu membangun atau merenovasi fasilitas sekolah yang menggunakan teknologi. Kita dapat memilih satu atau beberapa ruangan
@@ -1796,14 +1796,14 @@
                     <!-- Card Program -->
                     <div class="w-full flex flex-col-reverse md:flex-row justify-start items-start gap-6 md:gap-10 bg-[#FCFBFF] px-6 md:px-10 py-5 md:py-8 rounded-2xl">
                         <div class="flex flex-col flex-1 justify-start items-start gap-2">
-                            <img src="/dist/csr/program-3.webp" alt="program icon mediatech" class="w-28 sm:w-32 md:w-36">
+                            <img src="/dist/minified/csr/program-3.webp" alt="program icon mediatech" class="w-28 sm:w-32 md:w-36">
                             <h3 class="text-[#202020] mt-2 text-lg md:text-xl lg:text-2xl leading-tight font-semibold">Smart School</h3>
                             <p class="text-sm md:text-base opacity-60 leading-relaxed">
                                 Perusahaan memberikan sumbangan berupa peralatan pendidikan atau alat peraga pendidikan yang dapat digunakan oleh guru dan siswa dalam proses pembelajaran.
                             </p>
                         </div>
                         <div class="flex justify-center items-center flex-1 rounded-lg overflow-hidden">
-                            <img src="/dist/csr/program-img-3.webp" alt="program image mediatech" class="w-full h-full object-cover">
+                            <img src="/dist/minified/csr/program-img-3.webp" alt="program image mediatech" class="w-full h-full object-cover">
                         </div>
                     </div>
                 </div>
@@ -1827,7 +1827,7 @@
             </div>
             <!-- Card Event -->
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
-                <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
+                <img src="/dist/minified/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
                 <div class="flex flex-col justify-start items-start gap-2">
                     <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
@@ -1837,7 +1837,7 @@
             </div>
             <!-- Card Event -->
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
-                <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
+                <img src="/dist/minified/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
                 <div class="flex flex-col justify-start items-start gap-2">
                     <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
@@ -1847,7 +1847,7 @@
             </div>
             <!-- Card Event -->
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
-                <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
+                <img src="/dist/minified/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
                 <div class="flex flex-col justify-start items-start gap-2">
                     <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
@@ -1857,7 +1857,7 @@
             </div>
             <!-- Card Event -->
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
-                <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
+                <img src="/dist/minified/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
                 <div class="flex flex-col justify-start items-start gap-2">
                     <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
@@ -1867,7 +1867,7 @@
             </div>
             <!-- Card Event -->
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
-                <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
+                <img src="/dist/minified/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
                 <div class="flex flex-col justify-start items-start gap-2">
                     <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
@@ -1877,7 +1877,7 @@
             </div>
             <!-- Card Event -->
             <div class="flex flex-col justify-start items-start gap-6 p-5 rounded-lg border border-[#AED1FF] bg-[#FCFBFF]">
-                <img src="/dist/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
+                <img src="/dist/minified/csr/program-img-1.webp" alt="program image" class="w-full rounded-md">
                 <div class="flex flex-col justify-start items-start gap-2">
                     <h3 class="text-[#202020] mt-2 text-md lg:text-lg leading-tight font-semibold">Green Hackathon</h3>
                     <p class="text-xs md:text-sm opacity-60 leading-relaxed">
@@ -1890,14 +1890,14 @@
 
 
     <!-- Careers Section -->
-    <section class="relative w-full py-16 md:py-20 min-h-[70vh] md:min-h-[80vh] bg-cover bg-center bg-no-repeat overflow-hidden" style="background-image: url('/dist/careers-background.jpg');">
+    <section class="relative w-full py-16 md:py-20 min-h-[70vh] md:min-h-[80vh] bg-cover bg-center bg-no-repeat overflow-hidden" style="background-image: url('/dist/minified/csr/insight-background.webp');">
         <div class="relative w-full min-h-[70vh] md:min-h-[80vh] max-w-6xl mx-auto px-4 md:px-6 z-10 flex justify-center items-center">
             <!-- Floating Images -->
             <div class="absolute inset-0 pointer-events-none hidden lg:block">
                 <!-- Top Left Image -->
                 <div class="absolute top-0 left-5 w-48 lg:w-64 opacity-40 h-auto rounded-lg overflow-hidden rotate-2">
                     <img
-                        src="/dist/csr/insight-1.webp"
+                        src="/dist/minified/csr/insight-1.webp"
                         alt="Insight mediatech 1"
                         class="w-full h-auto object-contain" />
                 </div>
@@ -1905,7 +1905,7 @@
                 <!-- Top Right Image -->
                 <div class="absolute top-0 right-5 w-64 lg:w-96 h-auto rounded-lg overflow-hidden opacity-70 -rotate-3">
                     <img
-                        src="/dist/csr/insight-3.webp"
+                        src="/dist/minified/csr/insight-3.webp"
                         alt="Insight mediatech 2"
                         class="w-full h-auto object-contain" />
                 </div>
@@ -1913,7 +1913,7 @@
                 <!-- Bottom Left Image -->
                 <div class="absolute bottom-0 left-5 lg:left-16 w-64 lg:w-96 h-auto rounded-lg overflow-hidden opacity-70 rotate-2">
                     <img
-                        src="/dist/csr/insight-2.webp"
+                        src="/dist/minified/csr/insight-2.webp"
                         alt="Insight mediatech 3"
                         class="w-full h-auto object-contain" />
                 </div>
@@ -1921,7 +1921,7 @@
                 <!-- Bottom Right Image -->
                 <div class="absolute bottom-0 right-5 w-48 lg:w-64 h-auto rounded-lg overflow-hidden opacity-40 -rotate-3">
                     <img
-                        src="/dist/csr/insight-4.webp"
+                        src="/dist/minified/csr/insight-4.webp"
                         alt="Insight mediatech 4"
                         class="w-full h-auto object-contain" />
                 </div>
@@ -1955,21 +1955,21 @@
         <!-- White Ball Ornaments -->
         <div class="absolute top-8 right-1.5/2 pointer-events-none z-20">
             <img
-                src="/dist/white-ball.svg"
+                src="/dist/minified/white-ball.svg"
                 alt="White ball ornament"
                 class="w-16 h-16 md:w-20 md:h-20 lg:w-20 lg:h-20" />
         </div>
 
         <div class="absolute bottom-0 right-0 pointer-events-none z-20 transform translate-y-2 translate-x-14">
             <img
-                src="/dist/white-ball.svg"
+                src="/dist/minified/white-ball.svg"
                 alt="White ball ornament"
                 class="w-24 h-24 md:w-32 md:h-32 lg:w-38 lg:h-38" />
         </div>
 
         <div class="absolute bottom-0 left-0 pointer-events-none z-20 transform translate-y-8 -translate-x-10">
             <img
-                src="/dist/white-ball.svg"
+                src="/dist/minified/white-ball.svg"
                 alt="White ball ornament"
                 class="w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28" />
         </div>
@@ -1993,7 +1993,7 @@
                 <button class="bg-white w-[180px] mt-8 md:mt-0 lg:mt-0 hover:bg-gray-100 text-blue-600 h-fit justify-center align-center py-3 text-lg font-medium rounded transition-colors duration-300 flex items-center gap-2">
                     Get in touch
                     <img
-                        src="/dist/arrow-icon-blue.webp"
+                        src="/dist/minified/arrow-icon-blue.webp"
                         alt="Arrow"
                         class="w-4 h-4" />
                 </button>
@@ -2008,7 +2008,7 @@
                 <!-- Logo + Description -->
                 <div class="flex flex-col gap-4 justify-start items-start w-full sm:w-fit sm:max-w-sm">
                     <img
-                        src="/dist/logo-white.webp"
+                        src="/dist/minified/logo-white.webp"
                         alt="Mediatech Indonesia"
                         class="h-8 w-auto" />
                     <p class="text-sm text-gray-300">
@@ -2056,7 +2056,7 @@
                     <h5 class="font-semibold text-white mb-2">Bali - Denpasar (Head)</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Tukad Batanghari No.55, Panjer, Denpasar Selatan, Kota Denpasar, Bali 80225</p>
@@ -2065,7 +2065,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -2077,7 +2077,7 @@
                     <h5 class="font-semibold text-white mb-2">Bali - Gianyar</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Dharma Giri No.777, Bitera, Kec. Gianyar, Kabupaten Gianyar, Bali 80581</p>
@@ -2086,7 +2086,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -2098,7 +2098,7 @@
                     <h5 class="font-semibold text-white mb-2">Surabaya</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Tenggilis Tengah III No.1, Kendangsari, Kec. Tenggilis Mejoyo, Surabaya, Jawa Timur 60231</p>
@@ -2107,7 +2107,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -2119,7 +2119,7 @@
                     <h5 class="font-semibold text-white mb-2">Surabaya - Citraland</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Ruko Palma Galeria, RA3 No.11, Sememi, Kec. Benowo, Surabaya, Jawa Timur 60198</p>
@@ -2128,7 +2128,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -2140,7 +2140,7 @@
                     <h5 class="font-semibold text-white mb-2">Jember</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Majapahit, Komplek Ruko Esplanade, no R-22 Kaliwates, Jember</p>
@@ -2149,7 +2149,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -2161,7 +2161,7 @@
                     <h5 class="font-semibold text-white mb-2">Banyuwangi</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>NX Point Lt. 2, Jl. Kepiting No.7 Sobo, Kec. Banyuwangi, Banyuwangi, Jawa Timur 68418</p>
@@ -2170,7 +2170,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -2182,7 +2182,7 @@
                     <h5 class="font-semibold text-white mb-2">Sidoarjo</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Thamrin no 13, Sidokumpul, Kec. Sidoarjo</p>
@@ -2191,7 +2191,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
