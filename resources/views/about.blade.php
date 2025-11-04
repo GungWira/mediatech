@@ -22,18 +22,18 @@
         <x-navbar/>
         <!-- Hero Section - Responsive -->
         <section class="w-full min-h-screen flex justify-center items-center bg-[#0C192B] bg-cover bg-center relative pt-16 sm:pt-20 overflow-x-hidden"
-                 style="background-image: url('dist/about/headerbg.png');"
+                 style="background-image: url('/dist/minified/bgheader.webp');"
                  id="home">
-            <img src="dist/about/sphere.svg"
+            <img src="/dist/minified/about/sphere.webp"
                  alt="Decorative sphere"
                  class="absolute top-1/2 left-1/2 w-[60%] sm:w-[50%] md:w-[40%] -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none" />
-            <img src="dist/gear.svg" alt=""
+            <img src="/dist/minified/gear.svg" alt=""
                  class="absolute top-20 -left-10 w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 pointer-events-none select-none z-0" />
-            <img src="dist/gear.svg" alt=""
+            <img src="/dist/minified/gear.svg" alt=""
                  class="absolute bottom-20 -right-10 w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 pointer-events-none select-none z-0" />
-            <img src="dist/blue-ball.svg" alt=""
+            <img src="/dist/minified/blue-ball.svg" alt=""
                  class="absolute bottom-20 left-1/4 w-12 h-12 pointer-events-none select-none z-0" />
-            <img src="dist/blue-ball.svg" alt=""
+            <img src="/dist/minified/blue-ball.svg" alt=""
                  class="absolute top-50 right-1/6 w-8 h-8 pointer-events-none select-none z-0" />
 
             <div class="w-full min-h-[80vh] max-w-6xl px-4 sm:px-6 lg:px-8 flex justify-center items-center">
@@ -50,7 +50,7 @@
                     <div class="mt-4 sm:mt-6 w-full flex justify-center">
                         <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 sm:py-3 sm:px-6 text-sm sm:text-base rounded transition-colors duration-200">
                             Explore Our Company
-                            <img src="dist/arrow-icon.webp" alt="" class="w-4 h-4 inline-block ml-2" />
+                            <img src="/dist/minified/arrow-icon.webp" alt="" class="w-4 h-4 inline-block ml-2" />
                         </button>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
             <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row justify-center items-center lg:items-start gap-8 lg:gap-12">
                 <!-- Image Container -->
                 <div class="w-full lg:w-1/2 flex justify-center items-center">
-                    <img src="dist/about/about.png"
+                    <img src="/dist/minified/about/about.webp"
                          alt="About Image"
                          class="w-full max-w-md lg:max-w-none h-auto object-cover rounded-lg shadow-lg" />
                 </div>
@@ -169,7 +169,7 @@
                     <!-- Top Large Image -->
                     <div class="mb-4 sm:mb-6">
                         <img
-                            src="dist/about/working space (2).png"
+                            src="/dist/minified/about/working-space-2.webp"
                             alt="Development Team Working"
                             class="w-full h-48 sm:h-64 lg:h-[350px] object-cover rounded-xl sm:rounded-2xl"
                         />
@@ -179,14 +179,14 @@
                     <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
                         <div>
                             <img
-                                src="dist/about/working space (3).png"
+                                src="/dist/minified/about/working-space-3.webp"
                                 alt="Team Collaboration"
                                 class="w-full h-32 sm:h-40 lg:h-[240px] object-cover rounded-xl sm:rounded-2xl"
                             />
                         </div>
                         <div>
                             <img
-                                src="dist/about/working space (1).png"
+                                src="/dist/minified/about/working-space-1.webp"
                                 alt="Learning Environment"
                                 class="w-full h-32 sm:h-40 lg:h-[240px] object-cover rounded-xl sm:rounded-2xl"
                             />
@@ -199,7 +199,7 @@
         <!-- CEO Founder Section - Mobile Column Layout -->
         <section class="w-full py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col justify-center items-center bg-white relative">
         <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-center items-center md:items-start gap-6 sm:gap-8 lg:gap-12">
-            <img src="/dist/about/ceo-profile (1).png"
+            <img src="/dist/minified/about/ceo-profile-1.webp"
                  alt="CEO Profile"
                  class="w-full sm:w-[70%] md:w-[45%] lg:w-[40%] h-auto object-cover rounded-lg" />
           <div class="min-h-full flex justify-start items-start flex-col gap-4">
@@ -218,7 +218,7 @@
         <!-- Co-Founder Section - Mobile Column Layout -->
         <section class="w-full py-12 sm:py-16 md:py-20 lg:py-24 flex flex-col justify-center items-center bg-white relative">
         <div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row-reverse justify-center items-center md:items-start gap-6 sm:gap-8 lg:gap-12">
-            <img src="/dist/about/ceo-profile (2).png"
+            <img src="/dist/minified/about/ceo-profile-2.webp"
                  alt="Co-Founder Profile"
                  class="w-full sm:w-[70%] md:w-[45%] lg:w-[40%] h-auto object-cover rounded-lg" />
           <div class="min-h-full flex lg:justify-end lg:items-end flex-col gap-4">
@@ -258,7 +258,7 @@
                     </div>
 
                     <div class="w-full flex justify-center items-center">
-                        <img src="/dist/about/teams.png"
+                        <img src="/dist/minified/about/teams.webp"
                              alt="Mediatech Team"
                              class="w-full h-auto object-cover rounded-lg" />
                     </div>
@@ -271,7 +271,7 @@
             <!-- White Ball Ornaments -->
             <div class="absolute top-4 sm:top-8 right-1.5/2 pointer-events-none z-20">
                 <img
-                    src="/dist/white-ball.svg"
+                    src="/dist/minified/white-ball.svg"
                     alt="White ball ornament"
                     class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-20 lg:h-20"
                 />
@@ -279,7 +279,7 @@
 
             <div class="absolute bottom-0 right-0 pointer-events-none z-20 transform translate-y-2 translate-x-14">
                 <img
-                    src="/dist/white-ball.svg"
+                    src="/dist/minified/white-ball.svg"
                     alt="White ball ornament"
                     class="w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-38 lg:h-38"
                 />
@@ -287,7 +287,7 @@
 
             <div class="absolute bottom-0 left-0 pointer-events-none z-20 transform translate-y-8 -translate-x-10">
                 <img
-                    src="/dist/white-ball.svg"
+                    src="/dist/minified/white-ball.svg"
                     alt="White ball ornament"
                     class="w-14 h-14 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28"
                 />
@@ -312,7 +312,7 @@
                     <button class="bg-white w-[140px] sm:w-[160px] md:w-[180px] mt-6 sm:mt-8 md:mt-0 lg:mt-0 hover:bg-gray-100 text-blue-600 h-fit justify-center align-center py-2 sm:py-3 text-sm sm:text-base md:text-lg font-medium rounded transition-colors duration-300 flex items-center gap-2">
                         Get in touch
                         <img
-                            src="/dist/arrow-icon-blue.webp"
+                            src="/dist/minified/arrow-icon-blue.webp"
                             alt="Arrow"
                             class="w-3 h-3 sm:w-4 sm:h-4"
                         />
@@ -328,7 +328,7 @@
                     <!-- Logo + Description -->
                     <div class="flex flex-col gap-3 sm:gap-4 justify-start items-start w-full sm:w-fit sm:max-w-sm">
                         <img
-                            src="/dist/logo-white.webp"
+                            src="/dist/minified/logo-white.webp"
                             alt="Mediatech Indonesia"
                             class="h-6 sm:h-8 w-auto"
                         />
@@ -379,7 +379,7 @@
                         <h5 class="font-semibold text-white mb-2 text-sm sm:text-base">Bali - Denpasar (Head)</h5>
                         <div class="flex items-start gap-2">
                             <img
-                                src="/dist/location-icon.webp"
+                                src="/dist/minified/location-icon.webp"
                                 alt="location icon"
                                 class="w-3 sm:w-4 mt-0.5"
                             />
@@ -390,7 +390,7 @@
                             class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
                         >
                             <img
-                                src="/dist/to-maps-icon.webp"
+                                src="/dist/minified/to-maps-icon.webp"
                                 alt="to maps icon"
                                 class="w-3 sm:w-4"
                             />
@@ -403,7 +403,7 @@
                         <h5 class="font-semibold text-white mb-2 text-sm sm:text-base">Bali - Gianyar</h5>
                         <div class="flex items-start gap-2">
                             <img
-                                src="/dist/location-icon.webp"
+                                src="/dist/minified/location-icon.webp"
                                 alt="location icon"
                                 class="w-3 sm:w-4 mt-0.5"
                             />
@@ -414,7 +414,7 @@
                             class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
                         >
                             <img
-                                src="/dist/to-maps-icon.webp"
+                                src="/dist/minified/to-maps-icon.webp"
                                 alt="to maps icon"
                                 class="w-3 sm:w-4"
                             />
@@ -427,7 +427,7 @@
                         <h5 class="font-semibold text-white mb-2 text-sm sm:text-base">Surabaya</h5>
                         <div class="flex items-start gap-2">
                             <img
-                                src="/dist/location-icon.webp"
+                                src="/dist/minified/location-icon.webp"
                                 alt="location icon"
                                 class="w-3 sm:w-4 mt-0.5"
                             />
@@ -438,7 +438,7 @@
                             class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
                         >
                             <img
-                                src="/dist/to-maps-icon.webp"
+                                src="/dist/minified/to-maps-icon.webp"
                                 alt="to maps icon"
                                 class="w-3 sm:w-4"
                             />
@@ -451,7 +451,7 @@
                         <h5 class="font-semibold text-white mb-2 text-sm sm:text-base">Surabaya - Citraland</h5>
                         <div class="flex items-start gap-2">
                             <img
-                                src="/dist/location-icon.webp"
+                                src="/dist/minified/location-icon.webp"
                                 alt="location icon"
                                 class="w-3 sm:w-4 mt-0.5"
                             />
@@ -462,7 +462,7 @@
                             class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
                         >
                             <img
-                                src="/dist/to-maps-icon.webp"
+                                src="/dist/minified/to-maps-icon.webp"
                                 alt="to maps icon"
                                 class="w-3 sm:w-4"
                             />
@@ -475,7 +475,7 @@
                         <h5 class="font-semibold text-white mb-2 text-sm sm:text-base">Jember</h5>
                         <div class="flex items-start gap-2">
                             <img
-                                src="/dist/location-icon.webp"
+                                src="/dist/minified/location-icon.webp"
                                 alt="location icon"
                                 class="w-3 sm:w-4 mt-0.5"
                             />
@@ -486,7 +486,7 @@
                             class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
                         >
                             <img
-                                src="/dist/to-maps-icon.webp"
+                                src="/dist/minified/to-maps-icon.webp"
                                 alt="to maps icon"
                                 class="w-3 sm:w-4"
                             />
@@ -499,7 +499,7 @@
                         <h5 class="font-semibold text-white mb-2 text-sm sm:text-base">Banyuwangi</h5>
                         <div class="flex items-start gap-2">
                             <img
-                                src="/dist/location-icon.webp"
+                                src="/dist/minified/location-icon.webp"
                                 alt="location icon"
                                 class="w-3 sm:w-4 mt-0.5"
                             />
@@ -510,7 +510,7 @@
                             class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
                         >
                             <img
-                                src="/dist/to-maps-icon.webp"
+                                src="/dist/minified/to-maps-icon.webp"
                                 alt="to maps icon"
                                 class="w-3 sm:w-4"
                             />
@@ -523,7 +523,7 @@
                         <h5 class="font-semibold text-white mb-2 text-sm sm:text-base">Sidoarjo</h5>
                         <div class="flex items-start gap-2">
                             <img
-                                src="/dist/location-icon.webp"
+                                src="/dist/minified/location-icon.webp"
                                 alt="location icon"
                                 class="w-3 sm:w-4 mt-0.5"
                             />
@@ -534,7 +534,7 @@
                             class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline"
                         >
                             <img
-                                src="/dist/to-maps-icon.webp"
+                                src="/dist/minified/to-maps-icon.webp"
                                 alt="to maps icon"
                                 class="w-3 sm:w-4"
                             />
