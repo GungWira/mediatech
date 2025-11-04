@@ -1568,7 +1568,7 @@
 <body class="bg-white">
     <section
         class="w-full flex justify-center items-center bg-[#0C192B] bg-cover bg-center relative pt-20"
-        style="background-image: url('/assets/bgheader.png');"
+        style="background-image: url('/dist/minified/bgheader.webp');"
         id="home">
         <x-navbar />
         <div class="w-full min-h-[80vh] max-w-6xl px-4 md:px-6 flex justify-center items-center">
@@ -1587,14 +1587,14 @@
                     <div class="mt-4 w-full flex justify-start md:justify-center lg:justify-start md:mb-8">
                         <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded transition-colors duration-200">
                             Get in touch
-                            <img src="dist/arrow-icon.webp" alt="" class="w-4 h-4 inline-block ml-2" />
+                            <img src="/dist/minified/arrow-icon.webp" alt="" class="w-4 h-4 inline-block ml-2" />
                         </button>
                     </div>
                 </div>
 
                 <div class="flex justify-center lg:justify-end items-center order-first lg:order-last">
                     <img
-                        src="/dist/header-home.png"
+                        src="/dist/minified/homepage/header-home.webp"
                         alt="Mediatech Hero Image"
                         class="w-full max-w-md lg:max-w-none lg:w-4/5 h-auto object-contain" />
                 </div>
@@ -1640,14 +1640,14 @@
     <section class="relative w-full flex flex-col items-center py-16 md:py-20 bg-white overflow-hidden">
         <div class="absolute top-[240px] right-0 md:bottom-[430px] md:top-[270px] md:right-0 lg:right-24 pointer-events-none z-20">
             <img
-                src="/dist/gear.svg"
+                src="/dist/minified/gear.svg"
                 alt="Gear ornament"
                 class="w-20 h-20 md:w-24 md:h-24 lg:w-40 lg:h-40 text-blue-500" />
         </div>
 
         <div class="absolute bottom-6 left-4 md:bottom-6 md:left-8 lg:left-40  pointer-events-none z-20">
             <img
-                src="/dist/gear.svg"
+                src="/dist/minified/gear.svg"
                 alt="Gear ornament"
                 class="w-16 h-16 md:w-20 md:h-20 lg:w-28 lg:h-28 text-blue-400" />
         </div>
@@ -1669,7 +1669,7 @@
 
             <div class="relative mt-8 md:mt-12 w-[100%] rounded-2xl overflow-hidden shadow-lg z-0">
                 <img
-                    src="/dist/video-placeholder.png"
+                    src="/dist/minified/homepage/video-placeholder.webp"
                     alt="Video about Mediatech"
                     class="w-full h-64 md:h-80 lg:h-96 object-cover brightness-75" />
                 <button
@@ -1720,7 +1720,7 @@
 
                         <!-- Image -->
                         <img
-                            src="/dist/services (1).png"
+                            src="/dist/minified/homepage/services-1.webp"
                             alt="Koding Akademi"
                             class="absolute inset-0 w-full h-full object-cover" />
 
@@ -1743,7 +1743,7 @@
 
                         <!-- Image -->
                         <img
-                            src="/dist/services (2).png"
+                            src="/dist/minified/homepage/services-2.webp"
                             alt="Virtual Office"
                             class="absolute inset-0 w-full h-full object-cover" />
 
@@ -1766,7 +1766,7 @@
 
                         <!-- Image -->
                         <img
-                            src="/dist/services (3).png"
+                            src="/dist/minified/homepage/services-3.webp"
                             alt="FNB Bali"
                             class="absolute inset-0 w-full h-full object-cover" />
 
@@ -1789,7 +1789,7 @@
 
                         <!-- Image -->
                         <img
-                            src="/dist/services.png"
+                            src="/dist/minified/homepage/services-4.webp"
                             alt="Software House"
                             class="absolute inset-0 w-full h-full object-cover" />
 
@@ -1810,18 +1810,18 @@
     </section>
 
     <!-- Why Choose Us Section -->
-    <section class="relative w-full py-16 md:py-20 bg-cover bg-center bg-no-repeat flex justify-center items-center overflow-hidden" style="background-image: url('dist/backgrounds/why-choose-us.png');">
+    <section class="relative w-full py-16 md:py-20 bg-cover bg-center bg-no-repeat flex justify-center items-center overflow-hidden" style="background-image: url('/dist/minified/homepage/why-choose-us-bg.webp');">
         <!-- Gear Ornaments -->
         <div class="absolute top-0 right-0 transform -translate-y-8 md:top-0 md:right-0 pointer-events-none z-0 lg:top-4 lg:right-0 lg:transform-none">
             <img
-                src="/dist/gear.svg"
+                src="/dist/minified/gear.svg"
                 alt="Gear ornament"
                 class="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40" />
         </div>
 
         <div class="absolute bottom-0 left-0 md:bottom-0 md:left-0 pointer-events-none z-0 transform translate-y-20 -translate-x-20">
             <img
-                src="/dist/gear.svg"
+                src="/dist/minified/gear.svg"
                 alt="Gear ornament"
                 class="w-16 h-16 md:w-24 md:h-24 lg:w-48 lg:h-48" />
         </div>
@@ -1829,14 +1829,14 @@
         <!-- Blue Ball Ornaments -->
         <div class="absolute top-10 left-2/4 pointer-events-none z-0 hidden lg:block">
             <img
-                src="/dist/blue-ball.svg"
+                src="/dist/minified/blue-ball.svg"
                 alt="Blue ball ornament"
                 class="w-8 h-8 md:w-18 md:h-18" />
         </div>
 
         <div class="absolute bottom-1/8 left-80 pointer-events-none z-0 hidden lg:block">
             <img
-                src="/dist/blue-ball.svg"
+                src="/dist/minified/blue-ball.svg"
                 alt="Blue ball ornament"
                 class="w-4 h-4 md:w-14 md:h-14" />
         </div>
@@ -1861,9 +1861,9 @@
                     <!-- Client Stats -->
                     <div class="flex items-center justify-start gap-4 mb-6 md:mb-8 mt-3">
                         <div class="flex -space-x-2">
-                            <div class="w-10 h-10 rounded-full border-2 border-white bg-cover bg-center" style="background-image: url('/dist/person.png');"></div>
-                            <div class="w-10 h-10 rounded-full border-2 border-white bg-cover bg-center" style="background-image: url('/dist/person.png');"></div>
-                            <div class="w-10 h-10 rounded-full border-2 border-white bg-cover bg-center" style="background-image: url('/dist/person.png');"></div>
+                            <div class="w-10 h-10 rounded-full border-2 border-white bg-cover bg-center" style="background-image: url('/dist/minified/homepage/person.webp');"></div>
+                            <div class="w-10 h-10 rounded-full border-2 border-white bg-cover bg-center" style="background-image: url('/dist/minified/homepage/person.webp');"></div>
+                            <div class="w-10 h-10 rounded-full border-2 border-white bg-cover bg-center" style="background-image: url('/dist/minified/homepage/person.webp');"></div>
                         </div>
                         <div>
                             <div class="text-xl md:text-2xl font-bold text-[#006EFF]">600+</div>
@@ -1873,9 +1873,9 @@
 
                     <!-- CTA Button -->
                     <div class="flex justify-start">
-                        <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded transition-colors duration-200">
+                        <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded transition-colors duration-200 relative z-30">
                             Get in touch
-                            <img src="dist/arrow-icon.webp" alt="" class="w-4 h-4 inline-block ml-2" />
+                            <img src="dist/minified/arrow-icon.webp" alt="" class="w-4 h-4 inline-block ml-2" />
                         </button>
                     </div>
                 </div>
@@ -1887,7 +1887,7 @@
                         <!-- Icon Box -->
                         <div class="w-16 h-16 md:w-20 md:h-20 rounded-lg mb-3 flex items-center justify-center border-2 border-transparent">
                             <img
-                                src="/dist/reason-icon (2).svg"
+                                src="/dist/minified/homepage/reason-icon (2).svg"
                                 alt="Diversified Solutions icon"
                                 class="w-full h-full object-contain" />
                         </div>
@@ -1905,7 +1905,7 @@
                         <!-- Icon Box -->
                         <div class="w-16 h-16 md:w-20 md:h-20 rounded-lg mb-3 flex items-center justify-center border-2 border-transparent">
                             <img
-                                src="/dist/reason-icon (3).svg"
+                                src="/dist/minified/homepage/reason-icon (3).svg"
                                 alt="Integrated Ecosystem icon"
                                 class="w-full h-full object-contain" />
                         </div>
@@ -1923,7 +1923,7 @@
                         <!-- Icon Box -->
                         <div class="w-16 h-16 md:w-20 md:h-20 rounded-lg mb-3 flex items-center justify-center border-2 border-transparent">
                             <img
-                                src="/dist/reason-icon (1).svg"
+                                src="/dist/minified/homepage/reason-icon (1).svg"
                                 alt="Commitment to Quality icon"
                                 class="w-full h-full object-contain" />
                         </div>
@@ -1941,7 +1941,7 @@
                         <!-- Icon Box -->
                         <div class="w-16 h-16 md:w-20 md:h-20 rounded-lg mb-3 flex items-center justify-center border-2 border-transparent">
                             <img
-                                src="/dist/reason-icon (4).svg"
+                                src="/dist/minified/homepage/reason-icon (4).svg"
                                 alt="People-Centric Approach icon"
                                 class="w-full h-full object-contain" />
                         </div>
@@ -1991,7 +1991,7 @@
                         <div class="flex items-center gap-3 px-2">
                             <div class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#d9d9d9] flex items-center justify-center overflow-hidden flex-shrink-0">
                                 <img
-                                    src="/dist/person.png"
+                                    src="/dist/minified/homepage/person.webp"
                                     alt="Sarah Wijaya"
                                     class="w-full h-full object-cover" />
                             </div>
@@ -2016,7 +2016,7 @@
                         <div class="flex items-center gap-3 px-2">
                             <div class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#d9d9d9] flex items-center justify-center overflow-hidden flex-shrink-0">
                                 <img
-                                    src="/dist/person.png"
+                                    src="/dist/minified/homepage/person.webp"
                                     alt="Lina Marlina"
                                     class="w-full h-full object-cover" />
                             </div>
@@ -2041,7 +2041,7 @@
                         <div class="flex items-center gap-3 px-2">
                             <div class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#d9d9d9] flex items-center justify-center overflow-hidden flex-shrink-0">
                                 <img
-                                    src="/dist/person.png"
+                                    src="/dist/minified/homepage/person.webp"
                                     alt="Budi Santosa"
                                     class="w-full h-full object-cover" />
                             </div>
@@ -2066,7 +2066,7 @@
                         <div class="flex items-center gap-3 px-2">
                             <div class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#d9d9d9] flex items-center justify-center overflow-hidden flex-shrink-0">
                                 <img
-                                    src="/dist/person.png"
+                                    src="/dist/minified/homepage/person.webp"
                                     alt="Budi Santosa"
                                     class="w-full h-full object-cover" />
                             </div>
@@ -2091,7 +2091,7 @@
                         <div class="flex items-center gap-3 px-2">
                             <div class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#d9d9d9] flex items-center justify-center overflow-hidden flex-shrink-0">
                                 <img
-                                    src="/dist/person.png"
+                                    src="/dist/minified/homepage/person.webp"
                                     alt="Clara Anggraini"
                                     class="w-full h-full object-cover" />
                             </div>
@@ -2116,7 +2116,7 @@
                         <div class="flex items-center gap-3 px-2">
                             <div class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#d9d9d9] flex items-center justify-center overflow-hidden flex-shrink-0">
                                 <img
-                                    src="/dist/person.png"
+                                    src="/dist/minified/homepage/person.webp"
                                     alt="Rizky Ramadhan"
                                     class="w-full h-full object-cover" />
                             </div>
@@ -2156,7 +2156,7 @@
             <!-- Partnership Logos -->
             <div class="relative w-full flex justify-center">
                 <img
-                    src="/dist/partnership-logos.png"
+                    src="/dist/minified/homepage/partnership-logos.webp"
                     alt="Partnership Logos - Mediatech's trusted partners including leading brands from F&B, education, property, technology and other sectors"
                     class="w-full max-w-5xl h-auto object-contain" />
             </div>
@@ -2188,7 +2188,7 @@
                     <!-- Blog Image -->
                     <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded-lg">
                         <img
-                            src="/dist/blog-img.png"
+                            src="/dist/minified/homepage/blog-img.webp"
                             alt="Mengapa UI/UX Menjadi Kunci Transformasi Digital"
                             class="w-full h-full object-cover" />
                     </div>
@@ -2212,7 +2212,7 @@
                     <!-- Blog Image -->
                     <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded-lg">
                         <img
-                            src="/dist/blog-img.png"
+                            src="/dist/minified/homepage/blog-img.webp"
                             alt="Mediatech Ekspansi ke Sektor F&B Digital"
                             class="w-full h-full object-cover" />
 
@@ -2237,7 +2237,7 @@
                     <!-- Blog Image -->
                     <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded-lg">
                         <img
-                            src="/dist/blog-img.png"
+                            src="/dist/minified/homepage/blog-img.webp"
                             alt="Tips Membangun Startup Properti dengan Dukungan Teknologi"
                             class="w-full h-full object-cover" />
 
@@ -2260,14 +2260,14 @@
     </section>
 
     <!-- Careers Section -->
-    <section class="relative w-full py-16 md:py-20 min-h-[30vh] md:min-h-[60vh] lg:min-h-[80vh] bg-cover bg-center bg-no-repeat overflow-hidden" style="background-image: url('/dist/careers-background.jpg');">
+    <section class="relative w-full py-16 md:py-20 min-h-[30vh] md:min-h-[60vh] lg:min-h-[80vh] bg-cover bg-center bg-no-repeat overflow-hidden" style="background-image: url('/dist/minified/homepage/careers-background.webp');">
         <div class="relative w-full min-h-[30vh] md:min-h-[30vh] lg:min-h-[80vh] max-w-6xl mx-auto px-4 md:px-6 z-10 flex justify-center items-center">
             <!-- Floating Images -->
             <div class="absolute inset-0 pointer-events-none hidden lg:block">
                 <!-- Top Left Image -->
                 <div class="absolute top-0 left-5 w-48 lg:w-64 h-auto rounded-2xl overflow-hidden opacity-80">
                     <img
-                        src="/dist/carreers (3).png"
+                        src="/dist/minified/homepage/carreers-3.webp"
                         alt="Career opportunity 1"
                         class="w-full h-auto object-contain" />
                 </div>
@@ -2275,7 +2275,7 @@
                 <!-- Top Right Image -->
                 <div class="absolute top-0 right-5 w-44 lg:w-56 h-auto rounded-2xl overflow-hidden opacity-80">
                     <img
-                        src="/dist/carreers (2).png"
+                        src="/dist/minified/homepage/carreers-2.webp"
                         alt="Career opportunity 2"
                         class="w-full h-auto object-contain" />
                 </div>
@@ -2283,7 +2283,7 @@
                 <!-- Bottom Left Image -->
                 <div class="absolute bottom-0 left-5 lg:left-16 w-48 lg:w-60 h-auto rounded-2xl overflow-hidden opacity-80">
                     <img
-                        src="/dist/carreers (1).png"
+                        src="/dist/minified/homepage/carreers-1.webp"
                         alt="Career opportunity 3"
                         class="w-full h-auto object-contain" />
                 </div>
@@ -2291,7 +2291,7 @@
                 <!-- Bottom Right Image -->
                 <div class="absolute bottom-0 right-5 w-48 lg:w-64 h-auto rounded-2xl overflow-hidden opacity-80">
                     <img
-                        src="/dist/carreers (4).png"
+                        src="/dist/minified/homepage/carreers-4.webp"
                         alt="Career opportunity 4"
                         class="w-full h-auto object-contain" />
                 </div>
@@ -2315,7 +2315,7 @@
                 <!-- CTA Button -->
                 <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded transition-colors duration-200">
                     Peluang Karir
-                    <img src="dist/arrow-icon.webp" alt="" class="w-4 h-4 inline-block ml-2" />
+                    <img src="dist/minified/arrow-icon.webp" alt="" class="w-4 h-4 inline-block ml-2" />
                 </button>
             </div>
         </div>
@@ -2326,21 +2326,21 @@
         <!-- White Ball Ornaments -->
         <div class="absolute top-8 right-1.5/2 pointer-events-none z-0">
             <img
-                src="/dist/white-ball.svg"
+                src="/dist/minified/white-ball.svg"
                 alt="White ball ornament"
                 class="w-16 h-16 md:w-20 md:h-20 lg:w-20 lg:h-20" />
         </div>
 
         <div class="absolute bottom-0 right-0 pointer-events-none z-0 transform translate-y-2 translate-x-14">
             <img
-                src="/dist/white-ball.svg"
+                src="/dist/minified/white-ball.svg"
                 alt="White ball ornament"
                 class="w-24 h-24 md:w-32 md:h-32 lg:w-38 lg:h-38" />
         </div>
 
         <div class="absolute bottom-0 left-0 pointer-events-none z-0 transform translate-y-8 -translate-x-10">
             <img
-                src="/dist/white-ball.svg"
+                src="/dist/minified/white-ball.svg"
                 alt="White ball ornament"
                 class="w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28" />
         </div>
@@ -2364,7 +2364,7 @@
                 <button class="bg-white w-[180px] mt-8 md:mt-0 lg:mt-0 hover:bg-gray-100 text-blue-600 h-fit justify-center align-center py-3 text-lg font-medium rounded transition-colors duration-300 flex items-center gap-2">
                     Get in touch
                     <img
-                        src="/dist/arrow-icon-blue.webp"
+                        src="/dist/minified/arrow-icon-blue.webp"
                         alt="Arrow"
                         class="w-4 h-4" />
                 </button>
@@ -2379,7 +2379,7 @@
                 <!-- Logo + Description -->
                 <div class="flex flex-col gap-4 justify-start items-start w-full sm:w-fit sm:max-w-sm">
                     <img
-                        src="/dist/logo-white.webp"
+                        src="/dist/minified/logo-white.webp"
                         alt="Mediatech Indonesia"
                         class="h-8 w-auto" />
                     <p class="text-sm text-gray-300">
@@ -2427,7 +2427,7 @@
                     <h5 class="font-semibold text-white mb-2">Bali - Denpasar (Head)</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Tukad Batanghari No.55, Panjer, Denpasar Selatan, Kota Denpasar, Bali 80225</p>
@@ -2436,7 +2436,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -2448,7 +2448,7 @@
                     <h5 class="font-semibold text-white mb-2">Bali - Gianyar</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Dharma Giri No.777, Bitera, Kec. Gianyar, Kabupaten Gianyar, Bali 80581</p>
@@ -2457,7 +2457,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -2469,7 +2469,7 @@
                     <h5 class="font-semibold text-white mb-2">Surabaya</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Tenggilis Tengah III No.1, Kendangsari, Kec. Tenggilis Mejoyo, Surabaya, Jawa Timur 60231</p>
@@ -2478,7 +2478,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -2490,7 +2490,7 @@
                     <h5 class="font-semibold text-white mb-2">Surabaya - Citraland</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Ruko Palma Galeria, RA3 No.11, Sememi, Kec. Benowo, Surabaya, Jawa Timur 60198</p>
@@ -2499,7 +2499,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -2511,7 +2511,7 @@
                     <h5 class="font-semibold text-white mb-2">Jember</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Majapahit, Komplek Ruko Esplanade, no R-22 Kaliwates, Jember</p>
@@ -2520,7 +2520,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -2532,7 +2532,7 @@
                     <h5 class="font-semibold text-white mb-2">Banyuwangi</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>NX Point Lt. 2, Jl. Kepiting No.7 Sobo, Kec. Banyuwangi, Banyuwangi, Jawa Timur 68418</p>
@@ -2541,7 +2541,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -2553,7 +2553,7 @@
                     <h5 class="font-semibold text-white mb-2">Sidoarjo</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Thamrin no 13, Sidokumpul, Kec. Sidoarjo</p>
@@ -2562,7 +2562,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>

@@ -9,7 +9,7 @@
             <a href="/" class="flex items-center">
                 <img
                     id="navbar-logo"
-                    src="{{ $isLight ? asset('/dist/cd/logo-color.webp') : asset('/dist/logo-white.webp') }}"
+                    src="{{ $isLight ? asset('/dist/minified/logo-color.webp') : asset('/dist/minified/logo-white.webp') }}"
                     alt="Mediatech Indonesia"
                     class="h-8 w-auto transition-opacity duration-300" />
             </a>
@@ -35,7 +35,7 @@
                 <button class="bg-[#2563EB] hover:bg-[#1D4ED8] text-white px-6 py-2.5 rounded font-medium flex items-center gap-2 transition-colors duration-200">
                     Contact Us
                     <img
-                        src="{{ asset('/dist/arrow-icon.webp') }}"
+                        src="{{ asset('/dist/minified/arrow-icon.webp') }}"
                         alt="Arrow"
                         class="w-4 h-4" />
                 </button>
@@ -95,7 +95,7 @@
                 <button class="bg-[#2563EB] hover:bg-[#1D4ED8] text-white px-6 py-3 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors duration-200 mt-4">
                     Contact Us
                     <img
-                        src="{{ asset('arrow-icon.webp') }}"
+                        src="{{ asset('/dist/minified/arrow-icon.webp') }}"
                         alt="Arrow"
                         class="w-4 h-4" />
                 </button>
@@ -124,8 +124,8 @@
         const isLight = navbar.dataset.isLight === 'true';
 
         // Logo paths
-        const logoWhite = '{{ asset("/dist/logo-white.webp") }}';
-        const logoColor = '{{ asset("/dist/cd/logo-color.webp") }}';
+        const logoWhite = '{{ asset("/dist/minified/logo-white.webp") }}';
+        const logoColor = '{{ asset("/dist/minified/logo-color.webp") }}';
 
         // Handle scroll effect
         function handleScroll() {
