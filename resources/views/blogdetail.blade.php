@@ -1552,7 +1552,7 @@
             </div>
 
             <div class="w-full flex justify-center items-center overflow-hidden rounded-md h-[160px] sm:h-[300px] md:h-[400px] lg:h-[500px] bg-slate-50">
-                <img src="/dist/blog-img.png" alt="" class="w-full h-full object-cover">
+                <img src="/dist/minified/homepage/blog-img.webp" alt="" class="w-full h-full object-cover">
             </div>
         </div>
     </section>
@@ -1571,7 +1571,7 @@
             <p class="opacity-80 text-gray-900 text-xs sm:text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi veritatis exercitationem delectus nostrum dolorem, deserunt deleniti? Fuga totam mollitia nihil inventore at quis nam consequuntur nisi recusandae, impedit dolorem nesciunt sequi in assumenda sint similique vero rem nobis quos quod.</p>
             <!-- INPUT IMAGE -->
             <div class="w-full flex justify-center items-center rounded-md h-[160px] sm:h-[300px] md:h-[400px] overflow-hidden bg-slate-50 my-4">
-                <img src="/dist/blog-img.png" alt="" class="w-full h-full object-cover">
+                <img src="/dist/minified/homepage/blog-img.webp" alt="" class="w-full h-full object-cover">
             </div>
             <!-- INPUT IMAGE -->
             <p class="opacity-80 text-gray-900 text-xs sm:text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi veritatis exercitationem delectus nostrum dolorem, deserunt deleniti? Fuga totam mollitia nihil inventore at quis nam consequuntur nisi recusandae, impedit dolorem nesciunt sequi in assumenda sint similique vero rem nobis quos quod.</p>
@@ -1607,7 +1607,7 @@
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
-                    src="/dist/blog-img.png"
+                    src="/dist/minified/homepage/blog-img.webp"
                     alt="Mengapa UI/UX Menjadi Kunci Transformasi Digital"
                     class="w-full h-full object-cover"
                 />
@@ -1630,7 +1630,7 @@
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
-                    src="/dist/blog-img.png"
+                    src="/dist/minified/homepage/blog-img.webp"
                     alt="Mediatech Ekspansi ke Sektor F&B Digital"
                     class="w-full h-full object-cover"
                 />
@@ -1653,7 +1653,7 @@
                 <!-- Blog Image -->
                 <div class="relative w-full h-48 md:h-64 lg:h-72 overflow-hidden mb-4 md:mb-6 bg-gray-200 rounded">
                 <img
-                    src="/dist/blog-img.png"
+                    src="/dist/minified/homepage/blog-img.webp"
                     alt="Tips Membangun Startup Properti dengan Teknologi"
                     class="w-full h-full object-cover"
                 />
@@ -1682,7 +1682,7 @@
                 <!-- Logo + Description -->
                 <div class="flex flex-col gap-4 justify-start items-start w-full sm:w-fit sm:max-w-sm">
                     <img
-                        src="/dist/logo-white.webp"
+                        src="/dist/minified/logo-white.webp"
                         alt="Mediatech Indonesia"
                         class="h-8 w-auto" />
                     <p class="text-sm text-gray-300">
@@ -1730,7 +1730,7 @@
                     <h5 class="font-semibold text-white mb-2">Bali - Denpasar (Head)</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Tukad Batanghari No.55, Panjer, Denpasar Selatan, Kota Denpasar, Bali 80225</p>
@@ -1739,7 +1739,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -1751,7 +1751,7 @@
                     <h5 class="font-semibold text-white mb-2">Bali - Gianyar</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Dharma Giri No.777, Bitera, Kec. Gianyar, Kabupaten Gianyar, Bali 80581</p>
@@ -1760,7 +1760,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -1772,7 +1772,7 @@
                     <h5 class="font-semibold text-white mb-2">Surabaya</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Tenggilis Tengah III No.1, Kendangsari, Kec. Tenggilis Mejoyo, Surabaya, Jawa Timur 60231</p>
@@ -1781,7 +1781,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -1793,7 +1793,7 @@
                     <h5 class="font-semibold text-white mb-2">Surabaya - Citraland</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Ruko Palma Galeria, RA3 No.11, Sememi, Kec. Benowo, Surabaya, Jawa Timur 60198</p>
@@ -1802,7 +1802,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -1814,7 +1814,7 @@
                     <h5 class="font-semibold text-white mb-2">Jember</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Majapahit, Komplek Ruko Esplanade, no R-22 Kaliwates, Jember</p>
@@ -1823,7 +1823,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -1835,7 +1835,7 @@
                     <h5 class="font-semibold text-white mb-2">Banyuwangi</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>NX Point Lt. 2, Jl. Kepiting No.7 Sobo, Kec. Banyuwangi, Banyuwangi, Jawa Timur 68418</p>
@@ -1844,7 +1844,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
@@ -1856,7 +1856,7 @@
                     <h5 class="font-semibold text-white mb-2">Sidoarjo</h5>
                     <div class="flex items-start gap-2">
                         <img
-                            src="/dist/location-icon.webp"
+                            src="/dist/minified/location-icon.webp"
                             alt="location icon"
                             class="w-4" />
                         <p>Jl. Thamrin no 13, Sidokumpul, Kec. Sidoarjo</p>
@@ -1865,7 +1865,7 @@
                         href="#"
                         class="flex items-center gap-1 mt-1 text-[#06b6d4] cursor-pointer hover:underline">
                         <img
-                            src="/dist/to-maps-icon.webp"
+                            src="/dist/minified/to-maps-icon.webp"
                             alt="to maps icon"
                             class="w-4" />
                         <span class="text-white opacity-80">Lihat di Peta</span>
